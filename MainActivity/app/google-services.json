@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "181519622497",
+    "project_id": "liptonpeach-dc2a7",
+    "storage_bucket": "liptonpeach-dc2a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181519622497:android:d8a4bd6a0e92e849e9a520",
+        "android_client_info": {
+          "package_name": "com.example.mainactivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181519622497-l9mpvpf9vfmrophs3h49q1cf68324q5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwj6gCtbOe97yd38QbVE7EMDuN7m7jjgU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181519622497-l9mpvpf9vfmrophs3h49q1cf68324q5t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
