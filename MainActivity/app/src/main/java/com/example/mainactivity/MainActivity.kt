@@ -14,18 +14,18 @@ class MainActivity : AppCompatActivity() {
     private val binding get() = mBinding!!
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        setTheme(R.style.SplashTheme)
         super.onCreate(savedInstanceState)
         mBinding = ActivityMainBinding.inflate(layoutInflater)
         firebaseAuth = Firebase.auth
 
         setContentView(binding.root)
 
-        binding.imageView00.setOnClickListener {
+
             val intent = Intent(this, LoginActivity::class.java)
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
             startActivity(intent)
-            firebaseAuth?.signOut()
-        }
+
     }
 
     override fun onDestroy() { //
