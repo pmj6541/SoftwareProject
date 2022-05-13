@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">181519622497-l9mpvpf9vfmrophs3h49q1cf68324q5t.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">181519622497</string>
+    <string name="google_api_key" translatable="false">AIzaSyBwj6gCtbOe97yd38QbVE7EMDuN7m7jjgU</string>
+    <string name="google_app_id" translatable="false">1:181519622497:android:d8a4bd6a0e92e849e9a520</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBwj6gCtbOe97yd38QbVE7EMDuN7m7jjgU</string>
+    <string name="google_storage_bucket" translatable="false">liptonpeach-dc2a7.appspot.com</string>
+    <string name="project_id" translatable="false">liptonpeach-dc2a7</string>
+</resources>
