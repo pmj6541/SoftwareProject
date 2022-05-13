@@ -39,6 +39,7 @@ class LoginActivity : AppCompatActivity() {
 
     public override fun onStart() {
         super.onStart()
+        Toast.makeText(baseContext,"현재 로그인 중입니다.",Toast.LENGTH_SHORT)
         moveMainPage(firebaseAuth?.currentUser)
     }
 
