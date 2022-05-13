@@ -6,8 +6,10 @@ import android.os.Bundle
 import android.view.View
 import android.view.ViewTreeObserver
 import androidx.lifecycle.ViewModel
+import com.example.mainactivity.databinding.ActivityLoginBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.example.mainactivity.databinding.ActivityMainBinding
+import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
@@ -21,20 +23,30 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         mBinding = ActivityMainBinding.inflate(layoutInflater)
         firebaseAuth = Firebase.auth
-
         setContentView(binding.root)
+        startActivity(Intent(this,LoginActivity::class.java))
 
-        binding.imageView00.setOnClickListener {
-            val intent = Intent(this, LoginActivity::class.java)
-            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
-            startActivity(intent)
+        binding.startBtn.setOnClickListener {
+            moveMainPage(firebaseAuth?.currentUser)
         }
+
 
 
     }
 
+    private fun moveMainPage(user: FirebaseUser?){
+        if( user!= null){
+            startActivity(Intent(this,MapActivity::class.java))
+        }else{
+            startActivity(Intent(this,LoginActivity::class.java))
+
+        }
+    }
+
+
     override fun onDestroy() { //
         mBinding = null
+        FirebaseAuth.getInstance().signOut()
         super.onDestroy()
     }
 

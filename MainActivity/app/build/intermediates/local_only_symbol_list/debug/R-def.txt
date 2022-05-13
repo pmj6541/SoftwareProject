@@ -39,6 +39,7 @@ id mapView
 id searchView
 id signupBtn
 id spinner
+id startBtn
 id textView
 id textView00
 id textView01
@@ -65,6 +66,7 @@ layout activity_home
 layout activity_login
 layout activity_main
 layout activity_map
+layout activity_menu
 layout activity_signup
 mipmap ic_launcher
 mipmap ic_launcher_round

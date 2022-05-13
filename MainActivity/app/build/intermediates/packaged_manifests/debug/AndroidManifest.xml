@@ -45,6 +45,7 @@
         <activity android:name="com.example.mainactivity.LoginActivity" />
         <activity android:name="com.example.mainactivity.SignupActivity" />
         <activity android:name="com.example.mainactivity.MapActivity" />
+        <activity android:name="com.example.mainactivity.CreatechatActivity" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"

@@ -29,6 +29,7 @@
       <list>
         <option value="Kotlin Data Class" />
         <option value="Kotlin Class" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
