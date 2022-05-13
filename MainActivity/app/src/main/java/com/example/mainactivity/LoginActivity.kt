@@ -65,7 +65,7 @@ class LoginActivity : AppCompatActivity() {
 
     private fun moveMainPage(user: FirebaseUser?){
         if( user!= null){
-            startActivity(Intent(this,MainActivity::class.java))
+            startActivity(Intent(this,MapActivity::class.java))
             finish()
         }
     }
