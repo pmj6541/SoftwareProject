@@ -19,8 +19,9 @@
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="60dp"
+        android:layout_height="500"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="150dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,7 +30,8 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -41,13 +43,16 @@
                 <ImageView
                     android:id="@+id/imageView00"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ic_launcher_foreground" />
+                    android:layout_height="0dp"
+                    android:layout_weight="5"
+                    app:srcCompat="@drawable/ic_launcher_foreground"
+                    tools:srcCompat="@drawable/chicken" />
 
                 <TextView
                     android:id="@+id/textView00"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
                     android:gravity="center_horizontal"
                     android:text="치킨" />
             </LinearLayout>
@@ -61,13 +66,16 @@
                 <ImageView
                     android:id="@+id/imageView01"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ic_launcher_foreground" />
+                    android:layout_height="0dp"
+                    android:layout_weight="5"
+                    app:srcCompat="@drawable/ic_launcher_foreground"
+                    tools:srcCompat="@drawable/pizza" />
 
                 <TextView
                     android:id="@+id/textView01"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
                     android:gravity="center_horizontal"
                     android:text="피자" />
             </LinearLayout>
@@ -81,13 +89,16 @@
                 <ImageView
                     android:id="@+id/imageView02"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ic_launcher_foreground" />
+                    android:layout_height="0dp"
+                    android:layout_weight="5"
+                    app:srcCompat="@drawable/ic_launcher_foreground"
+                    tools:srcCompat="@drawable/hamburger" />
 
                 <TextView
                     android:id="@+id/textView02"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
                     android:gravity="center_horizontal"
                     android:text="햄버거" />
             </LinearLayout>
@@ -95,7 +106,8 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -107,13 +119,16 @@
                 <ImageView
                     android:id="@+id/imageView03"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ic_launcher_foreground" />
+                    android:layout_height="0dp"
+                    android:layout_weight="5"
+                    app:srcCompat="@drawable/ic_launcher_foreground"
+                    tools:srcCompat="@drawable/korean" />
 
                 <TextView
                     android:id="@+id/textView03"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
                     android:gravity="center_horizontal"
                     android:text="한식" />
             </LinearLayout>
@@ -127,13 +142,16 @@
                 <ImageView
                     android:id="@+id/imageView04"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ic_launcher_foreground" />
+                    android:layout_height="0dp"
+                    android:layout_weight="5"
+                    app:srcCompat="@drawable/ic_launcher_foreground"
+                    tools:srcCompat="@drawable/chinese" />
 
                 <TextView
                     android:id="@+id/textView04"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
                     android:gravity="center_horizontal"
                     android:text="중식" />
             </LinearLayout>
@@ -147,13 +165,16 @@
                 <ImageView
                     android:id="@+id/imageView05"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ic_launcher_foreground" />
+                    android:layout_height="0dp"
+                    android:layout_weight="5"
+                    app:srcCompat="@drawable/ic_launcher_foreground"
+                    tools:srcCompat="@drawable/japanese" />
 
                 <TextView
                     android:id="@+id/textView05"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
                     android:gravity="center_horizontal"
                     android:text="일식" />
             </LinearLayout>
@@ -161,7 +182,8 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -173,13 +195,16 @@
                 <ImageView
                     android:id="@+id/imageView06"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ic_launcher_foreground" />
+                    android:layout_height="0dp"
+                    android:layout_weight="5"
+                    app:srcCompat="@drawable/ic_launcher_foreground"
+                    tools:srcCompat="@drawable/dessert" />
 
                 <TextView
                     android:id="@+id/textView06"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
                     android:gravity="center_horizontal"
                     android:text="카페, 디저트" />
             </LinearLayout>
@@ -193,13 +218,16 @@
                 <ImageView
                     android:id="@+id/imageView07"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ic_launcher_foreground" />
+                    android:layout_height="0dp"
+                    android:layout_weight="5"
+                    app:srcCompat="@drawable/ic_launcher_foreground"
+                    tools:srcCompat="@drawable/snack" />
 
                 <TextView
                     android:id="@+id/textView07"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
                     android:gravity="center_horizontal"
                     android:text="분식" />
             </LinearLayout>
@@ -213,13 +241,16 @@
                 <ImageView
                     android:id="@+id/imageView08"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ic_launcher_foreground" />
+                    android:layout_height="0dp"
+                    android:layout_weight="5"
+                    app:srcCompat="@drawable/ic_launcher_foreground"
+                    tools:srcCompat="@drawable/pigleg" />
 
                 <TextView
                     android:id="@+id/textView08"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
                     android:gravity="center_horizontal"
                     android:text="족발" />
             </LinearLayout>
