@@ -36,6 +36,26 @@ class CreatechatActivity : AppCompatActivity() {
                 position: Int,
                 id: Long
             ){
+                if(position == 1){
+                    binding.imageView.setImageResource(com.example.mainactivity.R.drawable.chicken)
+                }else if (position == 2){
+                    binding.imageView.setImageResource(com.example.mainactivity.R.drawable.pizza)
+                }else if (position == 3){
+                    binding.imageView.setImageResource(com.example.mainactivity.R.drawable.hamburger)
+                }else if (position == 4){
+                    binding.imageView.setImageResource(com.example.mainactivity.R.drawable.korean)
+                }else if (position == 5){
+                    binding.imageView.setImageResource(com.example.mainactivity.R.drawable.chinese)
+                }else if (position == 6){
+                    binding.imageView.setImageResource(com.example.mainactivity.R.drawable.japanese)
+                }else if (position == 7){
+                    binding.imageView.setImageResource(com.example.mainactivity.R.drawable.dessert)
+                }else if (position == 8){
+                    binding.imageView.setImageResource(com.example.mainactivity.R.drawable.snack)
+                }else if (position == 9){
+                    binding.imageView.setImageResource(com.example.mainactivity.R.drawable.pigleg)
+                }
+
             }
             override fun onNothingSelected(parent: AdapterView<*>?) {
             }
@@ -51,6 +71,7 @@ class CreatechatActivity : AppCompatActivity() {
             override fun onNothingSelected(parent: AdapterView<*>?) {
             }
         }
+
         binding.button.setOnClickListener{
             var curUser:User = intent.getSerializableExtra("curUser") as User
             val myChattingRoom : ChattingRoom = setChattingroomInfo(binding.spinner.selectedItem.toString(),
