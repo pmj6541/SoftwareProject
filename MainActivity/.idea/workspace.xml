@@ -266,6 +266,8 @@
         <option value="Kotlin Class" />
         <option value="Kotlin Data Class" />
         <option value="layoutResourceFile" />
+        <option value="Kotlin Class" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>

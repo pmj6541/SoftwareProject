@@ -11,6 +11,10 @@ color white
 drawable chicken
 drawable chinese
 drawable dessert
+<<<<<<< HEAD
+=======
+drawable edittext_rounded_corner_rectangle
+>>>>>>> createChatv2
 drawable hamburger
 drawable human
 drawable ic_launcher_background
@@ -54,7 +58,10 @@ id searchView
 id signupBtn
 id spinner
 id spinner2
+<<<<<<< HEAD
 id spotTv
+=======
+>>>>>>> createChatv2
 id startBtn
 id textView
 id textView00
