@@ -142,5 +142,9 @@
     {
         "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/layout_activity_map.xml.flat",
         "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/activity_map.xml"
+    },
+    {
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_createchat.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/createchat.png"
     }
 ]

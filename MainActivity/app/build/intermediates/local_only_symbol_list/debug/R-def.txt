@@ -10,6 +10,7 @@ color teal_700
 color white
 drawable chicken
 drawable chinese
+drawable createchat
 drawable dessert
 drawable edittext_rounded_corner_rectangle
 drawable hamburger
@@ -26,7 +27,7 @@ drawable splash
 id but_login
 id button
 id button2
-id button3
+id createchatbtn
 id editTextEmail
 id editTextName
 id editTextPassword
@@ -48,6 +49,7 @@ id linearLayout
 id linearLayout2
 id linearLayout3
 id linearLayout4
+id location
 id lstUser
 id map
 id searchView
