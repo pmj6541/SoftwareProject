@@ -1,106 +1,106 @@
 [
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_home.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_home.xml"
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_human.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable-v24\\human.png"
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_moissu.PNG.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\moissu.PNG"
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_splash.xml.flat",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/drawable/splash.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable-v24_human.png.flat",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/drawable-v24/human.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_menu.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_menu.xml"
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_item_view.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\item_view.xml"
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_chatlist.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_chatlist.xml"
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_moissu.PNG.flat",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/drawable/moissu.PNG"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_createchat.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_createchat.xml"
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/layout_activity_login.xml.flat",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/layout_activity_menu.xml.flat",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/layout/activity_menu.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/layout_activity_signup.xml.flat",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/layout/activity_signup.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_splash.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\splash.xml"
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/layout_activity_map.xml.flat",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/layout/activity_map.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/layout_item_view.xml.flat",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/layout/item_view.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/layout_activity_createchat.xml.flat",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/layout/activity_createchat.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_signup.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_signup.xml"
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/layout_activity_chatlist.xml.flat",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/layout/activity_chatlist.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_map.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_map.xml"
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/layout_activity_home.xml.flat",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/layout/activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     }
 ]

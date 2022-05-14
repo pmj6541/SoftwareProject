@@ -2,11 +2,16 @@ package com.example.mainactivity
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.Toast
+import androidx.annotation.NonNull
 import androidx.annotation.UiThread
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.fragment.app.FragmentManager
+import com.example.mainactivity.databinding.ActivityLoginBinding
+import com.example.mainactivity.databinding.ActivityMapBinding
+import com.google.android.gms.common.internal.FallbackServiceBroker
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 import com.google.firebase.auth.FirebaseAuth
@@ -15,6 +20,7 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import com.naver.maps.geometry.LatLng
 import com.naver.maps.map.*
+import com.naver.maps.map.overlay.InfoWindow
 import com.naver.maps.map.overlay.Marker
 import com.naver.maps.map.util.FusedLocationSource
 
@@ -23,31 +29,25 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
     private var LOCATION_PERMISSION = 1004
     private lateinit var naverMap: NaverMap
     private lateinit var locationSource: FusedLocationSource
+    private var boolTester = false
     private val marker = Marker()
     private val marker1 = Marker()
     private val marker2 = Marker()
     private val marker3 = Marker()
     private val marker4 = Marker()
     private var firebaseAuth : FirebaseAuth? = null
-    //private var mBinding: ActivityMapBinding? = null
-    //private val binding get() = mBinding!!
 
 
     private lateinit var fusedLocationClient: FusedLocationProviderClient
     private val PERMISSION = arrayOf(android.Manifest.permission.ACCESS_FINE_LOCATION ,android.Manifest.permission.ACCESS_COARSE_LOCATION )
 
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_map)
+
         firebaseAuth = Firebase.auth
-
-        //mBinding = ActivityMapBinding.inflate(layoutInflater)
-
-       /* supportFragmentManager.beginTransaction()
-            .replace(R.id.main_frm, HomeFragment())
-            .commitAllowingStateLoss()*/
-
 
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(this)
         locationSource = FusedLocationSource(this@MapActivity , LOCATION_PERMISSION)
@@ -70,50 +70,67 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
 //        naverMap.minZoom =5.0
         marker1.position = LatLng(37.4950, 126.9605)
         marker1.map = naverMap
-        marker1.captionText = "기숙사 앞"
+        marker1.tag = "기숙사 앞"
         marker2.position = LatLng(37.4949, 126.9565)
         marker2.map = naverMap
-        marker2.captionText = "고민사거리"
+        marker2.tag = "고민사거리"
         marker3.position = LatLng(37.4958, 126.9542)
         marker3.map = naverMap
-        marker3.captionText = "숭실대입구역 3번 출구"
+        marker3.tag = "숭실대입구역 3번 출구"
         marker4.position = LatLng(37.4967, 126.9580)
         marker4.map = naverMap
-        marker4.captionText = "숭실대 나무계단"
+        marker4.tag = "숭실대 나무계단"
+
+        val infoWindow = InfoWindow()
+
+        infoWindow.adapter = object : InfoWindow.DefaultTextAdapter(this) {
+            override fun getText(infoWindow: InfoWindow): CharSequence {
+                //열린 마커의 tag를 텍스트로
+                return infoWindow.marker?.tag as CharSequence? ?: ""
+            }
+        }
+
+        /*naverMap.setOnMapClickListener{
+            boolTester=false
+            infoWindow.close()
+        }   허공 누르면 현재 떠있는 마커 정보 없애고 버튼 비활성화 시키려고 함*/
+        var curUser : User = makeUserInfo(firebaseAuth?.currentUser, "")
 
         marker1.setOnClickListener {
-            //Toast.makeText(this@MapActivity, "기숙사 앞", Toast.LENGTH_SHORT).show()
-            val curUser : User = makeUserInfo(firebaseAuth?.currentUser, marker1.captionText)
-            // 이벤트 소비
-            goNextActivity(curUser)
-            false
+            boolTester = true
+            infoWindow.open(marker1)
+            curUser = addLocationInfo(curUser, marker1.tag as String)
+            true
         }
 
         marker2.setOnClickListener {
-            //Toast.makeText(this@MapActivity, "고민사거리", Toast.LENGTH_SHORT).show()
-            val curUser : User = makeUserInfo(firebaseAuth?.currentUser, marker2.captionText)
-            // 이벤트 소비
-            goNextActivity(curUser)
+            boolTester = true
+            infoWindow.open(marker2)
+            curUser = addLocationInfo(curUser, marker2.tag as String)
             true
 
         }
 
         marker3.setOnClickListener {
-            //Toast.makeText(this@MapActivity, "숭실대입구역 3번 출구", Toast.LENGTH_SHORT).show()
-            val curUser : User = makeUserInfo(firebaseAuth?.currentUser, marker3.captionText)
-            // 이벤트 소비
-            goNextActivity(curUser)
+            boolTester = true
+            infoWindow.open(marker3)
+            curUser = addLocationInfo(curUser, marker3.tag as String)
             true
         }
 
         marker4.setOnClickListener {
-            //Toast.makeText(this@MapActivity, "숭실대 나무계단", Toast.LENGTH_SHORT).show()
-            val curUser : User = makeUserInfo(firebaseAuth?.currentUser, marker4.captionText)
-            // 이벤트 소비
-            goNextActivity(curUser)
+            boolTester = true
+            infoWindow.open(marker4)
+            curUser = addLocationInfo(curUser, marker4.tag as String)
             true
         }
 
+        var btn : Button = findViewById(R.id.button2)
+        btn.setOnClickListener {
+            if(boolTester){
+                goNextActivity(curUser)
+            }
+        }
 
 //        카메라 설정
         val cameraPosition = CameraPosition(
@@ -128,13 +145,6 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
             // 마커 포지션
             marker.position = LatLng(naverMap.cameraPosition.target.latitude, naverMap.cameraPosition.target.longitude) }
 
-        /*naverMap.addOnCameraIdleListener {
-            // 현재 보이는 네이버맵의 정중앙 가운데로 마커
-            marker.map = naverMap
-            marker.icon = MarkerIcons.BLACK
-            marker.iconTintColor = Color.BLUE
-
-        }*/
 
         naverMap.locationSource = locationSource
         ActivityCompat.requestPermissions(this, PERMISSION, LOCATION_PERMISSION)
@@ -149,6 +159,13 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
             initId,
             initLocation,
             tempMenu
+        )
+    }
+    private fun addLocationInfo(curUser : User, location: String): User{
+        return User(
+            curUser.Id,
+            location,
+            ""
         )
     }
 
