@@ -2822,7 +2822,6 @@ id browser_actions_menu_view
 id but_login
 id button
 id button2
-id button3
 id buttonPanel
 id cache_measures
 id callMeasure
