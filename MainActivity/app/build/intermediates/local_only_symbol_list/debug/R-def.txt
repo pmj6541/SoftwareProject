@@ -27,10 +27,14 @@ drawable splash
 id but_login
 id button
 id button2
+<<<<<<< HEAD
 id chat_item_imageview
 id chat_item_textview_lastmessage
 id chat_textview_title
 id createchatbtn
+=======
+id button3
+>>>>>>> mapImprove
 id editTextEmail
 id editTextName
 id editTextPassword
@@ -52,7 +56,10 @@ id linearLayout
 id linearLayout2
 id linearLayout3
 id linearLayout4
+<<<<<<< HEAD
 id location
+=======
+>>>>>>> mapImprove
 id lstUser
 id map
 id menuTv
@@ -60,7 +67,10 @@ id searchView
 id signupBtn
 id spinner
 id spinner2
+<<<<<<< HEAD
 id spotTv
+=======
+>>>>>>> mapImprove
 id startBtn
 id textView
 id textView00
