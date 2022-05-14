@@ -57,6 +57,11 @@ class MenuActivity : AppCompatActivity() {
             curUser = setFoodInfo(curUser, "족발")
             goNextActivity(curUser)
         }
+        binding.button3.setOnClickListener{
+            val intent : Intent = Intent(this,CreatechatActivity::class.java)
+            intent.putExtra("curUser",curUser)
+            startActivity(intent)
+        }
 
 
     }

@@ -20,7 +20,7 @@ class ChatlistActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         mBinding = ActivityChatlistBinding.inflate(layoutInflater)
         val intent = intent
-        var curUser:User = intent.getSerializableExtra("curUser") as User
+        val curUser:User = intent.getSerializableExtra("curUser") as User
         Toast.makeText(this,"현재 사용자 : ${curUser.Id}\n현재 사용자 스팟 : ${curUser.location}\n사용자가 선택한 음식 : ${curUser.menu}",Toast.LENGTH_SHORT).show()
         setContentView(binding.root)
     }
