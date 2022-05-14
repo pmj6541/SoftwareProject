@@ -27,8 +27,11 @@
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBwj6gCtbOe97yd38QbVE7EMDuN7m7jjgU</string>
     <string name="google_storage_bucket" translatable="false">liptonpeach-dc2a7.appspot.com</string>
     <string name="project_id" translatable="false">liptonpeach-dc2a7</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item> </style>
     <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
         <item name="android:windowBackground"> @drawable/splash</item>
+
     </style>
     <style name="Theme.MainActivity" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->

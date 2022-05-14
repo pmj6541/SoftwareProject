@@ -10,7 +10,9 @@ color teal_700
 color white
 drawable chicken
 drawable chinese
+drawable createchat
 drawable dessert
+drawable edittext_rounded_corner_rectangle
 drawable hamburger
 drawable human
 drawable ic_launcher_background
@@ -25,7 +27,10 @@ drawable splash
 id but_login
 id button
 id button2
-id button3
+id chat_item_imageview
+id chat_item_textview_lastmessage
+id chat_textview_title
+id createchatbtn
 id editTextEmail
 id editTextName
 id editTextPassword
@@ -47,6 +52,7 @@ id linearLayout
 id linearLayout2
 id linearLayout3
 id linearLayout4
+id location
 id lstUser
 id map
 id menuTv
@@ -87,6 +93,7 @@ layout activity_main
 layout activity_map
 layout activity_menu
 layout activity_signup
+layout item_chat
 layout item_view
 mipmap ic_launcher
 mipmap ic_launcher_round
@@ -98,5 +105,6 @@ string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
 string project_id
+style AppTheme
 style SplashTheme
 style Theme.MainActivity

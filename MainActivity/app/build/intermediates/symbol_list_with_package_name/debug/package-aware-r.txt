@@ -2590,12 +2590,14 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable createchat
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable dessert
+drawable edittext_rounded_corner_rectangle
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable hamburger
@@ -2820,7 +2822,6 @@ id browser_actions_menu_view
 id but_login
 id button
 id button2
-id button3
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2833,6 +2834,9 @@ id center_vertical
 id chain
 id chain2
 id chains
+id chat_item_imageview
+id chat_item_textview_lastmessage
+id chat_textview_title
 id checkbox
 id checked
 id chip
@@ -2859,6 +2863,7 @@ id continuousVelocity
 id coordinator
 id cos
 id counterclockwise
+id createchatbtn
 id currentState
 id custom
 id customPanel
@@ -2987,6 +2992,7 @@ id linearLayout3
 id linearLayout4
 id listMode
 id list_item
+id location
 id lstUser
 id map
 id masked
@@ -3402,6 +3408,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout item_chat
 layout item_view
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
@@ -3499,6 +3506,7 @@ menu example_menu2
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+raw keep
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -3680,6 +3688,7 @@ style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
 style Animation_MaterialComponents_BottomSheetDialog
+style AppTheme
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog
