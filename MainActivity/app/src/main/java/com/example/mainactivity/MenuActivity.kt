@@ -21,6 +21,8 @@ class MenuActivity : AppCompatActivity() {
         var curUser:User = intent.getSerializableExtra("curUser") as User
         Toast.makeText(this, "현재 사용자 = ${curUser.Id} \n현재 사용자 스팟 : ${curUser.location}",Toast.LENGTH_SHORT).show()
 
+        binding.location.text = curUser.location
+
         binding.imageView00.setOnClickListener {
             curUser = setFoodInfo(curUser, "치킨")
             goNextActivity(curUser)
@@ -57,7 +59,7 @@ class MenuActivity : AppCompatActivity() {
             curUser = setFoodInfo(curUser, "족발")
             goNextActivity(curUser)
         }
-        binding.button3.setOnClickListener{
+        binding.createchatbtn.setOnClickListener{
             val intent : Intent = Intent(this,CreatechatActivity::class.java)
             intent.putExtra("curUser",curUser)
             startActivity(intent)

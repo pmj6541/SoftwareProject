@@ -27,14 +27,10 @@ drawable splash
 id but_login
 id button
 id button2
-<<<<<<< HEAD
-id button3
 id chat_item_imageview
 id chat_item_textview_lastmessage
 id chat_textview_title
-=======
 id createchatbtn
->>>>>>> createChatv2
 id editTextEmail
 id editTextName
 id editTextPassword
@@ -109,5 +105,6 @@ string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
 string project_id
+style AppTheme
 style SplashTheme
 style Theme.MainActivity
