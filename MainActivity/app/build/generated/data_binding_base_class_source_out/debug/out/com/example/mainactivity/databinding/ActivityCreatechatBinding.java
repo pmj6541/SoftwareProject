@@ -7,8 +7,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.Spinner;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
@@ -34,23 +34,28 @@ public final class ActivityCreatechatBinding implements ViewBinding {
   public final ImageView imageView;
 
   @NonNull
+  public final LinearLayout linearLayout4;
+
+  @NonNull
   public final Spinner spinner;
 
   @NonNull
-  public final TextView textView9;
+  public final Spinner spinner2;
 
   @NonNull
   public final Toolbar toolbar2;
 
   private ActivityCreatechatBinding(@NonNull ConstraintLayout rootView, @NonNull Button button,
       @NonNull EditText editTextTextPersonName2, @NonNull ImageView imageView,
-      @NonNull Spinner spinner, @NonNull TextView textView9, @NonNull Toolbar toolbar2) {
+      @NonNull LinearLayout linearLayout4, @NonNull Spinner spinner, @NonNull Spinner spinner2,
+      @NonNull Toolbar toolbar2) {
     this.rootView = rootView;
     this.button = button;
     this.editTextTextPersonName2 = editTextTextPersonName2;
     this.imageView = imageView;
+    this.linearLayout4 = linearLayout4;
     this.spinner = spinner;
-    this.textView9 = textView9;
+    this.spinner2 = spinner2;
     this.toolbar2 = toolbar2;
   }
 
@@ -99,15 +104,21 @@ public final class ActivityCreatechatBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.linearLayout4;
+      LinearLayout linearLayout4 = ViewBindings.findChildViewById(rootView, id);
+      if (linearLayout4 == null) {
+        break missingId;
+      }
+
       id = R.id.spinner;
       Spinner spinner = ViewBindings.findChildViewById(rootView, id);
       if (spinner == null) {
         break missingId;
       }
 
-      id = R.id.textView9;
-      TextView textView9 = ViewBindings.findChildViewById(rootView, id);
-      if (textView9 == null) {
+      id = R.id.spinner2;
+      Spinner spinner2 = ViewBindings.findChildViewById(rootView, id);
+      if (spinner2 == null) {
         break missingId;
       }
 
@@ -118,7 +129,7 @@ public final class ActivityCreatechatBinding implements ViewBinding {
       }
 
       return new ActivityCreatechatBinding((ConstraintLayout) rootView, button,
-          editTextTextPersonName2, imageView, spinner, textView9, toolbar2);
+          editTextTextPersonName2, imageView, linearLayout4, spinner, spinner2, toolbar2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

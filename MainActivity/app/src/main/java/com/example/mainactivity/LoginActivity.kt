@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.mainactivity.databinding.ActivityLoginBinding
-import com.example.mainactivity.databinding.ActivityMainBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.ktx.auth
@@ -23,8 +22,10 @@ class LoginActivity : AppCompatActivity() {
 
         setContentView(binding.root)
 
+
         var id = binding.editTextTextPersonName.text.toString()
         var passwd = binding.editTextTextPassword.text.toString()
+        Toast.makeText(baseContext,"onCreate입니다.",Toast.LENGTH_SHORT)
         //login
         binding.butLogin.setOnClickListener {
             id = binding.editTextTextPersonName.text.toString()
@@ -39,7 +40,7 @@ class LoginActivity : AppCompatActivity() {
 
     public override fun onStart() {
         super.onStart()
-        Toast.makeText(baseContext,"현재 로그인 중입니다.",Toast.LENGTH_SHORT)
+        Toast.makeText(baseContext,"onStart입니다.",Toast.LENGTH_SHORT)
         moveMainPage(firebaseAuth?.currentUser)
     }
 
@@ -53,6 +54,7 @@ class LoginActivity : AppCompatActivity() {
                             baseContext, "로그인에 성공 하였습니다.",
                             Toast.LENGTH_SHORT
                         ).show()
+
                         moveMainPage(firebaseAuth?.currentUser)
 
                     } else {
