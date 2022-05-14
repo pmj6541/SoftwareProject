@@ -1,5 +1,6 @@
 package com.example.mainactivity
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.annotation.UiThread
@@ -8,6 +9,10 @@ import androidx.core.app.ActivityCompat
 import androidx.fragment.app.FragmentManager
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseUser
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 import com.naver.maps.geometry.LatLng
 import com.naver.maps.map.*
 import com.naver.maps.map.overlay.Marker
@@ -23,6 +28,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
     private val marker2 = Marker()
     private val marker3 = Marker()
     private val marker4 = Marker()
+    private var firebaseAuth : FirebaseAuth? = null
     //private var mBinding: ActivityMapBinding? = null
     //private val binding get() = mBinding!!
 
@@ -34,6 +40,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_map)
+        firebaseAuth = Firebase.auth
 
         //mBinding = ActivityMapBinding.inflate(layoutInflater)
 
@@ -75,26 +82,35 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
         marker4.captionText = "숭실대 나무계단"
 
         marker1.setOnClickListener {
-            Toast.makeText(this@MapActivity, "기숙사 앞", Toast.LENGTH_SHORT).show()
-            // 이벤트 전파
+            //Toast.makeText(this@MapActivity, "기숙사 앞", Toast.LENGTH_SHORT).show()
+            val curUser : User = makeUserInfo(firebaseAuth?.currentUser, marker1.captionText)
+            // 이벤트 소비
+            goNextActivity(curUser)
             false
         }
 
         marker2.setOnClickListener {
-            Toast.makeText(this@MapActivity, "고민사거리", Toast.LENGTH_SHORT).show()
+            //Toast.makeText(this@MapActivity, "고민사거리", Toast.LENGTH_SHORT).show()
+            val curUser : User = makeUserInfo(firebaseAuth?.currentUser, marker2.captionText)
             // 이벤트 소비
+            goNextActivity(curUser)
             true
+
         }
 
         marker3.setOnClickListener {
-            Toast.makeText(this@MapActivity, "숭실대입구역 3번 출구", Toast.LENGTH_SHORT).show()
+            //Toast.makeText(this@MapActivity, "숭실대입구역 3번 출구", Toast.LENGTH_SHORT).show()
+            val curUser : User = makeUserInfo(firebaseAuth?.currentUser, marker3.captionText)
             // 이벤트 소비
+            goNextActivity(curUser)
             true
         }
 
         marker4.setOnClickListener {
-            Toast.makeText(this@MapActivity, "숭실대 나무계단", Toast.LENGTH_SHORT).show()
+            //Toast.makeText(this@MapActivity, "숭실대 나무계단", Toast.LENGTH_SHORT).show()
+            val curUser : User = makeUserInfo(firebaseAuth?.currentUser, marker4.captionText)
             // 이벤트 소비
+            goNextActivity(curUser)
             true
         }
 
@@ -124,6 +140,23 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
         ActivityCompat.requestPermissions(this, PERMISSION, LOCATION_PERMISSION)
     }
 
+    private fun makeUserInfo(user: FirebaseUser?, location: String): User {
+        val initId: String = user?.email.toString().split('@')[0]
+        val initLocation: String = location
+        val tempMenu: String = ""
+        //Toast.makeText(this, "현재 사용자 = $initId\n현재 사용자 스팟 : $initLocation",Toast.LENGTH_SHORT).show()
+        return User(
+            initId,
+            initLocation,
+            tempMenu
+        )
+    }
+
+    private fun goNextActivity(curUser : User){
+        val intent : Intent = Intent(this,MenuActivity::class.java)
+        intent.putExtra("curUser",curUser)
+        startActivity(intent)
+    }
 
 
     override fun onRequestPermissionsResult(

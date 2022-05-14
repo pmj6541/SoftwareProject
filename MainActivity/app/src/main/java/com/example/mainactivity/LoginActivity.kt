@@ -54,6 +54,7 @@ class LoginActivity : AppCompatActivity() {
                             baseContext, "로그인에 성공 하였습니다.",
                             Toast.LENGTH_SHORT
                         ).show()
+
                         moveMainPage(firebaseAuth?.currentUser)
 
                     } else {

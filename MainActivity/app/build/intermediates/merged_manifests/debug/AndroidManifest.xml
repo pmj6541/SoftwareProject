@@ -8,13 +8,19 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="32" />
 
-    <!-- Include required permissions for Google Maps API to run. -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <uses-feature
         android:glEsVersion="0x00020000"
         android:required="true" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <queries>
 
@@ -32,6 +38,10 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.MainActivity" >
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="b7znhesbl0" />
+
         <activity
             android:name="com.example.mainactivity.MainActivity"
             android:exported="true"
@@ -46,6 +56,23 @@
         <activity android:name="com.example.mainactivity.SignupActivity" />
         <activity android:name="com.example.mainactivity.MapActivity" />
         <activity android:name="com.example.mainactivity.CreatechatActivity" />
+        <activity android:name="com.example.mainactivity.MenuActivity" />
+        <activity android:name="com.example.mainactivity.ChatlistActivity" />
+        <activity
+            android:name="com.naver.maps.map.app.LegendActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+            android:label="@string/navermap_legend"
+            android:theme="@style/navermap_app" />
+        <activity
+            android:name="com.naver.maps.map.app.LegalNoticeActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+            android:label="@string/navermap_legal_notice"
+            android:theme="@style/navermap_app" />
+        <activity
+            android:name="com.naver.maps.map.app.OpenSourceLicenseActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+            android:label="@string/navermap_open_source_license"
+            android:theme="@style/navermap_app" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"

@@ -34,6 +34,8 @@
         <activity android:name=".SignupActivity"/>
         <activity android:name=".MapActivity"/>
         <activity android:name=".CreatechatActivity"/>
+        <activity android:name=".MenuActivity"/>
+        <activity android:name=".ChatlistActivity"/>
     </application>
 
 </manifest>
