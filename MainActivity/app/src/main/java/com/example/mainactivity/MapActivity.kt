@@ -128,14 +128,6 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
             // 마커 포지션
             marker.position = LatLng(naverMap.cameraPosition.target.latitude, naverMap.cameraPosition.target.longitude) }
 
-        /*naverMap.addOnCameraIdleListener {
-            // 현재 보이는 네이버맵의 정중앙 가운데로 마커
-            marker.map = naverMap
-            marker.icon = MarkerIcons.BLACK
-            marker.iconTintColor = Color.BLUE
-
-        }*/
-
         naverMap.locationSource = locationSource
         ActivityCompat.requestPermissions(this, PERMISSION, LOCATION_PERMISSION)
     }

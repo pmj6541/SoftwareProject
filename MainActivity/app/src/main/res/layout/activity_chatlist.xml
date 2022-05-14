@@ -17,8 +17,8 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/lstUser"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="359dp"
+        android:layout_height="614dp"
         android:layout_marginStart="25dp"
         android:layout_marginTop="60dp"
         android:layout_marginEnd="25dp"
@@ -38,4 +38,26 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/lstUser" />
+
+    <TextView
+        android:id="@+id/spotTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:text="Spot"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/lstUser"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar4" />
+
+    <TextView
+        android:id="@+id/menuTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="100dp"
+        android:text="Menu"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/lstUser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar4" />
 </androidx.constraintlayout.widget.ConstraintLayout>
