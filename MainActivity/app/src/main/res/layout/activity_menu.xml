@@ -45,8 +45,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="0dp"
                     android:layout_weight="5"
-                    app:srcCompat="@drawable/ic_launcher_foreground"
-                    tools:srcCompat="@drawable/chicken" />
+                    app:srcCompat="@drawable/chicken" />
 
                 <TextView
                     android:id="@+id/textView00"
@@ -54,7 +53,8 @@
                     android:layout_height="0dp"
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
-                    android:text="치킨" />
+                    android:text="치킨"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
@@ -68,8 +68,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="0dp"
                     android:layout_weight="5"
-                    app:srcCompat="@drawable/ic_launcher_foreground"
-                    tools:srcCompat="@drawable/pizza" />
+                    app:srcCompat="@drawable/pizza" />
 
                 <TextView
                     android:id="@+id/textView01"
@@ -77,6 +76,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
+                    android:textStyle="bold"
                     android:text="피자" />
             </LinearLayout>
 
@@ -91,8 +91,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="0dp"
                     android:layout_weight="5"
-                    app:srcCompat="@drawable/ic_launcher_foreground"
-                    tools:srcCompat="@drawable/hamburger" />
+                    app:srcCompat="@drawable/hamburger" />
 
                 <TextView
                     android:id="@+id/textView02"
@@ -100,6 +99,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
+                    android:textStyle="bold"
                     android:text="햄버거" />
             </LinearLayout>
         </LinearLayout>
@@ -121,8 +121,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="0dp"
                     android:layout_weight="5"
-                    app:srcCompat="@drawable/ic_launcher_foreground"
-                    tools:srcCompat="@drawable/korean" />
+                    app:srcCompat="@drawable/korean" />
 
                 <TextView
                     android:id="@+id/textView03"
@@ -130,6 +129,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
+                    android:textStyle="bold"
                     android:text="한식" />
             </LinearLayout>
 
@@ -144,8 +144,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="0dp"
                     android:layout_weight="5"
-                    app:srcCompat="@drawable/ic_launcher_foreground"
-                    tools:srcCompat="@drawable/chinese" />
+                    app:srcCompat="@drawable/chinese" />
 
                 <TextView
                     android:id="@+id/textView04"
@@ -153,6 +152,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
+                    android:textStyle="bold"
                     android:text="중식" />
             </LinearLayout>
 
@@ -167,8 +167,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="0dp"
                     android:layout_weight="5"
-                    app:srcCompat="@drawable/ic_launcher_foreground"
-                    tools:srcCompat="@drawable/japanese" />
+                    app:srcCompat="@drawable/japanese" />
 
                 <TextView
                     android:id="@+id/textView05"
@@ -176,6 +175,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
+                    android:textStyle="bold"
                     android:text="일식" />
             </LinearLayout>
         </LinearLayout>
@@ -197,8 +197,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="0dp"
                     android:layout_weight="5"
-                    app:srcCompat="@drawable/ic_launcher_foreground"
-                    tools:srcCompat="@drawable/dessert" />
+                    app:srcCompat="@drawable/dessert" />
 
                 <TextView
                     android:id="@+id/textView06"
@@ -206,7 +205,8 @@
                     android:layout_height="0dp"
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
-                    android:text="카페, 디저트" />
+                    android:textStyle="bold"
+                    android:text="카페/디저트" />
             </LinearLayout>
 
             <LinearLayout
@@ -220,8 +220,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="0dp"
                     android:layout_weight="5"
-                    app:srcCompat="@drawable/ic_launcher_foreground"
-                    tools:srcCompat="@drawable/snack" />
+                    app:srcCompat="@drawable/snack" />
 
                 <TextView
                     android:id="@+id/textView07"
@@ -229,6 +228,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
+                    android:textStyle="bold"
                     android:text="분식" />
             </LinearLayout>
 
@@ -243,8 +243,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="0dp"
                     android:layout_weight="5"
-                    app:srcCompat="@drawable/ic_launcher_foreground"
-                    tools:srcCompat="@drawable/pigleg" />
+                    app:srcCompat="@drawable/pigleg" />
 
                 <TextView
                     android:id="@+id/textView08"
@@ -252,6 +251,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
+                    android:textStyle="bold"
                     android:text="족발" />
             </LinearLayout>
         </LinearLayout>
