@@ -140,11 +140,20 @@
         "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_pizza.jpeg.flat",
         "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\pizza.jpeg"
     },
     {
         "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_moissu.PNG.flat",
         "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\moissu.PNG"
+=======
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/layout_activity_map.xml.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/activity_map.xml"
+    },
+    {
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_createchat.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/createchat.png"
+>>>>>>> createChatv2
     }
 ]

@@ -2590,6 +2590,7 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable createchat
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -2821,7 +2822,6 @@ id browser_actions_menu_view
 id but_login
 id button
 id button2
-id button3
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2863,6 +2863,7 @@ id continuousVelocity
 id coordinator
 id cos
 id counterclockwise
+id createchatbtn
 id currentState
 id custom
 id customPanel
@@ -2991,6 +2992,7 @@ id linearLayout3
 id linearLayout4
 id listMode
 id list_item
+id location
 id lstUser
 id map
 id masked
