@@ -2569,6 +2569,8 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable chicken
+drawable chinese
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -2593,8 +2595,11 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable dessert
+drawable edittext_rounded_corner_rectangle
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable hamburger
 drawable human
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
@@ -2607,6 +2612,8 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable japanese
+drawable korean
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2697,6 +2704,9 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable pigleg
+drawable pizza
+drawable snack
 drawable splash
 drawable test_custom_background
 drawable test_level_drawable
@@ -2811,6 +2821,7 @@ id browser_actions_menu_view
 id but_login
 id button
 id button2
+id button3
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2974,6 +2985,7 @@ id linear
 id linearLayout
 id linearLayout2
 id linearLayout3
+id linearLayout4
 id listMode
 id list_item
 id lstUser
@@ -3156,6 +3168,7 @@ id south
 id spacer
 id special_effects_controller_view_tag
 id spinner
+id spinner2
 id spline
 id split_action_bar
 id spread
@@ -3222,7 +3235,6 @@ id textView5
 id textView6
 id textView7
 id textView8
-id textView9
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
