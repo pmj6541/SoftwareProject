@@ -11,10 +11,7 @@ color white
 drawable chicken
 drawable chinese
 drawable dessert
-<<<<<<< HEAD
-=======
 drawable edittext_rounded_corner_rectangle
->>>>>>> createChatv2
 drawable hamburger
 drawable human
 drawable ic_launcher_background
@@ -30,6 +27,9 @@ id but_login
 id button
 id button2
 id button3
+id chat_item_imageview
+id chat_item_textview_lastmessage
+id chat_textview_title
 id editTextEmail
 id editTextName
 id editTextPassword
@@ -58,10 +58,7 @@ id searchView
 id signupBtn
 id spinner
 id spinner2
-<<<<<<< HEAD
 id spotTv
-=======
->>>>>>> createChatv2
 id startBtn
 id textView
 id textView00
@@ -94,6 +91,7 @@ layout activity_main
 layout activity_map
 layout activity_menu
 layout activity_signup
+layout item_chat
 layout item_view
 mipmap ic_launcher
 mipmap ic_launcher_round
