@@ -12,6 +12,7 @@
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
+        android:backgroundTint="@color/maincolor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,8 +23,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="위치가 나타나라"
-        android:textColor="@color/black"
-        android:textSize="24sp"
+        android:textColor="@color/maintxtcolor"
+        android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,9 +34,11 @@
     <Button
         android:id="@+id/createchatbtn"
         android:layout_width="wrap_content"
-        android:layout_height="65dp"
+        android:layout_height="50dp"
         android:background="#00ff0000"
         android:drawableBottom="@drawable/createchat"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/toolbar" />
 

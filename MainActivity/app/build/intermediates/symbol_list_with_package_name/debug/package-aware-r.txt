@@ -1695,6 +1695,8 @@ color m3_timepicker_display_text_color
 color m3_timepicker_secondary_text_button_ripple_color
 color m3_timepicker_secondary_text_button_text_color
 color m3_tonal_button_ripple_color_selector
+color maincolor
+color maintxtcolor
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -2600,6 +2602,7 @@ drawable dessert
 drawable edittext_rounded_corner_rectangle
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable group
 drawable hamburger
 drawable human
 drawable ic_clock_black_24dp
@@ -2708,6 +2711,7 @@ drawable notify_panel_notification_icon_bg
 drawable pigleg
 drawable pizza
 drawable snack
+drawable solid_btn
 drawable splash
 drawable test_custom_background
 drawable test_level_drawable
@@ -2864,6 +2868,7 @@ id coordinator
 id cos
 id counterclockwise
 id createchatbtn
+id createchatbtn2
 id currentState
 id custom
 id customPanel

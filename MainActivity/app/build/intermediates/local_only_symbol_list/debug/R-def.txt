@@ -2,6 +2,8 @@ R_DEF: Internal format may change without notice
 local
 array spinnerArray
 color black
+color maincolor
+color maintxtcolor
 color purple_200
 color purple_500
 color purple_700
@@ -13,6 +15,7 @@ drawable chinese
 drawable createchat
 drawable dessert
 drawable edittext_rounded_corner_rectangle
+drawable group
 drawable hamburger
 drawable human
 drawable ic_launcher_background
@@ -23,6 +26,7 @@ drawable moissu
 drawable pigleg
 drawable pizza
 drawable snack
+drawable solid_btn
 drawable splash
 id but_login
 id button
@@ -31,6 +35,7 @@ id chat_item_imageview
 id chat_item_textview_lastmessage
 id chat_textview_title
 id createchatbtn
+id createchatbtn2
 id editTextEmail
 id editTextName
 id editTextPassword

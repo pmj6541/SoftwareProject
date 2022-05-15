@@ -28,10 +28,10 @@ class ChatlistActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         chatrooms.apply {
-            add(ChatRoom(R.drawable.human, "디디치킨 먹을 사람", 4))
-            add(ChatRoom(R.drawable.human, "리후 주문!!", 1))
-            add(ChatRoom(R.drawable.human, "치킨 매니아 같이 시켜요!(가게없음ㅋㅋ)", 2))
-            add(ChatRoom(R.drawable.human, "BHC 파티모집", 2))
+            add(ChatRoom(R.drawable.group, "디디치킨 먹을 사람", 4))
+            add(ChatRoom(R.drawable.group, "리후 주문!!", 1))
+            add(ChatRoom(R.drawable.group, "치킨 매니아 같이 시켜요!(가게없음ㅋㅋ)", 2))
+            add(ChatRoom(R.drawable.group, "BHC 파티모집", 2))
         }
 
         val chatRVAdapter = ChatRVAdapter(chatrooms)
