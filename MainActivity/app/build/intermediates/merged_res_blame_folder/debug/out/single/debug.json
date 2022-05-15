@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/layout_activity_home.xml.flat",
         "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/activity_home.xml"
     },
@@ -154,5 +155,157 @@
     {
         "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_createchat.png.flat",
         "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/createchat.png"
+=======
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_chicken.jpeg.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\chicken.jpeg"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_chinese.png.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\chinese.png"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_item_chat.xml.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\item_chat.xml"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_map.xml.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_map.xml"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_splash.xml.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\splash.xml"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_signup.xml.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_menu.xml.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_menu.xml"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_edittext_rounded_corner_rectangle.xml.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\edittext_rounded_corner_rectangle.xml"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_hamburger.jpeg.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\hamburger.jpeg"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_chatlist.xml.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_chatlist.xml"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_human.png.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable-v24\\human.png"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_createchat.xml.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_createchat.xml"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_pigleg.jpeg.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\pigleg.jpeg"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_home.xml.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_snack.png.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\snack.png"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_item_view.xml.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\item_view.xml"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_dessert.jpeg.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\dessert.jpeg"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_korean.jpeg.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\korean.jpeg"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_createchat.png.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\createchat.png"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_japanese.jpg.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\japanese.jpg"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_pizza.jpeg.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\pizza.jpeg"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_moissu.PNG.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\moissu.PNG"
+>>>>>>> recycle
     }
 ]
