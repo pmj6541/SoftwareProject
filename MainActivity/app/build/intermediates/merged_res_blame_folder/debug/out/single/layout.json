@@ -1,6 +1,7 @@
 [
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_login.xml",
         "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/activity_login.xml"
     },
@@ -79,5 +80,45 @@
         "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_view.xml",
         "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\item_view.xml"
 >>>>>>> recycle
+=======
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_home.xml",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_menu.xml",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/layout/activity_menu.xml"
+    },
+    {
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_view.xml",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/layout/item_view.xml"
+    },
+    {
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_map.xml",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/layout/activity_map.xml"
+    },
+    {
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_login.xml",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_createchat.xml",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/layout/activity_createchat.xml"
+    },
+    {
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_chatlist.xml",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/layout/activity_chatlist.xml"
+    },
+    {
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_signup.xml",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/layout/activity_signup.xml"
+    },
+    {
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_chat.xml",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/layout/item_chat.xml"
+>>>>>>> clicksearchMap
     }
 ]

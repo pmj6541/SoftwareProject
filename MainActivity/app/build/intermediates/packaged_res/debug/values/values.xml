@@ -13,8 +13,12 @@
         <item> 족발 </item>
     </string-array>
     <color name="black">#FF000000</color>
+<<<<<<< HEAD
     <color name="maincolor">#dbccb5</color>
     <color name="maintxtcolor">#15110a</color>
+=======
+    <color name="brightGreen">#38ED53E"</color>
+>>>>>>> clicksearchMap
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>

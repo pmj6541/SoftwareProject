@@ -1304,6 +1304,7 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
+color brightGreen
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -2710,6 +2711,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable pigleg
 drawable pizza
+drawable searchview_background
 drawable snack
 drawable splash
 drawable test_custom_background
@@ -3144,6 +3146,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id searchListView
 id searchView
 id search_badge
 id search_bar

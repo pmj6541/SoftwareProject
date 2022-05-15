@@ -2,6 +2,7 @@
     "logs": [
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "outputFile": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
@@ -12,6 +13,12 @@
                 {
                     "source": "C:\\Users\\Shin Minseok\\.gradle\\caches\\transforms-3\\4eeb40118484bb845363005cdd95190e\\transformed\\appcompat-1.4.1\\res\\values-watch-v20\\values-watch-v20.xml",
 >>>>>>> recycle
+=======
+            "outputFile": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/Users/minjunpark/.gradle/caches/transforms-3/4eeb40118484bb845363005cdd95190e/transformed/appcompat-1.4.1/res/values-watch-v20/values-watch-v20.xml",
+>>>>>>> clicksearchMap
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

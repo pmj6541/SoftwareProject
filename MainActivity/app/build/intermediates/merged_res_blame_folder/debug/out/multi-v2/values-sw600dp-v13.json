@@ -2,6 +2,7 @@
     "logs": [
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "outputFile": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
@@ -12,6 +13,12 @@
                 {
                     "source": "C:\\Users\\Shin Minseok\\.gradle\\caches\\transforms-3\\4eeb40118484bb845363005cdd95190e\\transformed\\appcompat-1.4.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
 >>>>>>> recycle
+=======
+            "outputFile": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/minjunpark/.gradle/caches/transforms-3/4eeb40118484bb845363005cdd95190e/transformed/appcompat-1.4.1/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+>>>>>>> clicksearchMap
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -22,10 +29,14 @@
                 },
                 {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "source": "/Users/lim-youngjun/.gradle/caches/transforms-3/6dbbf5ebc631aab98330b6c698deb98d/transformed/material-1.5.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
 =======
                     "source": "C:\\Users\\Shin Minseok\\.gradle\\caches\\transforms-3\\6dbbf5ebc631aab98330b6c698deb98d\\transformed\\material-1.5.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
 >>>>>>> recycle
+=======
+                    "source": "/Users/minjunpark/.gradle/caches/transforms-3/6dbbf5ebc631aab98330b6c698deb98d/transformed/material-1.5.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+>>>>>>> clicksearchMap
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
