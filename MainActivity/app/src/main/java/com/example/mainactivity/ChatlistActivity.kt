@@ -27,11 +27,20 @@ class ChatlistActivity : AppCompatActivity() {
         Toast.makeText(this,"현재 사용자 : ${curUser.Id}\n현재 사용자 스팟 : ${curUser.location}\n사용자가 선택한 음식 : ${curUser.menu}",Toast.LENGTH_SHORT).show()
         setContentView(binding.root)
 
+        var room: ChattingRoom? = null
+        if(intent.hasExtra("myChattingRoom")){
+            room = intent.getSerializableExtra("myChattingRoom") as ChattingRoom
+        }
+
+
         chatrooms.apply {
             add(ChatRoom(R.drawable.human, "디디치킨 먹을 사람", 4))
             add(ChatRoom(R.drawable.human, "리후 주문!!", 1))
             add(ChatRoom(R.drawable.human, "치킨 매니아 같이 시켜요!(가게없음ㅋㅋ)", 2))
             add(ChatRoom(R.drawable.human, "BHC 파티모집", 2))
+            if (room != null) {
+                add(ChatRoom(R.drawable.human, room.name, room.fullCount))
+            }
         }
 
         val chatRVAdapter = ChatRVAdapter(chatrooms)

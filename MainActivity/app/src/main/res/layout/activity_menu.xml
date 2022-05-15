@@ -31,13 +31,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/toolbar" />
 
-    <Button
+    <ImageButton
         android:id="@+id/createchatbtn"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:background="#00ff0000"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/transparent"
+        android:visibility="visible"
         android:drawableBottom="@drawable/createchat"
         android:adjustViewBounds="true"
+        app:srcCompat="@drawable/createchat"
+        android:layout_marginRight="10dp"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/toolbar" />
@@ -79,6 +82,8 @@
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
                     android:text="치킨"
+                    android:textSize="15dp"
+
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -93,6 +98,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="0dp"
                     android:layout_weight="5"
+                    android:textSize="15dp"
                     app:srcCompat="@drawable/pizza" />
 
                 <TextView
@@ -100,6 +106,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
+                    android:textSize="15dp"
                     android:gravity="center_horizontal"
                     android:textStyle="bold"
                     android:text="피자" />
@@ -124,6 +131,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
+                    android:textSize="15dp"
                     android:textStyle="bold"
                     android:text="햄버거" />
             </LinearLayout>
@@ -155,6 +163,7 @@
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
                     android:textStyle="bold"
+                    android:textSize="15dp"
                     android:text="한식" />
             </LinearLayout>
 
@@ -178,6 +187,7 @@
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
                     android:textStyle="bold"
+                    android:textSize="15dp"
                     android:text="중식" />
             </LinearLayout>
 
@@ -201,6 +211,7 @@
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
                     android:textStyle="bold"
+                    android:textSize="15dp"
                     android:text="일식" />
             </LinearLayout>
         </LinearLayout>
@@ -231,6 +242,7 @@
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
                     android:textStyle="bold"
+                    android:textSize="15dp"
                     android:text="카페/디저트" />
             </LinearLayout>
 
@@ -254,6 +266,7 @@
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
                     android:textStyle="bold"
+                    android:textSize="15dp"
                     android:text="분식" />
             </LinearLayout>
 
@@ -277,9 +290,22 @@
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
                     android:textStyle="bold"
+                    android:textSize="15dp"
                     android:text="족발" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/backbtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/transparent"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar"
+        app:srcCompat="@drawable/back" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

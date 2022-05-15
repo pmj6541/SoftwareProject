@@ -2,6 +2,7 @@ R_DEF: Internal format may change without notice
 local
 array spinnerArray
 color black
+color brightGreen
 color maincolor
 color maintxtcolor
 color purple_200
@@ -9,7 +10,9 @@ color purple_500
 color purple_700
 color teal_200
 color teal_700
+color transparent
 color white
+drawable back
 drawable chicken
 drawable chinese
 drawable createchat
@@ -25,8 +28,11 @@ drawable korean
 drawable moissu
 drawable pigleg
 drawable pizza
+drawable searchview_background
 drawable snack
+drawable solid_btn
 drawable splash
+id backbtn
 id but_login
 id button
 id button2
@@ -34,12 +40,14 @@ id chat_item_imageview
 id chat_item_textview_lastmessage
 id chat_textview_title
 id createchatbtn
+id createchatbtn2
 id editTextEmail
 id editTextName
 id editTextPassword
 id editTextTextPassword
 id editTextTextPersonName
 id editTextTextPersonName2
+id imageButton2
 id imageView
 id imageView00
 id imageView01
@@ -55,10 +63,12 @@ id linearLayout
 id linearLayout2
 id linearLayout3
 id linearLayout4
+id linearLayout5
 id location
 id lstUser
 id map
 id menuTv
+id searchListView
 id searchView
 id signupBtn
 id spinner
@@ -82,6 +92,7 @@ id textView5
 id textView6
 id textView7
 id textView8
+id textView9
 id toolbar
 id toolbar2
 id toolbar3

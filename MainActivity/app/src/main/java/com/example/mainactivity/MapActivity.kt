@@ -1,9 +1,9 @@
 package com.example.mainactivity
 
 import android.content.Intent
+import android.graphics.Color
 import android.os.Bundle
-import android.widget.Button
-import android.widget.Toast
+import android.widget.*
 import androidx.annotation.NonNull
 import androidx.annotation.UiThread
 import androidx.appcompat.app.AppCompatActivity
@@ -37,10 +37,8 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
     private val marker4 = Marker()
     private var firebaseAuth : FirebaseAuth? = null
 
-
     private lateinit var fusedLocationClient: FusedLocationProviderClient
     private val PERMISSION = arrayOf(android.Manifest.permission.ACCESS_FINE_LOCATION ,android.Manifest.permission.ACCESS_COARSE_LOCATION )
-
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -57,8 +55,37 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
             mapFragment = MapFragment.newInstance()
             fragmentManager.beginTransaction().add(R.id.map, mapFragment).commit()
         }
-
         mapFragment!!.getMapAsync(this)
+
+        val searchPlace = arrayOf("기숙사 앞","고민사거리","숭실대입구역 3번 출구","숭실대 나무계단")
+
+        val placeAdapter : ArrayAdapter<String> = ArrayAdapter(
+            this, android.R.layout.simple_list_item_1,
+            searchPlace
+        )
+        val searchListView = findViewById<ListView>(R.id.searchListView)
+        val searchView = findViewById<SearchView>(R.id.searchView)
+
+        searchListView.adapter = placeAdapter
+
+        searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener{
+            override fun onQueryTextSubmit(query: String?): Boolean {
+            searchView.clearFocus()
+                if(searchPlace.contains(query)){
+                    placeAdapter.filter.filter(query)
+                }
+                return false
+            }
+
+            override fun onQueryTextChange(newText: String?): Boolean {
+                placeAdapter.filter.filter(newText)
+                return false
+            }
+
+        })
+
+
+
 
     }
 
@@ -80,6 +107,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
         marker4.position = LatLng(37.4967, 126.9580)
         marker4.map = naverMap
         marker4.tag = "숭실대 나무계단"
+        var btn: Button = findViewById(R.id.button2)
 
         val infoWindow = InfoWindow()
 
@@ -90,14 +118,17 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
             }
         }
 
-        /*naverMap.setOnMapClickListener{
+        naverMap.setOnMapClickListener{ point, coord ->
             boolTester=false
             infoWindow.close()
-        }   허공 누르면 현재 떠있는 마커 정보 없애고 버튼 비활성화 시키려고 함*/
-        var curUser : User = makeUserInfo(firebaseAuth?.currentUser, "")
+            btn.setBackgroundColor(Color.GRAY)
+        }
+        //허공 누르면 현재 떠있는 마커 정보 없애고 버튼 비활성화 시키려고 함
 
+        var curUser : User = makeUserInfo(firebaseAuth?.currentUser, "")
         marker1.setOnClickListener {
             boolTester = true
+            btn.setBackgroundColor(Color.GREEN)
             infoWindow.open(marker1)
             curUser = addLocationInfo(curUser, marker1.tag as String)
             true
@@ -105,6 +136,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
 
         marker2.setOnClickListener {
             boolTester = true
+            btn.setBackgroundColor(Color.GREEN)
             infoWindow.open(marker2)
             curUser = addLocationInfo(curUser, marker2.tag as String)
             true
@@ -113,6 +145,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
 
         marker3.setOnClickListener {
             boolTester = true
+            btn.setBackgroundColor(Color.GREEN)
             infoWindow.open(marker3)
             curUser = addLocationInfo(curUser, marker3.tag as String)
             true
@@ -120,12 +153,13 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
 
         marker4.setOnClickListener {
             boolTester = true
+            btn.setBackgroundColor(Color.GREEN)
             infoWindow.open(marker4)
             curUser = addLocationInfo(curUser, marker4.tag as String)
             true
         }
 
-        var btn : Button = findViewById(R.id.button2)
+
         btn.setOnClickListener {
             if(boolTester){
                 goNextActivity(curUser)
