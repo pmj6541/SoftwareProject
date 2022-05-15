@@ -2,6 +2,7 @@ R_DEF: Internal format may change without notice
 local
 array spinnerArray
 color black
+color brightGreen
 color purple_200
 color purple_500
 color purple_700
@@ -22,6 +23,7 @@ drawable korean
 drawable moissu
 drawable pigleg
 drawable pizza
+drawable searchview_background
 drawable snack
 drawable splash
 id but_login
@@ -56,6 +58,7 @@ id location
 id lstUser
 id map
 id menuTv
+id searchListView
 id searchView
 id signupBtn
 id spinner
