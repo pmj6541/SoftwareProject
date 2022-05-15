@@ -76,6 +76,10 @@
         "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/pigleg.jpeg"
     },
     {
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_back.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/back.png"
+    },
+    {
         "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_chinese.png.flat",
         "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/chinese.png"
     },

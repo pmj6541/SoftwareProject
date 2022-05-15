@@ -62,4 +62,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/map" />
+
+    <ImageButton
+        android:id="@+id/backbtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/transparent"
+        android:visibility="visible"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar3"
+        app:srcCompat="@drawable/back" />
 </androidx.constraintlayout.widget.ConstraintLayout>
