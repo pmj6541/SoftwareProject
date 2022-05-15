@@ -5,11 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <Button
+        android:id="@+id/createchatbtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:adjustViewBounds="true"
+        android:background="#00ff0000"
+        android:drawableBottom="@drawable/createchat"
+        app:layout_constraintEnd_toEndOf="parent" />
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar4"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
+        android:background="@color/maincolor"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,15 +29,15 @@
         android:layout_width="359dp"
         android:layout_height="614dp"
         android:layout_marginStart="25dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="25dp"
-        tools:listitem="@layout/item_view"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         android:orientation="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar4"
+        tools:listitem="@layout/item_view"
 
         />
 
@@ -42,25 +51,32 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/lstUser" />
 
-    <TextView
-        android:id="@+id/spotTv"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:text="Spot"
-        android:textSize="30dp"
-        app:layout_constraintBottom_toTopOf="@+id/lstUser"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar4"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar4" />
+        app:layout_constraintTop_toTopOf="parent">
 
-    <TextView
-        android:id="@+id/menuTv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="100dp"
-        android:text="Menu"
-        android:textSize="30dp"
-        app:layout_constraintBottom_toTopOf="@+id/lstUser"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar4" />
+        <TextView
+            android:id="@+id/spotTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="고민사거리히"
+            android:textStyle="bold"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/menuTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Menu"
+            android:textStyle="bold"
+            android:textSize="22sp" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1695,6 +1695,8 @@ color m3_timepicker_display_text_color
 color m3_timepicker_secondary_text_button_ripple_color
 color m3_timepicker_secondary_text_button_text_color
 color m3_tonal_button_ripple_color_selector
+color maincolor
+color maintxtcolor
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -2600,6 +2602,7 @@ drawable dessert
 drawable edittext_rounded_corner_rectangle
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable group
 drawable hamburger
 drawable human
 drawable ic_clock_black_24dp

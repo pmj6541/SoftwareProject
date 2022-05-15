@@ -1694,6 +1694,8 @@ int color m3_timepicker_display_text_color 0x7f0601a5
 int color m3_timepicker_secondary_text_button_ripple_color 0x7f0601a6
 int color m3_timepicker_secondary_text_button_text_color 0x7f0601a7
 int color m3_tonal_button_ripple_color_selector 0x7f0601a8
+int color maincolor 0x7f06026a
+int color maintxtcolor 0x7f06026b
 int color material_blue_grey_800 0x7f0601a9
 int color material_blue_grey_900 0x7f0601aa
 int color material_blue_grey_950 0x7f0601ab
@@ -2599,6 +2601,7 @@ int drawable dessert 0x7f08007b
 int drawable edittext_rounded_corner_rectangle 0x7f08007c
 int drawable googleg_disabled_color_18 0x7f08007d
 int drawable googleg_standard_color_18 0x7f08007e
+int drawable group 0x7f0800f0
 int drawable hamburger 0x7f08007f
 int drawable human 0x7f080080
 int drawable ic_clock_black_24dp 0x7f080081
