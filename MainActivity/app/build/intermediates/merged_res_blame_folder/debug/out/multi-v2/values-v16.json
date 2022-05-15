@@ -1,15 +1,10 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 유아이
-            "outputFile": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/lim-youngjun/.gradle/caches/transforms-3/23fc37437bace226093c9a564ed97200/transformed/core-1.7.0/res/values-v16/values-v16.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\23fc37437bace226093c9a564ed97200\\transformed\\core-1.7.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -19,22 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/lim-youngjun/.gradle/caches/transforms-3/4eeb40118484bb845363005cdd95190e/transformed/appcompat-1.4.1/res/values-v16/values-v16.xml",
-<<<<<<< HEAD
-=======
-            "outputFile": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Shin Minseok\\.gradle\\caches\\transforms-3\\4eeb40118484bb845363005cdd95190e\\transformed\\appcompat-1.4.1\\res\\values-v16\\values-v16.xml",
->>>>>>> recycle
-=======
-            "outputFile": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
-            "map": [
-                {
-                    "source": "/Users/minjunpark/.gradle/caches/transforms-3/4eeb40118484bb845363005cdd95190e/transformed/appcompat-1.4.1/res/values-v16/values-v16.xml",
->>>>>>> clicksearchMap
-=======
->>>>>>> 유아이
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\4eeb40118484bb845363005cdd95190e\\transformed\\appcompat-1.4.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -50,20 +30,6 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
-                    }
-                },
-                {
-<<<<<<< HEAD
-                    "source": "C:\\Users\\Shin Minseok\\.gradle\\caches\\transforms-3\\23fc37437bace226093c9a564ed97200\\transformed\\core-1.7.0\\res\\values-v16\\values-v16.xml",
-=======
-                    "source": "/Users/minjunpark/.gradle/caches/transforms-3/23fc37437bace226093c9a564ed97200/transformed/core-1.7.0/res/values-v16/values-v16.xml",
->>>>>>> clicksearchMap
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
                     }
                 }
             ]

@@ -47,7 +47,6 @@
         android:id="@+id/button2"
         android:layout_width="300dp"
         android:layout_height="48dp"
-        android:background="#B3B6B3"
         android:text="선택하기"
         android:background="@drawable/solid_btn"
         app:layout_constraintBottom_toTopOf="@+id/searchView"

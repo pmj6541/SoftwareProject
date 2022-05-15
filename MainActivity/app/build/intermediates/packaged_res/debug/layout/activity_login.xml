@@ -12,11 +12,7 @@ android:layout_height="match_parent">
         android:layout_marginTop="150dp"
         android:fontFamily="casual"
         android:text="Moissu"
-<<<<<<< HEAD
-        android:textColor="@color/black"
-=======
         android:textColor="@color/maintxtcolor"
->>>>>>> 유아이
         android:textSize="48sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

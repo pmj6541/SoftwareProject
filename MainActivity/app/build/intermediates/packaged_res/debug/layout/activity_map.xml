@@ -47,7 +47,6 @@
         android:id="@+id/button2"
         android:layout_width="300dp"
         android:layout_height="48dp"
-        android:background="#B3B6B3"
         android:text="선택하기"
         android:background="@drawable/solid_btn"
         app:layout_constraintBottom_toTopOf="@+id/searchView"
@@ -65,7 +64,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-<<<<<<< HEAD
         app:layout_constraintTop_toBottomOf="@+id/map"
         android:queryBackground="@android:color/transparent"/>
 
@@ -76,7 +74,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/searchView">
-        
+
         <ListView
             android:id="@+id/searchListView"
             android:layout_width="300dp"
@@ -87,19 +85,4 @@
             app:layout_constraintTop_toBottomOf="@id/searchView"/>
     </ScrollView>
 
-=======
-        app:layout_constraintTop_toBottomOf="@+id/map" />
-
-    <ImageButton
-        android:id="@+id/backbtn"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:background="@color/transparent"
-        android:visibility="visible"
-        android:layout_marginLeft="10dp"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbar3"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/toolbar3"
-        app:srcCompat="@drawable/back" />
->>>>>>> 유아이
 </androidx.constraintlayout.widget.ConstraintLayout>

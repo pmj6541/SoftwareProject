@@ -5,11 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-<<<<<<< HEAD
 import android.widget.ListView;
-=======
-import android.widget.ImageButton;
->>>>>>> 유아이
 import android.widget.SearchView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -28,9 +24,6 @@ public final class ActivityMapBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ImageButton backbtn;
-
-  @NonNull
   public final Button button2;
 
   @NonNull
@@ -45,16 +38,10 @@ public final class ActivityMapBinding implements ViewBinding {
   @NonNull
   public final Toolbar toolbar3;
 
-<<<<<<< HEAD
   private ActivityMapBinding(@NonNull ConstraintLayout rootView, @NonNull Button button2,
       @NonNull ListView searchListView, @NonNull SearchView searchView, @NonNull TextView textView8,
-=======
-  private ActivityMapBinding(@NonNull ConstraintLayout rootView, @NonNull ImageButton backbtn,
-      @NonNull Button button2, @NonNull SearchView searchView, @NonNull TextView textView8,
->>>>>>> 유아이
       @NonNull Toolbar toolbar3) {
     this.rootView = rootView;
-    this.backbtn = backbtn;
     this.button2 = button2;
     this.searchListView = searchListView;
     this.searchView = searchView;
@@ -89,12 +76,6 @@ public final class ActivityMapBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.backbtn;
-      ImageButton backbtn = ViewBindings.findChildViewById(rootView, id);
-      if (backbtn == null) {
-        break missingId;
-      }
-
       id = R.id.button2;
       Button button2 = ViewBindings.findChildViewById(rootView, id);
       if (button2 == null) {
@@ -125,13 +106,8 @@ public final class ActivityMapBinding implements ViewBinding {
         break missingId;
       }
 
-<<<<<<< HEAD
       return new ActivityMapBinding((ConstraintLayout) rootView, button2, searchListView,
           searchView, textView8, toolbar3);
-=======
-      return new ActivityMapBinding((ConstraintLayout) rootView, backbtn, button2, searchView,
-          textView8, toolbar3);
->>>>>>> 유아이
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
