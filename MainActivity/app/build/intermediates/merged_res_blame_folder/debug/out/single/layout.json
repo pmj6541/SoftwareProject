@@ -2,6 +2,9 @@
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 유아이
         "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_login.xml",
         "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/activity_login.xml"
     },
@@ -40,6 +43,7 @@
     {
         "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_chatlist.xml",
         "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/activity_chatlist.xml"
+<<<<<<< HEAD
 =======
         "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_signup.xml",
         "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_signup.xml"
@@ -120,5 +124,7 @@
         "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_chat.xml",
         "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/layout/item_chat.xml"
 >>>>>>> clicksearchMap
+=======
+>>>>>>> 유아이
     }
 ]

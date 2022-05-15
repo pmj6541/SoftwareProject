@@ -3,17 +3,24 @@ local
 array spinnerArray
 color black
 <<<<<<< HEAD
+<<<<<<< HEAD
 color maincolor
 color maintxtcolor
 =======
 color brightGreen
 >>>>>>> clicksearchMap
+=======
+color maincolor
+color maintxtcolor
+>>>>>>> 유아이
 color purple_200
 color purple_500
 color purple_700
 color teal_200
 color teal_700
+color transparent
 color white
+drawable back
 drawable chicken
 drawable chinese
 drawable createchat
@@ -31,7 +38,9 @@ drawable pigleg
 drawable pizza
 drawable searchview_background
 drawable snack
+drawable solid_btn
 drawable splash
+id backbtn
 id but_login
 id button
 id button2
@@ -45,6 +54,7 @@ id editTextPassword
 id editTextTextPassword
 id editTextTextPersonName
 id editTextTextPersonName2
+id imageButton2
 id imageView
 id imageView00
 id imageView01
@@ -60,6 +70,7 @@ id linearLayout
 id linearLayout2
 id linearLayout3
 id linearLayout4
+id linearLayout5
 id location
 id lstUser
 id map
@@ -88,6 +99,7 @@ id textView5
 id textView6
 id textView7
 id textView8
+id textView9
 id toolbar
 id toolbar2
 id toolbar3

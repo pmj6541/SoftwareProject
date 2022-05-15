@@ -3,16 +3,22 @@
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 유아이
             "outputFile": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-be/values-be.xml",
             "map": [
                 {
                     "source": "/Users/lim-youngjun/.gradle/caches/transforms-3/49ba22d710c020a1c8f004fbc3e80229/transformed/jetified-play-services-basement-18.0.0/res/values-be/values.xml",
+<<<<<<< HEAD
 =======
             "outputFile": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-be\\values-be.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Shin Minseok\\.gradle\\caches\\transforms-3\\a821082d2c518fad0d94a04dfbe3e601\\transformed\\jetified-play-services-base-18.0.1\\res\\values-be\\values.xml",
 >>>>>>> recycle
+=======
+>>>>>>> 유아이
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -26,6 +32,7 @@
                         "startOffsets": "4499",
                         "endColumns": "145",
                         "endOffsets": "4640"
+<<<<<<< HEAD
                     }
                 },
                 {
@@ -51,6 +58,12 @@
                 {
                     "source": "C:\\Users\\Shin Minseok\\.gradle\\caches\\transforms-3\\23fc37437bace226093c9a564ed97200\\transformed\\core-1.7.0\\res\\values-be\\values-be.xml",
 >>>>>>> recycle
+=======
+                    }
+                },
+                {
+                    "source": "/Users/lim-youngjun/.gradle/caches/transforms-3/23fc37437bace226093c9a564ed97200/transformed/core-1.7.0/res/values-be/values-be.xml",
+>>>>>>> 유아이
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -68,6 +81,9 @@
                 },
                 {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 유아이
                     "source": "/Users/lim-youngjun/.gradle/caches/transforms-3/a821082d2c518fad0d94a04dfbe3e601/transformed/jetified-play-services-base-18.0.1/res/values-be/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -86,6 +102,7 @@
                 },
                 {
                     "source": "/Users/lim-youngjun/.gradle/caches/transforms-3/6dbbf5ebc631aab98330b6c698deb98d/transformed/material-1.5.0/res/values-be/values-be.xml",
+<<<<<<< HEAD
 =======
                     "source": "C:\\Users\\Shin Minseok\\.gradle\\caches\\transforms-3\\6dbbf5ebc631aab98330b6c698deb98d\\transformed\\material-1.5.0\\res\\values-be\\values-be.xml",
 >>>>>>> recycle
@@ -95,6 +112,8 @@
                 {
                     "source": "/Users/minjunpark/.gradle/caches/transforms-3/6dbbf5ebc631aab98330b6c698deb98d/transformed/material-1.5.0/res/values-be/values-be.xml",
 >>>>>>> clicksearchMap
+=======
+>>>>>>> 유아이
                     "from": {
                         "startLines": "2,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -113,6 +132,7 @@
                     }
                 },
                 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                     "source": "/Users/lim-youngjun/.gradle/caches/transforms-3/4eeb40118484bb845363005cdd95190e/transformed/appcompat-1.4.1/res/values-be/values-be.xml",
@@ -136,6 +156,9 @@
                 {
                     "source": "/Users/minjunpark/.gradle/caches/transforms-3/4eeb40118484bb845363005cdd95190e/transformed/appcompat-1.4.1/res/values-be/values-be.xml",
 >>>>>>> clicksearchMap
+=======
+                    "source": "/Users/lim-youngjun/.gradle/caches/transforms-3/4eeb40118484bb845363005cdd95190e/transformed/appcompat-1.4.1/res/values-be/values-be.xml",
+>>>>>>> 유아이
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -154,6 +177,7 @@
                     "source": "C:\\Users\\Shin Minseok\\.gradle\\caches\\transforms-3\\49ba22d710c020a1c8f004fbc3e80229\\transformed\\jetified-play-services-basement-18.0.0\\res\\values-be\\values.xml",
 =======
                     }
+<<<<<<< HEAD
                 },
                 {
                     "source": "/Users/minjunpark/.gradle/caches/transforms-3/23fc37437bace226093c9a564ed97200/transformed/core-1.7.0/res/values-be/values-be.xml",
@@ -196,6 +220,8 @@
                         "endOffsets": "3597,3759,3884,3994,4149,4275,4390,4494,4802,4909,5072,5200,5353,5512,5581,5643,5722"
 >>>>>>> clicksearchMap
                     }
+=======
+>>>>>>> 유아이
                 }
             ]
         }

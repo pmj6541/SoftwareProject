@@ -8,6 +8,9 @@
 8        android:minSdkVersion="21"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 유아이
 8-->/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="32" />
 9-->/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/AndroidManifest.xml
@@ -309,6 +312,7 @@
 161-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/lim-youngjun/.gradle/caches/transforms-3/0384731e1ce2a055d127f029f0c24ab2/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
 162                android:value="androidx.startup" />
 162-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/lim-youngjun/.gradle/caches/transforms-3/0384731e1ce2a055d127f029f0c24ab2/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+<<<<<<< HEAD
 =======
 8-->C:\SoftwareProject\MainActivity\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
@@ -915,6 +919,8 @@
 162                android:value="androidx.startup" />
 162-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/minjunpark/.gradle/caches/transforms-3/0384731e1ce2a055d127f029f0c24ab2/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
 >>>>>>> clicksearchMap
+=======
+>>>>>>> 유아이
 163        </provider>
 164    </application>
 165

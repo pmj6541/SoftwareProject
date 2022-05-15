@@ -6,9 +6,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
@@ -23,6 +25,9 @@ import java.lang.String;
 public final class ActivityCreatechatBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
+
+  @NonNull
+  public final ImageButton backbtn;
 
   @NonNull
   public final Button button;
@@ -43,19 +48,25 @@ public final class ActivityCreatechatBinding implements ViewBinding {
   public final Spinner spinner2;
 
   @NonNull
+  public final TextView textView9;
+
+  @NonNull
   public final Toolbar toolbar2;
 
-  private ActivityCreatechatBinding(@NonNull ConstraintLayout rootView, @NonNull Button button,
+  private ActivityCreatechatBinding(@NonNull ConstraintLayout rootView,
+      @NonNull ImageButton backbtn, @NonNull Button button,
       @NonNull EditText editTextTextPersonName2, @NonNull ImageView imageView,
       @NonNull LinearLayout linearLayout4, @NonNull Spinner spinner, @NonNull Spinner spinner2,
-      @NonNull Toolbar toolbar2) {
+      @NonNull TextView textView9, @NonNull Toolbar toolbar2) {
     this.rootView = rootView;
+    this.backbtn = backbtn;
     this.button = button;
     this.editTextTextPersonName2 = editTextTextPersonName2;
     this.imageView = imageView;
     this.linearLayout4 = linearLayout4;
     this.spinner = spinner;
     this.spinner2 = spinner2;
+    this.textView9 = textView9;
     this.toolbar2 = toolbar2;
   }
 
@@ -86,6 +97,12 @@ public final class ActivityCreatechatBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.backbtn;
+      ImageButton backbtn = ViewBindings.findChildViewById(rootView, id);
+      if (backbtn == null) {
+        break missingId;
+      }
+
       id = R.id.button;
       Button button = ViewBindings.findChildViewById(rootView, id);
       if (button == null) {
@@ -122,14 +139,21 @@ public final class ActivityCreatechatBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView9;
+      TextView textView9 = ViewBindings.findChildViewById(rootView, id);
+      if (textView9 == null) {
+        break missingId;
+      }
+
       id = R.id.toolbar2;
       Toolbar toolbar2 = ViewBindings.findChildViewById(rootView, id);
       if (toolbar2 == null) {
         break missingId;
       }
 
-      return new ActivityCreatechatBinding((ConstraintLayout) rootView, button,
-          editTextTextPersonName2, imageView, linearLayout4, spinner, spinner2, toolbar2);
+      return new ActivityCreatechatBinding((ConstraintLayout) rootView, backbtn, button,
+          editTextTextPersonName2, imageView, linearLayout4, spinner, spinner2, textView9,
+          toolbar2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

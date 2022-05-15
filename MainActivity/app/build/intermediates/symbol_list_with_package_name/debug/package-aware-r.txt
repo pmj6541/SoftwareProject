@@ -1890,6 +1890,7 @@ color test_mtrl_calendar_day
 color test_mtrl_calendar_day_selected
 color tooltip_background_dark
 color tooltip_background_light
+color transparent
 color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
@@ -2564,6 +2565,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable back
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2713,6 +2715,7 @@ drawable pigleg
 drawable pizza
 drawable searchview_background
 drawable snack
+drawable solid_btn
 drawable splash
 drawable test_custom_background
 drawable test_level_drawable
@@ -2808,6 +2811,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id backbtn
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2958,6 +2962,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageButton2
 id imageView
 id imageView00
 id imageView01
@@ -2995,6 +3000,7 @@ id linearLayout
 id linearLayout2
 id linearLayout3
 id linearLayout4
+id linearLayout5
 id listMode
 id list_item
 id location
@@ -3248,6 +3254,7 @@ id textView5
 id textView6
 id textView7
 id textView8
+id textView9
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

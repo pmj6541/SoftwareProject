@@ -3,6 +3,9 @@
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 유아이
             "outputFile": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml",
             "map": [
                 {
@@ -17,6 +20,7 @@
                 },
                 {
                     "source": "/Users/lim-youngjun/.gradle/caches/transforms-3/4eeb40118484bb845363005cdd95190e/transformed/appcompat-1.4.1/res/values-v28/values-v28.xml",
+<<<<<<< HEAD
 =======
             "outputFile": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
             "map": [
@@ -29,6 +33,8 @@
                 {
                     "source": "/Users/minjunpark/.gradle/caches/transforms-3/4eeb40118484bb845363005cdd95190e/transformed/appcompat-1.4.1/res/values-v28/values-v28.xml",
 >>>>>>> clicksearchMap
+=======
+>>>>>>> 유아이
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
@@ -46,6 +52,7 @@
                         "endOffsets": "1211,1298,1528,1770"
                     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 },
                 {
@@ -62,6 +69,8 @@
                         "endOffsets": "148,243,338,436,524,612,700,788,875,962,1049,1136"
                     }
 >>>>>>> recycle
+=======
+>>>>>>> 유아이
                 }
             ]
         }
