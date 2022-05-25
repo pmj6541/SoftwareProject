@@ -32,6 +32,7 @@ drawable searchview_background
 drawable snack
 drawable solid_btn
 drawable splash
+drawable textlines
 id backbtn
 id but_login
 id button
@@ -40,13 +41,14 @@ id chat_item_imageview
 id chat_item_textview_lastmessage
 id chat_textview_title
 id createchatbtn
-id createchatbtn2
+id curuserTv
 id editTextEmail
 id editTextName
 id editTextPassword
 id editTextTextPassword
 id editTextTextPersonName
 id editTextTextPersonName2
+id fullcountTv
 id imageButton2
 id imageView
 id imageView00
@@ -59,12 +61,14 @@ id imageView06
 id imageView07
 id imageView08
 id imgUser_icon
+id lastchatTv
 id linearLayout
 id linearLayout2
 id linearLayout3
 id linearLayout4
 id linearLayout5
 id location
+id locationTv
 id lstUser
 id map
 id menuTv
@@ -93,6 +97,7 @@ id textView6
 id textView7
 id textView8
 id textView9
+id titleTv
 id toolbar
 id toolbar2
 id toolbar3
@@ -108,6 +113,7 @@ layout activity_map
 layout activity_menu
 layout activity_signup
 layout item_chat
+layout item_clview
 layout item_view
 mipmap ic_launcher
 mipmap ic_launcher_round

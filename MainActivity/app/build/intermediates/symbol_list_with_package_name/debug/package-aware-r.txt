@@ -2719,6 +2719,7 @@ drawable solid_btn
 drawable splash
 drawable test_custom_background
 drawable test_level_drawable
+drawable textlines
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -2873,8 +2874,8 @@ id coordinator
 id cos
 id counterclockwise
 id createchatbtn
-id createchatbtn2
 id currentState
+id curuserTv
 id custom
 id customPanel
 id cut
@@ -2940,6 +2941,7 @@ id floating
 id forever
 id fragment_container_view_tag
 id frost
+id fullcountTv
 id ghost_view
 id ghost_view_holder
 id gone
@@ -2989,6 +2991,7 @@ id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
 id labeled
+id lastchatTv
 id layout
 id left
 id leftToRight
@@ -3005,6 +3008,7 @@ id linearLayout5
 id listMode
 id list_item
 id location
+id locationTv
 id lstUser
 id map
 id masked
@@ -3268,6 +3272,7 @@ id textinput_suffix_text
 id time
 id title
 id titleDividerNoCustom
+id titleTv
 id title_template
 id toggle
 id toolbar
@@ -3423,6 +3428,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout item_chat
+layout item_clview
 layout item_view
 layout m3_alert_dialog
 layout m3_alert_dialog_actions

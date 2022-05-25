@@ -12,6 +12,10 @@
         "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/layout/activity_main.xml"
     },
     {
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_clview.xml",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/layout/item_clview.xml"
+    },
+    {
         "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_view.xml",
         "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/layout/item_view.xml"
     },

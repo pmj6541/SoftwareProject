@@ -3,6 +3,7 @@ package com.example.mainactivity
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.mainactivity.databinding.ItemClviewBinding
 import com.example.mainactivity.databinding.ItemViewBinding
 
 class ChatRVAdapter(private var chatrooms: ArrayList<ChattingRoom>): RecyclerView.Adapter<ChatRVAdapter.ViewHolder>() {
@@ -17,7 +18,7 @@ class ChatRVAdapter(private var chatrooms: ArrayList<ChattingRoom>): RecyclerVie
     }
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, viewType: Int): ChatRVAdapter.ViewHolder {
-        val binding: ItemViewBinding = ItemViewBinding.inflate(LayoutInflater.from(viewGroup.context), viewGroup, false)
+        val binding: ItemClviewBinding = ItemClviewBinding.inflate(LayoutInflater.from(viewGroup.context), viewGroup, false)
 
         return ViewHolder(binding)
     }
@@ -30,11 +31,14 @@ class ChatRVAdapter(private var chatrooms: ArrayList<ChattingRoom>): RecyclerVie
 
     override fun getItemCount(): Int = chatrooms.size
 
-    inner class ViewHolder(val binding: ItemViewBinding): RecyclerView.ViewHolder(binding.root){
+    inner class ViewHolder(val binding: ItemClviewBinding): RecyclerView.ViewHolder(binding.root){
         fun bind(chatroom: ChattingRoom){
-            binding.txtUserId.text = chatroom.title
-            binding.txtUserName.text = chatroom.fullCount.toString()
-            binding.imgUserIcon.setImageResource(R.drawable.group)
+            binding.titleTv.text = chatroom.title
+            binding.fullcountTv.text = chatroom.fullCount.toString()
+            binding.locationTv.text = chatroom.location
+            binding.curuserTv.text = chatroom.usersUID.count().toString()
+            binding.menuTv.text = chatroom.menu
+            binding.lastchatTv.text = chatroom.msg[0]
         }
 
     }

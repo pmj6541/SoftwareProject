@@ -88,6 +88,10 @@
         "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/drawable/solid_btn.xml"
     },
     {
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/layout_item_clview.xml.flat",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/layout/item_clview.xml"
+    },
+    {
         "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/layout_activity_signup.xml.flat",
         "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/layout/activity_signup.xml"
     },
@@ -114,6 +118,10 @@
     {
         "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/layout_activity_createchat.xml.flat",
         "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/layout/activity_createchat.xml"
+    },
+    {
+        "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable-v24_textlines.xml.flat",
+        "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/drawable-v24/textlines.xml"
     },
     {
         "merged": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_dessert.jpeg.flat",
