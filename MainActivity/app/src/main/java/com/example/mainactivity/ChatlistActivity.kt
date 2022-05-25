@@ -27,35 +27,32 @@ class ChatlistActivity : AppCompatActivity() {
         val intent = intent
         val curUser:User = intent.getSerializableExtra("curUser") as User
         setContentView(binding.root)
+
         val title_array = ArrayList<String>()
+        val chatRVAdapter = ChatRVAdapter(chatrooms)
 
         database.child("chattingrooms").addValueEventListener(object : ValueEventListener {
             override fun onCancelled(error: DatabaseError) {
-
             }
-
             override fun onDataChange(dataSnapshot: DataSnapshot){
                 for(data in dataSnapshot.children){
                     val modelResult = data.getValue(ChattingRoom::class.java)
                     title_array.add(modelResult?.title.toString())
                     if (modelResult != null) {
-                        chatrooms.apply {
-                            chatrooms.add(modelResult)
-                        }
+                        chatrooms.add(modelResult)
+                        Log.d("MainActivity",modelResult.title)
                     }
                 }
+                chatRVAdapter.notifyDataSetChanged()
             }
         })
 
 
-
-        val chatRVAdapter = ChatRVAdapter(chatrooms)
         binding.lstUser.adapter = chatRVAdapter
         binding.lstUser.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
 
         chatRVAdapter.setMyItemClickListener(object: ChatRVAdapter.MyItemClickListener{
             override fun onItemClick() {
-
             }
         })
 
