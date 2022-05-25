@@ -1,17 +1,11 @@
 package com.example.mainactivity
 
-import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.mainactivity.databinding.ActivityChatlistBinding
-import com.example.mainactivity.databinding.ActivityCreatechatBinding
-import com.example.mainactivity.databinding.ActivityLoginBinding
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.ktx.auth
-import com.google.firebase.database.FirebaseDatabase
-import com.google.firebase.ktx.Firebase
 
 class ChatlistActivity : AppCompatActivity() {
     private var firebaseAuth : FirebaseAuth? = null
@@ -39,7 +33,7 @@ class ChatlistActivity : AppCompatActivity() {
             add(ChatRoom(R.drawable.human, "치킨 매니아 같이 시켜요!(가게없음ㅋㅋ)", 2))
             add(ChatRoom(R.drawable.human, "BHC 파티모집", 2))
             if (room != null) {
-                add(ChatRoom(R.drawable.human, room.name, room.fullCount))
+                add(ChatRoom(R.drawable.human, room.title, room.fullCount))
             }
         }
 

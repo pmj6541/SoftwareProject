@@ -8,9 +8,9 @@ import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.get
 import com.example.mainactivity.databinding.ActivityCreatechatBinding
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.FirebaseDatabase
 
 class CreatechatActivity : AppCompatActivity() {
     private var firebaseAuth : FirebaseAuth? = null
@@ -80,6 +80,10 @@ class CreatechatActivity : AppCompatActivity() {
                 binding.editTextTextPersonName2.text.toString(),
                 binding.spinner2.selectedItem.toString().split("명")[0].toInt()
             )
+            //firebse 에 myChattingRoom 추가
+            addOnFirebase(myChattingRoom)
+            ////////////////////////////////
+
             curUser = getfoodInfo(curUser,binding.spinner.selectedItem.toString())
 
             val intent : Intent = Intent(this,ChatlistActivity::class.java)
@@ -103,7 +107,7 @@ class CreatechatActivity : AppCompatActivity() {
     private fun getCreatedChattingRoom(chattingRoom : ChattingRoom){
         Toast.makeText(this,"메뉴 : ${chattingRoom.menu}\n" +
                 "스팟 : ${chattingRoom.location}\n" +
-                "이름 : ${chattingRoom.name}\n" +
+                "이름 : ${chattingRoom.title}\n" +
                 "인원수 : ${chattingRoom.fullCount}명",Toast.LENGTH_SHORT).show()
     }
 
@@ -114,6 +118,12 @@ class CreatechatActivity : AppCompatActivity() {
             curUser.location,
             food
         )
+    }
+
+    private fun addOnFirebase(myChattingRoom: ChattingRoom){
+        val database = FirebaseDatabase.getInstance()
+        val ref = database.getReference()
+        ref.child("chattingrooms").push().setValue(myChattingRoom)
     }
 
 }
