@@ -108,6 +108,7 @@ layout activity_map
 layout activity_menu
 layout activity_signup
 layout item_chat
+layout item_clview
 layout item_view
 mipmap ic_launcher
 mipmap ic_launcher_round

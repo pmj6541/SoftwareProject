@@ -3423,6 +3423,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout item_chat
+layout item_clview
 layout item_view
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
