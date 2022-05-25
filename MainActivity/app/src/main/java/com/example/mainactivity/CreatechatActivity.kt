@@ -96,11 +96,17 @@ class CreatechatActivity : AppCompatActivity() {
 
 
     private fun setChattingroomInfo(menu: String, location : String, name: String, fullCount: Int): ChattingRoom {
+        val user = ArrayList<String>()
+        val msg = ArrayList<String>()
+        user.add(FirebaseAuth.getInstance().uid.toString())
+        msg.add("대화가 시작되었습니다.")
         return ChattingRoom(
             menu,
             location,
             name,
-            fullCount
+            fullCount,
+            user,
+            msg
         )
     }
 

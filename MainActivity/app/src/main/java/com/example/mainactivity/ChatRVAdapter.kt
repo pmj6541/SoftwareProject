@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.mainactivity.databinding.ItemViewBinding
 
-class ChatRVAdapter(private var chatrooms: ArrayList<ChatRoom>): RecyclerView.Adapter<ChatRVAdapter.ViewHolder>() {
+class ChatRVAdapter(private var chatrooms: ArrayList<ChattingRoom>): RecyclerView.Adapter<ChatRVAdapter.ViewHolder>() {
 
     interface MyItemClickListener{
         fun onItemClick()
@@ -31,10 +31,10 @@ class ChatRVAdapter(private var chatrooms: ArrayList<ChatRoom>): RecyclerView.Ad
     override fun getItemCount(): Int = chatrooms.size
 
     inner class ViewHolder(val binding: ItemViewBinding): RecyclerView.ViewHolder(binding.root){
-        fun bind(chatroom: ChatRoom){
+        fun bind(chatroom: ChattingRoom){
             binding.txtUserId.text = chatroom.title
-            binding.txtUserName.text = chatroom.headcount.toString()
-            binding.imgUserIcon.setImageResource(chatroom.roomimg!!)
+            binding.txtUserName.text = chatroom.fullCount.toString()
+            binding.imgUserIcon.setImageResource(R.drawable.group)
         }
 
     }
