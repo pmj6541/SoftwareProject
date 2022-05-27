@@ -37,11 +37,14 @@ class ChatlistActivity : AppCompatActivity() {
             override fun onDataChange(dataSnapshot: DataSnapshot){
                 for(data in dataSnapshot.children){
                     val modelResult = data.getValue(ChattingRoom::class.java)
-                    title_array.add(modelResult?.title.toString())
-                    if (modelResult != null) {
-                        chatrooms.add(modelResult)
-                        Log.d("MainActivity",modelResult.title)
+                    if(curUser.menu == modelResult?.menu && curUser.location == modelResult?.location){
+                        title_array.add(modelResult?.title.toString())
+                        if (modelResult != null) {
+                            chatrooms.add(modelResult)
+                            Log.d("MainActivity",modelResult.title)
+                        }
                     }
+
                 }
                 chatRVAdapter.notifyDataSetChanged()
             }

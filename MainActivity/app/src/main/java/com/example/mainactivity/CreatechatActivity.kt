@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.mainactivity.databinding.ActivityCreatechatBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.FirebaseDatabase
+import java.text.SimpleDateFormat
 
 class CreatechatActivity : AppCompatActivity() {
     private var firebaseAuth : FirebaseAuth? = null
@@ -98,15 +99,24 @@ class CreatechatActivity : AppCompatActivity() {
     private fun setChattingroomInfo(menu: String, location : String, name: String, fullCount: Int): ChattingRoom {
         val user = ArrayList<String>()
         val msg = ArrayList<String>()
+        val msgTimeStamp = ArrayList<String>()
+        val msgCurUser = ArrayList<String>()
+        val msgTime = System.currentTimeMillis()
+        val sdf = SimpleDateFormat("yyyy-MM-dd-hh-mm")
+        val timeStamp = sdf.format(msgTime)
         user.add(FirebaseAuth.getInstance().uid.toString())
         msg.add("대화가 시작되었습니다.")
+        msgTimeStamp.add(timeStamp)
+        msgCurUser.add(FirebaseAuth.getInstance().uid.toString())
         return ChattingRoom(
             menu,
             location,
             name,
             fullCount,
             user,
-            msg
+            msg,
+            msgTimeStamp,
+            msgCurUser,
         )
     }
 
