@@ -64,7 +64,9 @@ class MenuActivity : AppCompatActivity() {
             intent.putExtra("curUser",curUser)
             startActivity(intent)
         }
-
+        binding.backbtn.setOnClickListener{
+            finish()
+        }
 
     }
     private fun setFoodInfo(curUser : User, food: String): User {

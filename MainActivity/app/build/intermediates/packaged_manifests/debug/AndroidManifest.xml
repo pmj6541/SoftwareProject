@@ -58,6 +58,7 @@
         <activity android:name="com.example.mainactivity.CreatechatActivity" />
         <activity android:name="com.example.mainactivity.MenuActivity" />
         <activity android:name="com.example.mainactivity.ChatlistActivity" />
+        <activity android:name="com.example.mainactivity.ChattingActivity" />
         <activity
             android:name="com.naver.maps.map.app.LegendActivity"
             android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"

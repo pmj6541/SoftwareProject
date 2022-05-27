@@ -8,9 +8,10 @@ import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.get
 import com.example.mainactivity.databinding.ActivityCreatechatBinding
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.FirebaseDatabase
+import java.text.SimpleDateFormat
 
 class CreatechatActivity : AppCompatActivity() {
     private var firebaseAuth : FirebaseAuth? = null
@@ -80,6 +81,10 @@ class CreatechatActivity : AppCompatActivity() {
                 binding.editTextTextPersonName2.text.toString(),
                 binding.spinner2.selectedItem.toString().split("명")[0].toInt()
             )
+            //firebse 에 myChattingRoom 추가
+            addOnFirebase(myChattingRoom)
+            ////////////////////////////////
+
             curUser = getfoodInfo(curUser,binding.spinner.selectedItem.toString())
 
             val intent : Intent = Intent(this,ChatlistActivity::class.java)
@@ -88,22 +93,41 @@ class CreatechatActivity : AppCompatActivity() {
             getCreatedChattingRoom(myChattingRoom)
             startActivity(intent)
         }
+
+        binding.backbtn.setOnClickListener{
+            finish()
+        }
     }
 
 
     private fun setChattingroomInfo(menu: String, location : String, name: String, fullCount: Int): ChattingRoom {
+        val user = ArrayList<String>()
+        val msg = ArrayList<String>()
+        val msgTimeStamp = ArrayList<String>()
+        val msgCurUser = ArrayList<String>()
+        val msgTime = System.currentTimeMillis()
+        val sdf = SimpleDateFormat("yyyy-MM-dd-hh-mm")
+        val timeStamp = sdf.format(msgTime)
+        user.add(FirebaseAuth.getInstance().uid.toString())
+        msg.add("대화가 시작되었습니다.")
+        msgTimeStamp.add(timeStamp)
+        msgCurUser.add(FirebaseAuth.getInstance().uid.toString())
         return ChattingRoom(
             menu,
             location,
             name,
-            fullCount
+            fullCount,
+            user,
+            msg,
+            msgTimeStamp,
+            msgCurUser,
         )
     }
 
     private fun getCreatedChattingRoom(chattingRoom : ChattingRoom){
         Toast.makeText(this,"메뉴 : ${chattingRoom.menu}\n" +
                 "스팟 : ${chattingRoom.location}\n" +
-                "이름 : ${chattingRoom.name}\n" +
+                "이름 : ${chattingRoom.title}\n" +
                 "인원수 : ${chattingRoom.fullCount}명",Toast.LENGTH_SHORT).show()
     }
 
@@ -114,6 +138,12 @@ class CreatechatActivity : AppCompatActivity() {
             curUser.location,
             food
         )
+    }
+
+    private fun addOnFirebase(myChattingRoom: ChattingRoom){
+        val database = FirebaseDatabase.getInstance()
+        val ref = database.getReference()
+        ref.child("chattingrooms").push().setValue(myChattingRoom)
     }
 
 }

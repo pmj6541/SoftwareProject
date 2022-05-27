@@ -8,6 +8,7 @@ import com.example.mainactivity.databinding.ActivityLoginBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.ktx.auth
+import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.ktx.Firebase
 
 class LoginActivity : AppCompatActivity() {
@@ -40,8 +41,13 @@ class LoginActivity : AppCompatActivity() {
 
     public override fun onStart() {
         super.onStart()
-        Toast.makeText(baseContext,"onStart입니다.",Toast.LENGTH_SHORT)
         moveMainPage(firebaseAuth?.currentUser)
+    }
+
+    private fun addUserOnFirebase(userInfo : DBUser) {
+        val database = FirebaseDatabase.getInstance()
+        val ref = database.getReference()
+        ref.child("users/${firebaseAuth?.uid.toString()}").setValue(userInfo)
     }
 
     private fun signIn(id: String, password: String) {
@@ -54,7 +60,6 @@ class LoginActivity : AppCompatActivity() {
                             baseContext, "로그인에 성공 하였습니다.",
                             Toast.LENGTH_SHORT
                         ).show()
-
                         moveMainPage(firebaseAuth?.currentUser)
 
                     } else {

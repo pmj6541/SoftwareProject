@@ -1379,6 +1379,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color gray
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color m3_appbar_overlay_color
@@ -2719,6 +2720,7 @@ drawable solid_btn
 drawable splash
 drawable test_custom_background
 drawable test_level_drawable
+drawable textlines
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -2831,6 +2833,7 @@ id browser_actions_menu_view
 id but_login
 id button
 id button2
+id button3
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2873,8 +2876,8 @@ id coordinator
 id cos
 id counterclockwise
 id createchatbtn
-id createchatbtn2
 id currentState
+id curuserTv
 id custom
 id customPanel
 id cut
@@ -2918,6 +2921,7 @@ id editTextPassword
 id editTextTextPassword
 id editTextTextPersonName
 id editTextTextPersonName2
+id editTextTextPersonName3
 id edit_query
 id elastic
 id end
@@ -2940,6 +2944,7 @@ id floating
 id forever
 id fragment_container_view_tag
 id frost
+id fullcountTv
 id ghost_view
 id ghost_view_holder
 id gone
@@ -2989,9 +2994,13 @@ id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
 id labeled
+id lastchatTv
 id layout
 id left
 id leftToRight
+id leftchat_textview_msg
+id leftchat_textview_time
+id leftchat_textview_user
 id legacy
 id light
 id line1
@@ -3005,6 +3014,7 @@ id linearLayout5
 id listMode
 id list_item
 id location
+id locationTv
 id lstUser
 id map
 id masked
@@ -3140,6 +3150,8 @@ id right
 id rightToLeft
 id right_icon
 id right_side
+id rightchat_textview_msg
+id rightchat_textview_time
 id rounded
 id row_index_key
 id satellite
@@ -3268,12 +3280,14 @@ id textinput_suffix_text
 id time
 id title
 id titleDividerNoCustom
+id titleTv
 id title_template
 id toggle
 id toolbar
 id toolbar2
 id toolbar3
 id toolbar4
+id toolbar6
 id top
 id topPanel
 id touch_outside
@@ -3397,6 +3411,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_chatlist
+layout activity_chatting
 layout activity_createchat
 layout activity_home
 layout activity_login
@@ -3423,6 +3438,9 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout item_chat
+layout item_clview
+layout item_leftchat
+layout item_rightchat
 layout item_view
 layout m3_alert_dialog
 layout m3_alert_dialog_actions

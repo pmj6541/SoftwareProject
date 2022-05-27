@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_chatting.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_chatting.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
@@ -18,6 +22,10 @@
     {
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_item_rightchat.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\item_rightchat.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_human.png.flat",
@@ -70,6 +78,10 @@
     {
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_hamburger.jpeg.flat",
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\hamburger.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_textlines.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable-v24\\textlines.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_chatlist.xml.flat",
@@ -132,12 +144,12 @@
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\dessert.jpeg"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_chinese.png.flat",
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\chinese.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_pigleg.jpeg.flat",
@@ -150,6 +162,14 @@
     {
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_solid_btn.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\solid_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_item_leftchat.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\item_leftchat.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_item_clview.xml.flat",
+        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\item_clview.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
