@@ -4,7 +4,7 @@
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
@@ -23,19 +23,19 @@
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/SplashTheme">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity"/>
-        <activity android:name=".SignupActivity"/>
-        <activity android:name=".MapActivity"/>
-        <activity android:name=".CreatechatActivity"/>
-        <activity android:name=".MenuActivity"/>
-        <activity android:name=".ChatlistActivity"/>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".MapActivity" />
+        <activity android:name=".CreatechatActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".ChatlistActivity" />
+        <activity android:name=".ChattingActivity" />
     </application>
 
 </manifest>

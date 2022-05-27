@@ -2832,6 +2832,7 @@ id browser_actions_menu_view
 id but_login
 id button
 id button2
+id button3
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2919,6 +2920,7 @@ id editTextPassword
 id editTextTextPassword
 id editTextTextPersonName
 id editTextTextPersonName2
+id editTextTextPersonName3
 id edit_query
 id elastic
 id end
@@ -2995,6 +2997,9 @@ id lastchatTv
 id layout
 id left
 id leftToRight
+id leftchat_textview_msg
+id leftchat_textview_time
+id leftchat_textview_user
 id legacy
 id light
 id line1
@@ -3144,6 +3149,8 @@ id right
 id rightToLeft
 id right_icon
 id right_side
+id rightchat_textview_msg
+id rightchat_textview_time
 id rounded
 id row_index_key
 id satellite
@@ -3279,6 +3286,7 @@ id toolbar
 id toolbar2
 id toolbar3
 id toolbar4
+id toolbar6
 id top
 id topPanel
 id touch_outside
@@ -3402,6 +3410,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_chatlist
+layout activity_chatting
 layout activity_createchat
 layout activity_home
 layout activity_login
@@ -3429,6 +3438,8 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout item_chat
 layout item_clview
+layout item_leftchat
+layout item_rightchat
 layout item_view
 layout m3_alert_dialog
 layout m3_alert_dialog_actions

@@ -37,6 +37,7 @@ id backbtn
 id but_login
 id button
 id button2
+id button3
 id chat_item_imageview
 id chat_item_textview_lastmessage
 id chat_textview_title
@@ -48,6 +49,7 @@ id editTextPassword
 id editTextTextPassword
 id editTextTextPersonName
 id editTextTextPersonName2
+id editTextTextPersonName3
 id fullcountTv
 id imageButton2
 id imageView
@@ -62,6 +64,9 @@ id imageView07
 id imageView08
 id imgUser_icon
 id lastchatTv
+id leftchat_textview_msg
+id leftchat_textview_time
+id leftchat_textview_user
 id linearLayout
 id linearLayout2
 id linearLayout3
@@ -72,6 +77,8 @@ id locationTv
 id lstUser
 id map
 id menuTv
+id rightchat_textview_msg
+id rightchat_textview_time
 id searchListView
 id searchView
 id signupBtn
@@ -102,9 +109,11 @@ id toolbar
 id toolbar2
 id toolbar3
 id toolbar4
+id toolbar6
 id txtUser_id
 id txtUser_name
 layout activity_chatlist
+layout activity_chatting
 layout activity_createchat
 layout activity_home
 layout activity_login
@@ -114,6 +123,8 @@ layout activity_menu
 layout activity_signup
 layout item_chat
 layout item_clview
+layout item_leftchat
+layout item_rightchat
 layout item_view
 mipmap ic_launcher
 mipmap ic_launcher_round
