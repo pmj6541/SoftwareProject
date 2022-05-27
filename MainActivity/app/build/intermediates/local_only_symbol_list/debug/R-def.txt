@@ -3,6 +3,7 @@ local
 array spinnerArray
 color black
 color brightGreen
+color gray
 color maincolor
 color maintxtcolor
 color purple_200
