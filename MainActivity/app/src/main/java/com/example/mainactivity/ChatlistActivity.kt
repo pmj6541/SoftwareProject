@@ -50,6 +50,10 @@ class ChatlistActivity : AppCompatActivity() {
             }
         })
 
+        binding.backbtn.setOnClickListener{
+            finish()
+        }
+
 
         binding.lstUser.adapter = chatRVAdapter
         binding.lstUser.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)

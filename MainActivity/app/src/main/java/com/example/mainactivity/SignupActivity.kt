@@ -1,5 +1,6 @@
 package com.example.mainactivity
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -7,6 +8,7 @@ import com.example.mainactivity.databinding.ActivityMainBinding
 import com.example.mainactivity.databinding.ActivitySignupBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
+import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.ktx.Firebase
 
 class SignupActivity : AppCompatActivity() {
@@ -36,10 +38,6 @@ class SignupActivity : AppCompatActivity() {
 
     private fun createAccount(email: String, name: String, password: String) {
         if (email.isNotEmpty() && password.isNotEmpty()) {
-            Toast.makeText(
-                this, "일단 실행함.",
-                Toast.LENGTH_SHORT
-            ).show()
             firebaseAuth?.createUserWithEmailAndPassword(email, password)
                 ?.addOnCompleteListener(this) { task ->
                     if (task.isSuccessful) {
@@ -47,6 +45,8 @@ class SignupActivity : AppCompatActivity() {
                             this, "계정 생성 완료.",
                             Toast.LENGTH_SHORT
                         ).show()
+                        val userInfo = DBUser(email, name, password)
+                        addUserOnFirebase(userInfo)
                         finish() // 가입창 종료
                     } else {
                         Toast.makeText(
@@ -57,4 +57,11 @@ class SignupActivity : AppCompatActivity() {
                 }
         }
     }
+
+    private fun addUserOnFirebase(userInfo : DBUser) {
+        val database = FirebaseDatabase.getInstance()
+        val ref = database.getReference()
+        ref.child("users/${firebaseAuth?.uid.toString()}").setValue(userInfo)
+    }
+
 }

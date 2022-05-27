@@ -93,6 +93,10 @@ class CreatechatActivity : AppCompatActivity() {
             getCreatedChattingRoom(myChattingRoom)
             startActivity(intent)
         }
+
+        binding.backbtn.setOnClickListener{
+            finish()
+        }
     }
 
 
