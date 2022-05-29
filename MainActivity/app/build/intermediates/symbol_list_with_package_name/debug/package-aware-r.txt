@@ -2853,6 +2853,7 @@ id chat_rv
 id chat_textview_name
 id chat_textview_title
 id chatitem_linearlayout_main
+id chatitem_linearlayout_sub
 id checkbox
 id checked
 id chip

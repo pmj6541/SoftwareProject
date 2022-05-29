@@ -2852,6 +2852,7 @@ int id chat_rv 0x7f09007d
 int id chat_textview_name 0x7f09025a
 int id chat_textview_title 0x7f09007e
 int id chatitem_linearlayout_main 0x7f09025b
+int id chatitem_linearlayout_sub 0x7f09025e
 int id checkbox 0x7f09007f
 int id checked 0x7f090080
 int id chip 0x7f090081

@@ -12,12 +12,12 @@
         "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\chicken.jpeg"
     },
     {
-        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_map.xml.flat",
-        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_map.xml"
-    },
-    {
         "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_splash.xml.flat",
         "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\splash.xml"
+    },
+    {
+        "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_map.xml.flat",
+        "source": "C:\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_map.xml"
     },
     {
         "merged": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
