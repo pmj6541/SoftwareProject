@@ -26,9 +26,11 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable japanese
 drawable korean
+drawable leftbubble
 drawable moissu
 drawable pigleg
 drawable pizza
+drawable rightbubble
 drawable searchview_background
 drawable snack
 drawable solid_btn
@@ -39,10 +41,11 @@ id but_login
 id button
 id button2
 id button3
-id chat_item_imageview
 id chat_item_textview_lastmessage
 id chat_rv
+id chat_textview_name
 id chat_textview_title
+id chatitem_linearlayout_main
 id createchatbtn
 id curuserTv
 id editTextEmail
