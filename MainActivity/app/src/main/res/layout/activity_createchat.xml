@@ -76,19 +76,23 @@
         android:text="채팅방 만들기"
         android:textAlignment="center"
         android:textColor="@color/maintxtcolor"
-        android:textSize="22sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/toolbar2" />
 
+
+
     <ImageButton
         android:id="@+id/backbtn"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:background="@color/transparent"
         android:visibility="visible"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
         android:layout_marginLeft="10dp"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
         app:layout_constraintStart_toStartOf="parent"

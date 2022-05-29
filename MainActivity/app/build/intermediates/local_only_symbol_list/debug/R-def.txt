@@ -3,6 +3,7 @@ local
 array spinnerArray
 color black
 color brightGreen
+color darkgray
 color gray
 color maincolor
 color maintxtcolor
@@ -43,6 +44,7 @@ id chat_item_imageview
 id chat_item_textview_lastmessage
 id chat_rv
 id chat_textview_title
+id chatname
 id createchatbtn
 id curuserTv
 id editTextEmail
@@ -75,7 +77,6 @@ id linearLayout3
 id linearLayout4
 id linearLayout5
 id location
-id locationTv
 id lstUser
 id map
 id menuTv

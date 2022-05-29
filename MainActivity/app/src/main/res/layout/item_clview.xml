@@ -5,34 +5,9 @@
     android:layout_margin="5dp"
     android:layout_marginBottom="5dp"
     android:orientation="vertical"
-    android:background="@drawable/textlines">
+   >
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"
-        android:padding="5dp">
 
-        <LinearLayout
-            android:layout_width="75dp"
-            android:layout_height="75dp"
-            android:orientation="vertical"
-            android:layout_marginRight="5dp">
-
-            <TextView
-                android:id="@+id/locationTv"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:background="#EEEEFA"
-                android:layout_marginBottom="5dp"/>
-
-            <TextView
-                android:id="@+id/menuTv"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:background="#EEEEFA"/>
-
-        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -77,11 +52,5 @@
         </LinearLayout>
 
 
-
-
-
-
-
     </LinearLayout>
 
-</LinearLayout>

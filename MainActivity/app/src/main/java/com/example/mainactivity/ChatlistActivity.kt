@@ -68,6 +68,8 @@ class ChatlistActivity : AppCompatActivity() {
 
     }
 
+
+
     private fun goNextActivity(entChattingRoom: ChattingRoom,roomID: String){
         val intent : Intent = Intent(this,ChattingActivity::class.java)
         intent.putExtra("chattingroom",entChattingRoom)

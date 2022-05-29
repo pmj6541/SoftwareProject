@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:text="위치가 나타나라"
         android:textColor="@color/maintxtcolor"
-        android:textSize="22sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,11 +33,11 @@
 
     <ImageButton
         android:id="@+id/createchatbtn"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:background="@color/transparent"
         android:visibility="visible"
-        android:drawableBottom="@drawable/createchat"
+        android:scaleType="fitCenter"
         android:adjustViewBounds="true"
         app:srcCompat="@drawable/createchat"
         android:layout_marginRight="10dp"
@@ -298,10 +298,12 @@
 
     <ImageButton
         android:id="@+id/backbtn"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:background="@color/transparent"
         android:visibility="visible"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar"
         android:layout_marginLeft="10dp"
         app:layout_constraintStart_toStartOf="parent"
