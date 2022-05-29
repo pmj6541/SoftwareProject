@@ -15,11 +15,14 @@ color teal_700
 color transparent
 color white
 drawable back
+drawable backwhite
+drawable chatwhite
 drawable chicken
 drawable chinese
 drawable createchat
 drawable dessert
 drawable edittext_rounded_corner_rectangle
+drawable graysolid_btn
 drawable group
 drawable hamburger
 drawable human

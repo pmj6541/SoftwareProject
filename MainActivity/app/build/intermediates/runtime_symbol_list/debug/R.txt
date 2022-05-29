@@ -2567,6 +2567,7 @@ int drawable abc_vector_test 0x7f080055
 int drawable avd_hide_password 0x7f080056
 int drawable avd_show_password 0x7f080057
 int drawable back 0x7f080058
+int drawable backwhite 0x7f0800f6
 int drawable btn_checkbox_checked_mtrl 0x7f080059
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f08005a
 int drawable btn_checkbox_unchecked_mtrl 0x7f08005b
@@ -2575,6 +2576,7 @@ int drawable btn_radio_off_mtrl 0x7f08005d
 int drawable btn_radio_off_to_on_mtrl_animation 0x7f08005e
 int drawable btn_radio_on_mtrl 0x7f08005f
 int drawable btn_radio_on_to_off_mtrl_animation 0x7f080060
+int drawable chatwhite 0x7f0800f7
 int drawable chicken 0x7f080061
 int drawable chinese 0x7f080062
 int drawable common_full_open_on_phone 0x7f080063
@@ -2606,6 +2608,7 @@ int drawable dessert 0x7f08007c
 int drawable edittext_rounded_corner_rectangle 0x7f08007d
 int drawable googleg_disabled_color_18 0x7f08007e
 int drawable googleg_standard_color_18 0x7f08007f
+int drawable graysolid_btn 0x7f0800f8
 int drawable group 0x7f080080
 int drawable hamburger 0x7f080081
 int drawable human 0x7f080082

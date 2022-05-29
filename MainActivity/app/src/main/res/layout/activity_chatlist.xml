@@ -49,7 +49,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="여기 위치"
-            android:textColor="@color/maintxtcolor"
+            android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -59,7 +59,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="음식이름채팅"
-            android:textColor="@color/maintxtcolor"
+            android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold" />
     </LinearLayout>
@@ -76,7 +76,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/toolbar4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/toolbar4"
-        app:srcCompat="@drawable/back" />
+        app:srcCompat="@drawable/backwhite" />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -90,6 +90,6 @@
         app:layout_constraintBottom_toBottomOf="@+id/toolbar4"
         app:layout_constraintEnd_toEndOf="@+id/toolbar4"
         app:layout_constraintTop_toTopOf="@+id/toolbar4"
-        app:srcCompat="@drawable/createchat" />
+        app:srcCompat="@drawable/chatwhite" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
