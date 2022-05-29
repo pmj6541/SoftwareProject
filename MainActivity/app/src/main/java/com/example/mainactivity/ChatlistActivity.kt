@@ -1,5 +1,6 @@
 package com.example.mainactivity
 
+import android.content.Intent
 import android.os.Bundle
 import android.renderscript.Sampler
 import android.util.Log
@@ -28,7 +29,7 @@ class ChatlistActivity : AppCompatActivity() {
         val curUser:User = intent.getSerializableExtra("curUser") as User
         setContentView(binding.root)
 
-        val title_array = ArrayList<String>()
+        val id_array = ArrayList<String>()
         val chatRVAdapter = ChatRVAdapter(chatrooms)
 
         database.child("chattingrooms").addValueEventListener(object : ValueEventListener {
@@ -38,10 +39,9 @@ class ChatlistActivity : AppCompatActivity() {
                 for(data in dataSnapshot.children){
                     val modelResult = data.getValue(ChattingRoom::class.java)
                     if(curUser.menu == modelResult?.menu && curUser.location == modelResult?.location){
-                        title_array.add(modelResult?.title.toString())
                         if (modelResult != null) {
                             chatrooms.add(modelResult)
-                            Log.d("MainActivity",modelResult.title)
+                            id_array.add(data.key.toString())
                         }
                     }
 
@@ -59,9 +59,19 @@ class ChatlistActivity : AppCompatActivity() {
         binding.lstUser.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
 
         chatRVAdapter.setMyItemClickListener(object: ChatRVAdapter.MyItemClickListener{
-            override fun onItemClick() {
+            override fun onItemClick(position : Int) {
+                val entChattingRoom = chatrooms[position]
+                val roomID = id_array[position]
+                goNextActivity(entChattingRoom,roomID)
             }
         })
 
+    }
+
+    private fun goNextActivity(entChattingRoom: ChattingRoom,roomID: String){
+        val intent : Intent = Intent(this,ChattingActivity::class.java)
+        intent.putExtra("chattingroom",entChattingRoom)
+        intent.putExtra("roomID",roomID)
+        startActivity(intent)
     }
 }

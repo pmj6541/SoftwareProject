@@ -38,6 +38,7 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chat_rv"
         android:layout_width="409dp"
         android:layout_height="625dp"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName3"

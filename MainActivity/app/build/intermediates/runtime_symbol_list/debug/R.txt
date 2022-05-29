@@ -2847,6 +2847,7 @@ int id chain2 0x7f090079
 int id chains 0x7f09007a
 int id chat_item_imageview 0x7f09007b
 int id chat_item_textview_lastmessage 0x7f09007c
+int id chat_rv 0x7f090259
 int id chat_textview_title 0x7f09007d
 int id checkbox 0x7f09007e
 int id checked 0x7f09007f

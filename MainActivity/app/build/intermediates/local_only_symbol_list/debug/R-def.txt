@@ -41,6 +41,7 @@ id button2
 id button3
 id chat_item_imageview
 id chat_item_textview_lastmessage
+id chat_rv
 id chat_textview_title
 id createchatbtn
 id curuserTv

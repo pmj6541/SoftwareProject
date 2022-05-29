@@ -9,12 +9,13 @@ import com.example.mainactivity.databinding.ItemViewBinding
 class ChatRVAdapter(private var chatrooms: ArrayList<ChattingRoom>): RecyclerView.Adapter<ChatRVAdapter.ViewHolder>() {
 
     interface MyItemClickListener{
-        fun onItemClick()
+        fun onItemClick(position : Int)
     }
 
     private lateinit var mItemClickListener: MyItemClickListener
     fun setMyItemClickListener(itemClickListener: MyItemClickListener){
         mItemClickListener = itemClickListener
+
     }
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, viewType: Int): ChatRVAdapter.ViewHolder {
@@ -25,7 +26,7 @@ class ChatRVAdapter(private var chatrooms: ArrayList<ChattingRoom>): RecyclerVie
 
     override fun onBindViewHolder(holder: ChatRVAdapter.ViewHolder, position: Int) {
         holder.bind(chatrooms[position])
-        holder.itemView.setOnClickListener{mItemClickListener.onItemClick() }
+        holder.itemView.setOnClickListener{mItemClickListener.onItemClick(position) }
 
     }
 

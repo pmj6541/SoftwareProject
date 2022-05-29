@@ -1,5 +1,6 @@
 package com.example.mainactivity
 
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,9 +12,8 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
-class MultiRVAdapter(private var chatroom: ChattingRoom): RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+class MultiRVAdapter(private var chat: ArrayList<Chat>): RecyclerView.Adapter<MultiRVAdapter.ViewHolder>() {
     private var firebaseAuth : FirebaseAuth? = null
-    val list = chatroom.msg
 
     interface MyItemClickListener{
         fun onItemClick()
@@ -24,46 +24,60 @@ class MultiRVAdapter(private var chatroom: ChattingRoom): RecyclerView.Adapter<R
         mItemClickListener = itemClickListener
     }
 
-    override fun onCreateViewHolder(viewGroup: ViewGroup, viewType: Int): MultiRVAdapter.RightTypeViewHolder {
+    override fun onCreateViewHolder(viewGroup: ViewGroup, viewType: Int): MultiRVAdapter.ViewHolder {
         val view: View?
         firebaseAuth = Firebase.auth
-        if(firebaseAuth?.currentUser?.uid.toString() == chatroom.msgUserUID[0]) {
-            val binding: ItemRightchatBinding = ItemRightchatBinding.inflate(LayoutInflater.from(viewGroup.context), viewGroup, false)
-            return RightTypeViewHolder(binding)
-        } else {
-            val binding: ItemRightchatBinding = ItemRightchatBinding.inflate(LayoutInflater.from(viewGroup.context), viewGroup, false)
-            return RightTypeViewHolder(binding)
-        }
+        val binding: ItemRightchatBinding = ItemRightchatBinding.inflate(LayoutInflater.from(viewGroup.context), viewGroup, false)
+
+        return ViewHolder(binding)
+//        if(firebaseAuth?.currentUser?.uid.toString() == chat[0].msgUserUID) {
+//            val binding: ItemRightchatBinding = ItemRightchatBinding.inflate(LayoutInflater.from(viewGroup.context), viewGroup, false)
+//            return ViewHolder(binding)
+//        } else {
+//            val binding: ItemRightchatBinding = ItemRightchatBinding.inflate(LayoutInflater.from(viewGroup.context), viewGroup, false)
+//            return ViewHolder(binding)
+//        }
     }
 
-    fun onBindViewHolder(holder: MultiRVAdapter.RightTypeViewHolder, position: Int) {
-        firebaseAuth = Firebase.auth
-        if(firebaseAuth?.currentUser?.uid.toString() == chatroom.msgUserUID[0]) {
-            holder.bind(chatroom)
-            holder.itemView.setOnClickListener{mItemClickListener.onItemClick()}
 
-        } else {
+//    fun onBindViewHolder(holder: MultiRVAdapter.RightTypeViewHolder, position: Int) {
+//        firebaseAuth = Firebase.auth
+//        if(firebaseAuth?.currentUser?.uid.toString() == chat[0].msgUserUID) {
+//            holder.bind(chat[position])
+//            holder.itemView.setOnClickListener{mItemClickListener.onItemClick()}
+//        } else {
+//            holder.bind(chat[position])
+//            holder.itemView.setOnClickListener{mItemClickListener.onItemClick()}
+//        }
+//    }
 
-        }
-    }
 
-    override fun getItemCount(): Int {
-        return list.size
-    }
 
     inner class RightTypeViewHolder(val binding: ItemRightchatBinding) : RecyclerView.ViewHolder(binding.root) {
-        fun bind(chatroom: ChattingRoom) {
-            binding.rightchatTextviewMsg.text = chatroom.msg[0]
-            binding.rightchatTextviewTime.text = chatroom.msgTimeStamp[0]
+        fun bind(chat: Chat) {
+            binding.rightchatTextviewMsg.text = chat.msg
+            binding.rightchatTextviewTime.text = chat.msgTimeStamp
         }
 
     }
     inner class LeftTypeViewHolder(val binding: ItemLeftchatBinding) : RecyclerView.ViewHolder(binding.root) {
     }
 
-    override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
-        TODO("Not yet implemented")
+    override fun onBindViewHolder(holder: MultiRVAdapter.ViewHolder, position: Int) {
+        holder.bind(chat[position])
+        holder.itemView.setOnClickListener{mItemClickListener.onItemClick()}
     }
+
+    override fun getItemCount(): Int = chat.size
+
+
+    inner class ViewHolder(val binding: ItemRightchatBinding): RecyclerView.ViewHolder(binding.root){
+        fun bind(chat: Chat) {
+            binding.rightchatTextviewMsg.text = chat.msg
+            binding.rightchatTextviewTime.text = chat.msgTimeStamp
+        }
+    }
+
 
 
 }
