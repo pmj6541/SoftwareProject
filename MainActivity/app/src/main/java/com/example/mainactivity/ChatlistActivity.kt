@@ -62,16 +62,17 @@ class ChatlistActivity : AppCompatActivity() {
             override fun onItemClick(position : Int) {
                 val entChattingRoom = chatrooms[position]
                 val roomID = id_array[position]
-                goNextActivity(entChattingRoom,roomID)
+                goNextActivity(entChattingRoom,roomID,curUser)
             }
         })
 
     }
 
-    private fun goNextActivity(entChattingRoom: ChattingRoom,roomID: String){
+    private fun goNextActivity(entChattingRoom: ChattingRoom,roomID: String, curUser: User){
         val intent : Intent = Intent(this,ChattingActivity::class.java)
         intent.putExtra("chattingroom",entChattingRoom)
         intent.putExtra("roomID",roomID)
+        intent.putExtra("curUser",curUser)
         startActivity(intent)
     }
 }
