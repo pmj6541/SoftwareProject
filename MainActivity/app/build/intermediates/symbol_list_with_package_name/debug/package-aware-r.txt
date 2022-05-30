@@ -2622,6 +2622,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable japanese
 drawable korean
+drawable leftbubble
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2714,6 +2715,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable pigleg
 drawable pizza
+drawable rightbubble
 drawable searchview_background
 drawable snack
 drawable solid_btn
@@ -2846,10 +2848,12 @@ id center_vertical
 id chain
 id chain2
 id chains
-id chat_item_imageview
 id chat_item_textview_lastmessage
 id chat_rv
+id chat_textview_name
 id chat_textview_title
+id chatitem_linearlayout_main
+id chatitem_linearlayout_sub
 id checkbox
 id checked
 id chip
