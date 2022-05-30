@@ -1,17 +1,10 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
             "outputFile": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
                     "source": "/Users/minjunpark/.gradle/caches/transforms-3/4eeb40118484bb845363005cdd95190e/transformed/appcompat-1.4.1/res/values-v24/values-v24.xml",
-=======
-            "outputFile": "C:\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Shin Minseok\\.gradle\\caches\\transforms-3\\4eeb40118484bb845363005cdd95190e\\transformed\\appcompat-1.4.1\\res\\values-v24\\values-v24.xml",
->>>>>>> left&rightChat
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -21,11 +14,7 @@
                     }
                 },
                 {
-<<<<<<< HEAD
                     "source": "/Users/minjunpark/.gradle/caches/transforms-3/aa3d217346672714dc072c1ef6fb054c/transformed/media-1.0.0/res/values-v24/values-v24.xml",
-=======
-                    "source": "C:\\Users\\Shin Minseok\\.gradle\\caches\\transforms-3\\aa3d217346672714dc072c1ef6fb054c\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
->>>>>>> left&rightChat
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -42,11 +31,7 @@
                     }
                 },
                 {
-<<<<<<< HEAD
                     "source": "/Users/minjunpark/.gradle/caches/transforms-3/6dbbf5ebc631aab98330b6c698deb98d/transformed/material-1.5.0/res/values-v24/values-v24.xml",
-=======
-                    "source": "C:\\Users\\Shin Minseok\\.gradle\\caches\\transforms-3\\6dbbf5ebc631aab98330b6c698deb98d\\transformed\\material-1.5.0\\res\\values-v24\\values-v24.xml",
->>>>>>> left&rightChat
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",
