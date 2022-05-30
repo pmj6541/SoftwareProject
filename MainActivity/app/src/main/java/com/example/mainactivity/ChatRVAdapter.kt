@@ -36,9 +36,7 @@ class ChatRVAdapter(private var chatrooms: ArrayList<ChattingRoom>): RecyclerVie
         fun bind(chatroom: ChattingRoom){
             binding.titleTv.text = chatroom.title
             binding.fullcountTv.text = chatroom.fullCount.toString()
-            binding.locationTv.text = chatroom.location
             binding.curuserTv.text = chatroom.usersUID.count().toString()
-            binding.menuTv.text = chatroom.menu
             binding.lastchatTv.text = chatroom.msg[0]
         }
 

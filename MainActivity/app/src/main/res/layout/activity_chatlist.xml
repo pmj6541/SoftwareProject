@@ -20,13 +20,12 @@
         android:id="@+id/lstUser"
         android:layout_width="359dp"
         android:layout_height="614dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
         android:orientation="vertical"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar4"
         tools:listitem="@layout/item_clview"
@@ -50,8 +49,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="여기 위치"
-            android:textColor="@color/maintxtcolor"
-            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <TextView
@@ -60,32 +59,37 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="음식이름채팅"
-            android:textColor="@color/maintxtcolor"
-            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
             android:textStyle="bold" />
     </LinearLayout>
 
     <ImageButton
         android:id="@+id/backbtn"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="16dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:adjustViewBounds="true"
         android:background="@color/transparent"
+        android:scaleType="fitCenter"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/toolbar4"
-        app:srcCompat="@drawable/back" />
+        app:srcCompat="@drawable/backwhite" />
 
     <ImageButton
         android:id="@+id/imageButton2"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginEnd="10dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:background="@color/transparent"
         android:visibility="visible"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_marginRight="10dp"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar4"
         app:layout_constraintEnd_toEndOf="@+id/toolbar4"
         app:layout_constraintTop_toTopOf="@+id/toolbar4"
-        app:srcCompat="@drawable/createchat" />
+        app:srcCompat="@drawable/chatwhite" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

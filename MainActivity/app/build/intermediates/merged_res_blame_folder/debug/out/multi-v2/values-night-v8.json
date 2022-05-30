@@ -1,6 +1,7 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
@@ -22,6 +23,12 @@
                 },
                 {
                     "source": "/Users/minjunpark/.gradle/caches/transforms-3/4eeb40118484bb845363005cdd95190e/transformed/appcompat-1.4.1/res/values-night-v8/values-night-v8.xml",
+=======
+            "outputFile": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/Users/lim-youngjun/.gradle/caches/transforms-3/4eeb40118484bb845363005cdd95190e/transformed/appcompat-1.4.1/res/values-night-v8/values-night-v8.xml",
+>>>>>>> 유아이222
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -38,7 +45,30 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "source": "/Users/minjunpark/SoftwareProject/MainActivity/app/src/main/res/values-night/themes.xml",
+=======
+                    "source": "/Users/lim-youngjun/.gradle/caches/transforms-3/6dbbf5ebc631aab98330b6c698deb98d/transformed/material-1.5.0/res/values-night-v8/values-night-v8.xml",
+>>>>>>> 유아이222
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "15",
+                        "endColumns": "12",
+                        "endOffsets": "822"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "732",
+                        "endLines": "22",
+                        "endColumns": "12",
+                        "endOffsets": "1452"
+                    }
+                },
+                {
+                    "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/values-night/themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
