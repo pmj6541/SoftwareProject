@@ -51,7 +51,7 @@ class ChattingActivity : AppCompatActivity() {
             tmpChat.add(editText.text.toString())
             Log.v("MainActivity","tmpChat : "+tmpChat.size.toString())
             tmpTimeStamp.add(timeStamp)
-            tmpUserUID.add(curUser.Id)
+            tmpUserUID.add(FirebaseAuth.getInstance().currentUser!!.uid)
             database.child("chattingrooms/$roomID/msg").setValue(tmpChat)
             database.child("chattingrooms/$roomID/msgTimeStamp").setValue(tmpTimeStamp)
             database.child("chattingrooms/$roomID/msgUserUID").setValue(tmpUserUID)
@@ -68,18 +68,18 @@ class ChattingActivity : AppCompatActivity() {
             }
             override fun onDataChange(dataSnapshot: DataSnapshot){
                 talk.clear()
+                tmpChat.clear()
+                tmpTimeStamp.clear()
+                tmpUserUID.clear()
                 for(data in dataSnapshot.children){
                     if(data.key.toString() == roomID){
                         var modelResult = data.getValue(ChattingRoom::class.java)
                         chatSize = modelResult!!.msgUserUID.size
                         Log.v("MainActivity","modelResult.msg size : "+modelResult.msg.size)
-
                         for(i in 0..modelResult!!.msgUserUID.size-1){
-                            if(start){
-                                tmpChat.add(modelResult.msg[i])
-                                tmpTimeStamp.add(modelResult.msgTimeStamp[i])
-                                tmpUserUID.add(modelResult.msgUserUID[i])
-                            }
+                            tmpChat.add(modelResult.msg[i])
+                            tmpTimeStamp.add(modelResult.msgTimeStamp[i])
+                            tmpUserUID.add(modelResult.msgUserUID[i])
                             talk.add(Chat(modelResult.msg[i],modelResult.msgTimeStamp[i],modelResult.msgUserUID[i]))
                             Log.v("MainActivity","${i} `번째 tmpChat: "+ tmpChat.toString())
 

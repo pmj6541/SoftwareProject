@@ -36,6 +36,7 @@ class ChatlistActivity : AppCompatActivity() {
             override fun onCancelled(error: DatabaseError) {
             }
             override fun onDataChange(dataSnapshot: DataSnapshot){
+                chatrooms.clear()
                 for(data in dataSnapshot.children){
                     val modelResult = data.getValue(ChattingRoom::class.java)
                     if(curUser.menu == modelResult?.menu && curUser.location == modelResult?.location){

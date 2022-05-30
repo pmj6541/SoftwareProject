@@ -44,8 +44,8 @@ class MultiRVAdapter(private var chat: ArrayList<Chat>): RecyclerView.Adapter<Mu
 //            holder.textView_message.setBackgroundResource(R.drawable.leftbubble)
             holder.textView_name.text = chat[position].msgUserUID
             holder.textView_name.visibility = View.INVISIBLE
-            holder.layout_main.gravity = Gravity.RIGHT
-            holder.layout_sub.gravity = Gravity.RIGHT
+            holder.layout_main.gravity = Gravity.LEFT
+            holder.layout_sub.gravity = Gravity.LEFT
         }
     }
 
