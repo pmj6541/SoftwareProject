@@ -14,6 +14,7 @@ MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/lim-youngjun/.gradle/cac
 MERGED from [com.google.firebase:firebase-auth-ktx:21.0.3] /Users/lim-youngjun/.gradle/caches/transforms-3/28ca9e3509e6d5a787f6e5252e0ec75d/transformed/jetified-firebase-auth-ktx-21.0.3/AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/lim-youngjun/.gradle/caches/transforms-3/be52bbb4baa09b80fc981bcd80ea4094/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:17:1-44:12
 MERGED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/lim-youngjun/.gradle/caches/transforms-3/6b059b7b27c00a96c1d4e6ce7ad60d49/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:2:1-21:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/lim-youngjun/.gradle/caches/transforms-3/df4236c5cb23280f442bebafb2d2a91d/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:2:1-11:12
 MERGED from [com.naver.maps:geometry:1.2.0] /Users/lim-youngjun/.gradle/caches/transforms-3/abdb7c95b162f448e4449047096c8ee8/transformed/jetified-geometry-1.2.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/lim-youngjun/.gradle/caches/transforms-3/223162de48d8e092cbe6975ea52eaab8/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/lim-youngjun/.gradle/caches/transforms-3/562b9290acc1e28c6e6c0952b77c249b/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
@@ -138,6 +139,8 @@ MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/lim-youngj
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/lim-youngjun/.gradle/caches/transforms-3/be52bbb4baa09b80fc981bcd80ea4094/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:36:5-42:19
 MERGED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/lim-youngjun/.gradle/caches/transforms-3/6b059b7b27c00a96c1d4e6ce7ad60d49/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:11:5-19:19
 MERGED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/lim-youngjun/.gradle/caches/transforms-3/6b059b7b27c00a96c1d4e6ce7ad60d49/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:11:5-19:19
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/lim-youngjun/.gradle/caches/transforms-3/df4236c5cb23280f442bebafb2d2a91d/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/lim-youngjun/.gradle/caches/transforms-3/df4236c5cb23280f442bebafb2d2a91d/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/lim-youngjun/.gradle/caches/transforms-3/e6e844413526fada5e9032600be5a3c8/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:26:5-71:19
 MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/lim-youngjun/.gradle/caches/transforms-3/e6e844413526fada5e9032600be5a3c8/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:26:5-71:19
 MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/lim-youngjun/.gradle/caches/transforms-3/cd301e393245cf1b523399836a7a9e1c/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:28:5-36:19
@@ -260,6 +263,8 @@ MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/lim-youngj
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/lim-youngjun/.gradle/caches/transforms-3/be52bbb4baa09b80fc981bcd80ea4094/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/lim-youngjun/.gradle/caches/transforms-3/6b059b7b27c00a96c1d4e6ce7ad60d49/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/lim-youngjun/.gradle/caches/transforms-3/6b059b7b27c00a96c1d4e6ce7ad60d49/transformed/jetified-firebase-database-ktx-20.0.5/AndroidManifest.xml:6:5-8:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/lim-youngjun/.gradle/caches/transforms-3/df4236c5cb23280f442bebafb2d2a91d/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/lim-youngjun/.gradle/caches/transforms-3/df4236c5cb23280f442bebafb2d2a91d/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.naver.maps:geometry:1.2.0] /Users/lim-youngjun/.gradle/caches/transforms-3/abdb7c95b162f448e4449047096c8ee8/transformed/jetified-geometry-1.2.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.naver.maps:geometry:1.2.0] /Users/lim-youngjun/.gradle/caches/transforms-3/abdb7c95b162f448e4449047096c8ee8/transformed/jetified-geometry-1.2.0/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/lim-youngjun/.gradle/caches/transforms-3/223162de48d8e092cbe6975ea52eaab8/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
