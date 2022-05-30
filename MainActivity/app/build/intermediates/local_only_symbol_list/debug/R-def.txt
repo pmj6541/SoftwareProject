@@ -3,6 +3,7 @@ local
 array spinnerArray
 color black
 color brightGreen
+color darkgray
 color gray
 color maincolor
 color maintxtcolor
@@ -14,11 +15,14 @@ color teal_700
 color transparent
 color white
 drawable back
+drawable backwhite
+drawable chatwhite
 drawable chicken
 drawable chinese
 drawable createchat
 drawable dessert
 drawable edittext_rounded_corner_rectangle
+drawable graysolid_btn
 drawable group
 drawable hamburger
 drawable human
@@ -26,9 +30,11 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable japanese
 drawable korean
+drawable leftbubble
 drawable moissu
 drawable pigleg
 drawable pizza
+drawable rightbubble
 drawable searchview_background
 drawable snack
 drawable solid_btn
@@ -39,9 +45,13 @@ id but_login
 id button
 id button2
 id button3
-id chat_item_imageview
 id chat_item_textview_lastmessage
+id chat_rv
+id chat_textview_name
 id chat_textview_title
+id chatitem_linearlayout_main
+id chatitem_linearlayout_sub
+id chatname
 id createchatbtn
 id curuserTv
 id editTextEmail
@@ -74,7 +84,6 @@ id linearLayout3
 id linearLayout4
 id linearLayout5
 id location
-id locationTv
 id lstUser
 id map
 id menuTv

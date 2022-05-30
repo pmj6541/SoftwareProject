@@ -1333,6 +1333,7 @@ color common_google_signin_btn_text_light_disabled
 color common_google_signin_btn_text_light_focused
 color common_google_signin_btn_text_light_pressed
 color common_google_signin_btn_tint
+color darkgray
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -2567,6 +2568,7 @@ drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
 drawable back
+drawable backwhite
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2575,6 +2577,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable chatwhite
 drawable chicken
 drawable chinese
 drawable common_full_open_on_phone
@@ -2606,6 +2609,7 @@ drawable dessert
 drawable edittext_rounded_corner_rectangle
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable graysolid_btn
 drawable group
 drawable hamburger
 drawable human
@@ -2622,6 +2626,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable japanese
 drawable korean
+drawable leftbubble
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2714,6 +2719,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable pigleg
 drawable pizza
+drawable rightbubble
 drawable searchview_background
 drawable snack
 drawable solid_btn
@@ -2846,9 +2852,13 @@ id center_vertical
 id chain
 id chain2
 id chains
-id chat_item_imageview
 id chat_item_textview_lastmessage
+id chat_rv
+id chat_textview_name
 id chat_textview_title
+id chatitem_linearlayout_main
+id chatitem_linearlayout_sub
+id chatname
 id checkbox
 id checked
 id chip
@@ -3014,7 +3024,6 @@ id linearLayout5
 id listMode
 id list_item
 id location
-id locationTv
 id lstUser
 id map
 id masked

@@ -5,45 +5,15 @@
     android:layout_margin="5dp"
     android:layout_marginBottom="5dp"
     android:orientation="vertical"
-    android:background="@drawable/textlines">
+   >
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"
-        android:padding="5dp">
 
-        <LinearLayout
-            android:layout_width="75dp"
-            android:layout_height="75dp"
-            android:orientation="vertical"
-            android:layout_marginRight="5dp">
-
-            <TextView
-                android:id="@+id/locationTv"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:background="#EEEEFA"
-                android:layout_marginBottom="5dp"/>
-
-            <TextView
-                android:id="@+id/menuTv"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:background="#EEEEFA"/>
-
-        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/titleTv"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:background="#EEEEFA"/>
+            android:orientation="vertical"
+            android:background="#EEEEFA">
 
             <LinearLayout
                 android:layout_marginTop="5dp"
@@ -52,36 +22,56 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/lastchatTv"
-                    android:layout_width="140dp"
+                    android:id="@+id/titleTv"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:background="#EEEEFA"
-                    android:layout_marginRight="5dp"/>
+                    android:layout_marginStart="10dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="5dp"
+                    />
 
                 <TextView
                     android:id="@+id/curuserTv"
-                    android:layout_width="50dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:textSize="16sp"
                     android:background="#EEEEFA"
-                    android:layout_marginRight="5dp"/>
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="/"
+                    android:textSize="16sp"
+                    android:background="#EEEEFA"
+                    android:textStyle="bold"
+                    />
 
                 <TextView
                     android:id="@+id/fullcountTv"
-                    android:layout_width="50dp"
+                    android:layout_width="wrap_content"
+                    android:textSize="16sp"
                     android:layout_height="match_parent"
                     android:background="#EEEEFA"/>
 
             </LinearLayout>
 
+            <TextView
+                android:id="@+id/lastchatTv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:background="#EEEEFA"/>
+
+
+
 
         </LinearLayout>
 
 
-
-
-
-
-
     </LinearLayout>
 
-</LinearLayout>
