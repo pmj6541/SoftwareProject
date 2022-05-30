@@ -2856,12 +2856,9 @@ id chat_item_textview_lastmessage
 id chat_rv
 id chat_textview_name
 id chat_textview_title
-<<<<<<< HEAD
 id chatitem_linearlayout_main
 id chatitem_linearlayout_sub
-=======
 id chatname
->>>>>>> 유아이222
 id checkbox
 id checked
 id chip
