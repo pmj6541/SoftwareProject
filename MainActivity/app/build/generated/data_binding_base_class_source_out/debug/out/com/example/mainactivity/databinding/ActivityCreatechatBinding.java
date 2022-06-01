@@ -7,7 +7,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -18,6 +17,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.mainactivity.R;
+import de.hdodenhof.circleimageview.CircleImageView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -36,7 +36,7 @@ public final class ActivityCreatechatBinding implements ViewBinding {
   public final EditText editTextTextPersonName2;
 
   @NonNull
-  public final ImageView imageView;
+  public final CircleImageView imageView;
 
   @NonNull
   public final LinearLayout linearLayout4;
@@ -55,7 +55,7 @@ public final class ActivityCreatechatBinding implements ViewBinding {
 
   private ActivityCreatechatBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageButton backbtn, @NonNull Button button,
-      @NonNull EditText editTextTextPersonName2, @NonNull ImageView imageView,
+      @NonNull EditText editTextTextPersonName2, @NonNull CircleImageView imageView,
       @NonNull LinearLayout linearLayout4, @NonNull Spinner spinner, @NonNull Spinner spinner2,
       @NonNull TextView textView9, @NonNull Toolbar toolbar2) {
     this.rootView = rootView;
@@ -116,7 +116,7 @@ public final class ActivityCreatechatBinding implements ViewBinding {
       }
 
       id = R.id.imageView;
-      ImageView imageView = ViewBindings.findChildViewById(rootView, id);
+      CircleImageView imageView = ViewBindings.findChildViewById(rootView, id);
       if (imageView == null) {
         break missingId;
       }

@@ -3,8 +3,10 @@ local
 array spinnerArray
 color black
 color brightGreen
+color chatbackground
 color darkgray
 color gray
+color ic_moissu_background
 color maincolor
 color maintxtcolor
 color purple_200
@@ -32,6 +34,7 @@ drawable japanese
 drawable korean
 drawable leftbubble
 drawable moissu
+drawable moissusplash
 drawable pigleg
 drawable pizza
 drawable rightbubble
@@ -138,6 +141,9 @@ layout item_rightchat
 layout item_view
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap ic_moissu
+mipmap ic_moissu_foreground
+mipmap ic_moissu_round
 string app_name
 string default_web_client_id
 string gcm_defaultSenderId

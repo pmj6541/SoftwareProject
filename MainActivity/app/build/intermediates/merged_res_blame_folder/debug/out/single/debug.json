@@ -1,7 +1,24 @@
 [
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_chatwhite.png.flat",
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\chatwhite.png"
+=======
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_moissu.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-mdpi/ic_moissu.png"
+    },
+    {
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_moissu.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-xhdpi/ic_moissu.png"
+    },
+    {
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_moissu_round.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-xhdpi/ic_moissu_round.png"
+    },
+    {
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
+>>>>>>> 유아이222
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
@@ -32,16 +49,38 @@
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\pizza.jpeg"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+=======
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_moissu_round.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-mdpi/ic_moissu_round.png"
+    },
+    {
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_moissusplash.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/moissusplash.png"
+    },
+    {
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
+>>>>>>> 유아이222
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_menu.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_menu.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_rightbubble.png.flat",
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable-v24\\rightbubble.png"
+=======
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_moissu_foreground.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-xxhdpi/ic_moissu_foreground.png"
+    },
+    {
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/layout_item_leftchat.xml.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/item_leftchat.xml"
+>>>>>>> 유아이222
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_item_view.xml.flat",
@@ -60,12 +99,21 @@
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable-v24\\textlines.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_chatlist.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_chatlist.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_createchat.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_createchat.xml"
+=======
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_moissu_foreground.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-hdpi/ic_moissu_foreground.png"
+    },
+    {
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_group.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/group.png"
+>>>>>>> 유아이222
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_splash.xml.flat",
@@ -84,28 +132,71 @@
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\korean.jpeg"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+=======
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_moissu_foreground.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-xhdpi/ic_moissu_foreground.png"
+    },
+    {
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
+>>>>>>> 유아이222
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_map.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_map.xml"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_pigleg.jpeg.flat",
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\pigleg.jpeg"
+=======
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_moissu_round.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-xxhdpi/ic_moissu_round.png"
+    },
+    {
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_moissu.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-xxxhdpi/ic_moissu.png"
+    },
+    {
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_moissu_foreground.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-xxxhdpi/ic_moissu_foreground.png"
+    },
+    {
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/layout_activity_map.xml.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/activity_map.xml"
+    },
+    {
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_moissu_round.xml.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-anydpi-v26/ic_moissu_round.xml"
+    },
+    {
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_solid_btn.xml.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/solid_btn.xml"
+>>>>>>> 유아이222
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_item_clview.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\item_clview.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+=======
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_chinese.jpeg.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/chinese.jpeg"
+    },
+    {
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/ic_launcher_background.xml"
+>>>>>>> 유아이222
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_back.png.flat",
@@ -116,20 +207,42 @@
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_home.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_chicken.jpeg.flat",
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\chicken.jpeg"
+=======
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_moissu_round.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-xxxhdpi/ic_moissu_round.png"
+    },
+    {
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
+>>>>>>> 유아이222
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_item_rightchat.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\item_rightchat.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_moissu.PNG.flat",
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\moissu.PNG"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+=======
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_moissu_round.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-hdpi/ic_moissu_round.png"
+    },
+    {
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_japanese.jpeg.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/japanese.jpeg"
+    },
+    {
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/layout_activity_chatting.xml.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/activity_chatting.xml"
+>>>>>>> 유아이222
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_group.png.flat",
@@ -140,12 +253,33 @@
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\snack.png"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_leftbubble.png.flat",
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable-v24\\leftbubble.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_item_chat.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\item_chat.xml"
+=======
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_moissu.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-xxhdpi/ic_moissu.png"
+    },
+    {
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_moissu_foreground.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-mdpi/ic_moissu_foreground.png"
+    },
+    {
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_dessert.webp.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/dessert.webp"
+    },
+    {
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/layout_activity_chatlist.xml.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/activity_chatlist.xml"
+>>>>>>> 유아이222
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_hamburger.jpeg.flat",
@@ -168,12 +302,25 @@
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_signup.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_createchat.png.flat",
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\createchat.png"
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_dessert.jpeg.flat",
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\dessert.jpeg"
+=======
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_moissu.xml.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-anydpi-v26/ic_moissu.xml"
+    },
+    {
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_moissu.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-hdpi/ic_moissu.png"
+    },
+    {
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/layout_activity_signup.xml.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/activity_signup.xml"
+>>>>>>> 유아이222
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_chinese.png.flat",
@@ -192,8 +339,13 @@
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\item_leftchat.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_solid_btn.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\solid_btn.xml"
+=======
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_snack.jpeg.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/snack.jpeg"
+>>>>>>> 유아이222
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
