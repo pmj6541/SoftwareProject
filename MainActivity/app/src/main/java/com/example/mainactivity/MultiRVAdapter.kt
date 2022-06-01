@@ -1,5 +1,6 @@
 package com.example.mainactivity
 
+import android.util.Log
 import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
@@ -9,10 +10,15 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
+import com.google.firebase.database.DataSnapshot
+import com.google.firebase.database.DatabaseError
+import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.database.ValueEventListener
 import com.google.firebase.ktx.Firebase
 
 class MultiRVAdapter(private var chat: ArrayList<Chat>): RecyclerView.Adapter<MultiRVAdapter.ChatViewHolder>() {
     private var firebaseAuth : FirebaseAuth? = null
+    private val database = FirebaseDatabase.getInstance().getReference()
 
     interface MyItemClickListener{
         fun onItemClick()
@@ -33,6 +39,25 @@ class MultiRVAdapter(private var chat: ArrayList<Chat>): RecyclerView.Adapter<Mu
     override fun onBindViewHolder(holder: MultiRVAdapter.ChatViewHolder, position: Int) {
         holder.textView_message.text = chat[position].msg
         holder.textView_time.text = chat[position].msgTimeStamp
+        val userUID = chat[position].msgUserUID
+        var userName = ""
+        database.child("users/$userUID/name").addValueEventListener(object : ValueEventListener{
+            override fun onCancelled(error: DatabaseError) {
+                TODO("Not yet implemented")
+            }
+
+            override fun onDataChange(snapshot: DataSnapshot) {
+                val modelResult = snapshot.getValue(String::class.java)
+                if(modelResult == null){
+                    userName = "(unknown)"
+                }else{
+                    userName = modelResult.toString()
+                }
+
+                Log.v("MainActivity",userName)
+                holder.textView_name.text = userName
+            }
+        })
         firebaseAuth = Firebase.auth
         if(firebaseAuth?.currentUser?.uid.toString() == chat[position].msgUserUID) {
 //            holder.textView_message.setBackgroundResource(R.drawable.rightbubble)
@@ -42,8 +67,6 @@ class MultiRVAdapter(private var chat: ArrayList<Chat>): RecyclerView.Adapter<Mu
         } else {
             holder.textView_message.setBackgroundColor(R.color.purple_200)
 //            holder.textView_message.setBackgroundResource(R.drawable.leftbubble)
-            holder.textView_name.text = chat[position].msgUserUID
-            holder.textView_name.visibility = View.INVISIBLE
             holder.layout_main.gravity = Gravity.LEFT
             holder.layout_sub.gravity = Gravity.LEFT
         }
