@@ -160,7 +160,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
 
         marker1.setOnClickListener {
             boolTester = true
-            btn.setBackgroundColor(Color.parseColor("#884bfa"))
+            btn.setBackgroundColor(Color.parseColor("#fd9f0a"))
             infoWindow.open(marker1)
             curUser = addLocationInfo(curUser, marker1.tag as String)
             true
@@ -168,7 +168,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
 
         marker2.setOnClickListener {
             boolTester = true
-            btn.setBackgroundColor(Color.parseColor("#884bfa"))
+            btn.setBackgroundColor(Color.parseColor("#fd9f0a"))
             infoWindow.open(marker2)
             curUser = addLocationInfo(curUser, marker2.tag as String)
             true
@@ -176,7 +176,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
 
         marker3.setOnClickListener {
             boolTester = true
-            btn.setBackgroundColor(Color.parseColor("#884bfa"))
+            btn.setBackgroundColor(Color.parseColor("#fd9f0a"))
             infoWindow.open(marker3)
             curUser = addLocationInfo(curUser, marker3.tag as String)
             true
@@ -184,7 +184,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
 
         marker4.setOnClickListener {
             boolTester = true
-            btn.setBackgroundColor(Color.parseColor("#884bfa"))
+            btn.setBackgroundColor(Color.parseColor("#fd9f0a"))
             infoWindow.open(marker4)
             curUser = addLocationInfo(curUser, marker4.tag as String)
             true
@@ -192,7 +192,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
 
         marker5.setOnClickListener {
             boolTester = true
-            btn.setBackgroundColor(Color.parseColor("#884bfa"))
+            btn.setBackgroundColor(Color.parseColor("#fd9f0a"))
             infoWindow.open(marker5)
             curUser = addLocationInfo(curUser, marker5.tag as String)
             true
@@ -200,7 +200,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
 
         marker6.setOnClickListener {
             boolTester = true
-            btn.setBackgroundColor(Color.parseColor("#884bfa"))
+            btn.setBackgroundColor(Color.parseColor("#fd9f0a"))
             infoWindow.open(marker6)
             curUser = addLocationInfo(curUser, marker6.tag as String)
             true
@@ -208,7 +208,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
 
         marker7.setOnClickListener {
             boolTester = true
-            btn.setBackgroundColor(Color.parseColor("#884bfa"))
+            btn.setBackgroundColor(Color.parseColor("#fd9f0a"))
             infoWindow.open(marker7)
             curUser = addLocationInfo(curUser, marker7.tag as String)
             true

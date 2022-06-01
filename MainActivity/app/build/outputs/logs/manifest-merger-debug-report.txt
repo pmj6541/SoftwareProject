@@ -182,7 +182,7 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/lim-youngjun/.gradle
 	android:roundIcon
 		ADDED from /Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/AndroidManifest.xml:14:9-54
 	android:icon
-		ADDED from /Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/AndroidManifest.xml:12:9-43
+		ADDED from /Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/AndroidManifest.xml:12:9-41
 	android:allowBackup
 		ADDED from /Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/AndroidManifest.xml:11:9-35
 	android:theme

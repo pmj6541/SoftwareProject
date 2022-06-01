@@ -59,6 +59,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_marginBottom="30dp"
             android:layout_weight="1"
             android:orientation="horizontal">
 
@@ -78,7 +79,7 @@
                     android:src="@drawable/chicken"
                     app:civ_border_color="#ffffff"
                     app:civ_border_overlay="true"
-                    app:civ_border_width="5dp" />
+                    app:civ_border_width="0dp" />
 
                 <TextView
                     android:id="@+id/textView00"
@@ -103,24 +104,24 @@
                     android:layout_width="wrap_content"
                     android:layout_height="0dp"
                     android:layout_gravity="center"
-                    android:background="@android:color/transparent"
-                    app:civ_border_overlay="true"
-                    app:civ_border_width="5dp"
-                    app:civ_border_color="#ffffff"
                     android:layout_weight="6"
-
+                    android:background="@android:color/transparent"
                     android:src="@drawable/pizza"
-                    />
+                    app:civ_border_color="#ffffff"
+                    app:civ_border_overlay="true"
+
+                    app:civ_border_width="0dp" />
+
                 <TextView
                     android:id="@+id/textView01"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:textSize="15dp"
-                    android:textColor="@color/black"
                     android:gravity="center_horizontal"
-                    android:textStyle="bold"
-                    android:text="피자" />
+                    android:text="피자"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
@@ -139,23 +140,25 @@
                     android:src="@drawable/hamburger"
                     app:civ_border_color="#ffffff"
                     app:civ_border_overlay="true"
-                    app:civ_border_width="5dp" />
+                    app:civ_border_width="0dp" />
+
                 <TextView
                     android:id="@+id/textView02"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:textColor="@color/black"
                     android:gravity="center_horizontal"
+                    android:text="햄버거"
+                    android:textColor="@color/black"
                     android:textSize="15dp"
-                    android:textStyle="bold"
-                    android:text="햄버거" />
+                    android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_marginBottom="30dp"
             android:layout_weight="1"
             android:orientation="horizontal">
 
@@ -172,11 +175,10 @@
                     android:layout_gravity="center"
                     android:layout_weight="6"
                     android:background="@android:color/transparent"
-                    app:civ_border_overlay="true"
-                    app:civ_border_width="5dp"
-                    app:civ_border_color="#ffffff"
                     android:src="@drawable/korean"
-                    />
+                    app:civ_border_color="#ffffff"
+                    app:civ_border_overlay="true"
+                    app:civ_border_width="0dp" />
 
 
                 <TextView
@@ -185,10 +187,10 @@
                     android:layout_height="0dp"
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
-                    android:textStyle="bold"
+                    android:text="한식"
                     android:textColor="@color/black"
                     android:textSize="15dp"
-                    android:text="한식" />
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
@@ -201,14 +203,13 @@
                     android:id="@+id/imageView04"
                     android:layout_width="wrap_content"
                     android:layout_height="0dp"
-                    android:layout_weight="6"
                     android:layout_gravity="center"
+                    android:layout_weight="6"
                     android:background="@android:color/transparent"
-                    app:civ_border_overlay="true"
-                    app:civ_border_width="5dp"
-                    app:civ_border_color="#ffffff"
                     android:src="@drawable/chinese"
-                    />
+                    app:civ_border_color="#ffffff"
+                    app:civ_border_overlay="true"
+                    app:civ_border_width="0dp" />
 
 
                 <TextView
@@ -216,11 +217,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:textColor="@color/black"
                     android:gravity="center_horizontal"
-                    android:textStyle="bold"
+                    android:text="중식"
+                    android:textColor="@color/black"
                     android:textSize="15dp"
-                    android:text="중식" />
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
@@ -228,29 +229,29 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical">
+
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/imageView05"
                     android:layout_width="wrap_content"
-                    android:layout_weight="6"
                     android:layout_height="0dp"
                     android:layout_gravity="center"
+                    android:layout_weight="6"
                     android:background="@android:color/transparent"
-                    app:civ_border_overlay="true"
-                    app:civ_border_width="5dp"
-                    app:civ_border_color="#ffffff"
                     android:src="@drawable/japanese"
-                    />
+                    app:civ_border_color="#ffffff"
+                    app:civ_border_overlay="true"
+                    app:civ_border_width="0dp" />
 
                 <TextView
                     android:id="@+id/textView05"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:textColor="@color/black"
                     android:gravity="center_horizontal"
-                    android:textStyle="bold"
+                    android:text="일식"
+                    android:textColor="@color/black"
                     android:textSize="15dp"
-                    android:text="일식" />
+                    android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
 
@@ -274,8 +275,8 @@
                     android:layout_gravity="center"
                     android:background="@android:color/transparent"
                     app:civ_border_overlay="true"
-                    app:civ_border_width="5dp"
-                    app:civ_border_color="#41f39a"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#ffffff"
                     android:src="@drawable/dessert"
                     />
 
@@ -305,7 +306,7 @@
                     android:layout_gravity="center"
                     android:background="@android:color/transparent"
                     app:civ_border_overlay="true"
-                    app:civ_border_width="5dp"
+                    app:civ_border_width="0dp"
                     app:civ_border_color="#ffffff"
                     android:src="@drawable/snack"
                     />
@@ -336,7 +337,7 @@
                     android:layout_gravity="center"
                     android:background="@android:color/transparent"
                     app:civ_border_overlay="true"
-                    app:civ_border_width="5dp"
+                    app:civ_border_width="0dp"
                     app:civ_border_color="#ffffff"
                     android:src="@drawable/pigleg"
                     />
