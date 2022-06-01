@@ -41,6 +41,8 @@ class ChattingActivity : AppCompatActivity() {
         var chatSize = 0
         var start = true
 
+
+        binding.chatname.text = chatroom.title
         editText.setOnEditorActionListener { v, actionId, event ->
                 val msgTime = System.currentTimeMillis()
                 val sdf = SimpleDateFormat("yyyy-MM-dd-hh-mm")
