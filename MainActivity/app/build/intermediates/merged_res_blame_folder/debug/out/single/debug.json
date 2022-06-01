@@ -200,7 +200,6 @@
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\hamburger.jpeg"
     },
     {
-<<<<<<< HEAD
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_moissu_foreground.png.flat",
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-hdpi\\ic_moissu_foreground.png"
     },
@@ -211,18 +210,6 @@
     {
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
-=======
-        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_moissu_foreground.png.flat",
-        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-mdpi/ic_moissu_foreground.png"
-    },
-    {
-        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_dessert.webp.flat",
-        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/dessert.webp"
->>>>>>> 유아이222
     },
     {
         "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_moissu_foreground.png.flat",
