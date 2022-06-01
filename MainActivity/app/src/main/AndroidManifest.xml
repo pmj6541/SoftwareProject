@@ -35,7 +35,8 @@
         <activity android:name=".CreatechatActivity" />
         <activity android:name=".MenuActivity" />
         <activity android:name=".ChatlistActivity" />
-        <activity android:name=".ChattingActivity" />
+        <activity android:name=".ChattingActivity"
+            android:windowSoftInputMode="adjustPan"/>
     </application>
 
 </manifest>

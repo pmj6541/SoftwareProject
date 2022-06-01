@@ -41,22 +41,21 @@ class ChattingActivity : AppCompatActivity() {
         var chatSize = 0
         var start = true
 
-
         editText.setOnEditorActionListener { v, actionId, event ->
-            val msgTime = System.currentTimeMillis()
-            val sdf = SimpleDateFormat("yyyy-MM-dd-hh-mm")
-            val timeStamp = sdf.format(msgTime)
-            tmpChat.add(editText.text.toString())
-            Log.v("MainActivity","tmpChat : "+tmpChat.size.toString())
-            tmpTimeStamp.add(timeStamp)
-            tmpUserUID.add(FirebaseAuth.getInstance().currentUser!!.uid)
-            database.child("chattingrooms/$roomID/msg").setValue(tmpChat)
-            database.child("chattingrooms/$roomID/msgTimeStamp").setValue(tmpTimeStamp)
-            database.child("chattingrooms/$roomID/msgUserUID").setValue(tmpUserUID)
-            chatSize += 1
-            talk.clear()
-            editText.text=null
-            false //엔터 누른 후에 키보드 내려감
+                val msgTime = System.currentTimeMillis()
+                val sdf = SimpleDateFormat("yyyy-MM-dd-hh-mm")
+                val timeStamp = sdf.format(msgTime)
+                tmpChat.add(editText.text.toString())
+                Log.v("MainActivity", "tmpChat : " + tmpChat.size.toString())
+                tmpTimeStamp.add(timeStamp)
+                tmpUserUID.add(FirebaseAuth.getInstance().currentUser!!.uid)
+                database.child("chattingrooms/$roomID/msg").setValue(tmpChat)
+                database.child("chattingrooms/$roomID/msgTimeStamp").setValue(tmpTimeStamp)
+                database.child("chattingrooms/$roomID/msgUserUID").setValue(tmpUserUID)
+                chatSize += 1
+                talk.clear()
+                editText.text = null
+                false //엔터 누른 후에 키보드 내려감
         }
 
         button.setOnClickListener{
@@ -101,7 +100,6 @@ class ChattingActivity : AppCompatActivity() {
                         modelResult = null
                     }
                 }
-                multiRVAdapter.notifyDataSetChanged()
                 binding.chatRv?.scrollToPosition(talk.size-1) //메세지를 보낼 시 화면을 맨 밑으로 내림
 
             }
