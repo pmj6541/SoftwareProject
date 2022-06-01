@@ -38,7 +38,7 @@
     <EditText
         android:id="@+id/editTextTextPersonName3"
         android:layout_width="312dp"
-        android:layout_height="50dp"
+        android:layout_height="30dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:background="@drawable/edittext_rounded_corner_rectangle"
@@ -50,7 +50,7 @@
     <Button
         android:id="@+id/button3"
         android:layout_width="00dp"
-        android:layout_height="50dp"
+        android:layout_height="30dp"
         android:text="전송"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
