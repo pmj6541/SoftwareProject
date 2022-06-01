@@ -25,6 +25,7 @@ drawable chinese
 drawable createchat
 drawable dessert
 drawable edittext_rounded_corner_rectangle
+drawable edittext_rounded_corner_rectangle2
 drawable graysolid_btn
 drawable group
 drawable hamburger
@@ -42,9 +43,10 @@ drawable pigleg
 drawable pizza
 drawable rightbubble
 drawable searchview_background
+drawable searchview_background2
 drawable snack
 drawable solid_btn
-drawable splash
+drawable solid_btn2
 drawable textlines
 id backbtn
 id but_login

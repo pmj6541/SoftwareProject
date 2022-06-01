@@ -2614,6 +2614,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable dessert
 drawable edittext_rounded_corner_rectangle
+drawable edittext_rounded_corner_rectangle2
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable graysolid_btn
@@ -2731,9 +2732,10 @@ drawable pigleg
 drawable pizza
 drawable rightbubble
 drawable searchview_background
+drawable searchview_background2
 drawable snack
 drawable solid_btn
-drawable splash
+drawable solid_btn2
 drawable test_custom_background
 drawable test_level_drawable
 drawable textlines

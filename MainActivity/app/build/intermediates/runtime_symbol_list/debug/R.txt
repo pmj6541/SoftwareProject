@@ -2613,6 +2613,7 @@ int drawable design_password_eye 0x7f08007c
 int drawable design_snackbar_background 0x7f08007d
 int drawable dessert 0x7f08007e
 int drawable edittext_rounded_corner_rectangle 0x7f08007f
+int drawable edittext_rounded_corner_rectangle2 0x7f0800ff
 int drawable googleg_disabled_color_18 0x7f080080
 int drawable googleg_standard_color_18 0x7f080081
 int drawable graysolid_btn 0x7f080082
@@ -2730,9 +2731,10 @@ int drawable pigleg 0x7f0800ef
 int drawable pizza 0x7f0800f0
 int drawable rightbubble 0x7f0800f1
 int drawable searchview_background 0x7f0800f2
+int drawable searchview_background2 0x7f0800fe
 int drawable snack 0x7f0800f3
 int drawable solid_btn 0x7f0800f4
-int drawable splash 0x7f0800f5
+int drawable solid_btn2 0x7f0800fd
 int drawable test_custom_background 0x7f0800f6
 int drawable test_level_drawable 0x7f0800f7
 int drawable textlines 0x7f0800f8
