@@ -1,58 +1,58 @@
 [
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_chatlist.xml",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_chatlist.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_leftchat.xml",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/item_leftchat.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_map.xml",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_map.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_chatting.xml",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/activity_chatting.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_home.xml",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_home.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_menu.xml",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_menu.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_chat.xml",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/item_chat.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_chatting.xml",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_chatting.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_view.xml",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/item_view.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_signup.xml",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_signup.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_menu.xml",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/activity_menu.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_chat.xml",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\item_chat.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_home.xml",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_createchat.xml",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_createchat.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_signup.xml",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/activity_signup.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_rightchat.xml",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\item_rightchat.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_createchat.xml",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/activity_createchat.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_view.xml",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\item_view.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_login.xml",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_map.xml",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/activity_map.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_rightchat.xml",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/item_rightchat.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_clview.xml",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\item_clview.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_clview.xml",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/item_clview.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_leftchat.xml",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\item_leftchat.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_chatlist.xml",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/activity_chatlist.xml"
     }
 ]

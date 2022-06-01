@@ -1,5 +1,6 @@
 package com.example.mainactivity
 
+import android.graphics.Color
 import android.util.Log
 import android.view.Gravity
 import android.view.LayoutInflater
@@ -60,15 +61,18 @@ class MultiRVAdapter(private var chat: ArrayList<Chat>): RecyclerView.Adapter<Mu
         })
         firebaseAuth = Firebase.auth
         if(firebaseAuth?.currentUser?.uid.toString() == chat[position].msgUserUID) {
-//            holder.textView_message.setBackgroundResource(R.drawable.rightbubble)
+            holder.textView_message.setBackgroundResource(R.drawable.ic_chat_right_item)
             holder.textView_name.visibility = View.INVISIBLE
             holder.layout_main.gravity = Gravity.RIGHT
             holder.layout_sub.gravity = Gravity.RIGHT
+            holder.textView_message.setTextColor(Color.parseColor("#ffffff"))
         } else {
-            holder.textView_message.setBackgroundColor(R.color.purple_200)
+            holder.textView_message.setBackgroundResource(R.drawable.ic_chat_left_item)
 //            holder.textView_message.setBackgroundResource(R.drawable.leftbubble)
             holder.layout_main.gravity = Gravity.LEFT
             holder.layout_sub.gravity = Gravity.LEFT
+            holder.textView_message.setTextColor(Color.parseColor("#000000"))
+
         }
     }
 
@@ -76,9 +80,9 @@ class MultiRVAdapter(private var chat: ArrayList<Chat>): RecyclerView.Adapter<Mu
 
 
     inner class ChatViewHolder(view : View): RecyclerView.ViewHolder(view){
-        val textView_name: TextView= view.findViewById(R.id.chat_textview_name)
-        val textView_message: TextView = view.findViewById(R.id.chat_textview_title)
-        val textView_time: TextView = view.findViewById(R.id.chat_item_textview_lastmessage)
+        val textView_name: TextView= view.findViewById(R.id.chat_textview_username)
+        val textView_message: TextView = view.findViewById(R.id.chat_textview_chatcontent)
+        val textView_time: TextView = view.findViewById(R.id.chat_item_textview_chattime)
         val layout_main: LinearLayout = view.findViewById(R.id.chatitem_linearlayout_main)
         val layout_sub: LinearLayout = view.findViewById(R.id.chatitem_linearlayout_sub)
 
