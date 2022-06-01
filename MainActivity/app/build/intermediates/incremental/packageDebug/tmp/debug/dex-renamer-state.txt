@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-#Wed Jun 01 13:31:42 KST 2022
-=======
-#Wed Jun 01 13:29:45 KST 2022
->>>>>>> 유아이222
+#Wed Jun 01 13:33:24 KST 2022
 path.4=classes2.dex
 path.3=8/classes.dex
 path.2=5/classes.dex

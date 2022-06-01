@@ -56,13 +56,8 @@
 33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 33-->[androidx.core:core:1.7.0] C:\Users\User\.gradle\caches\transforms-3\23fc37437bace226093c9a564ed97200\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 34        android:debuggable="true"
-<<<<<<< HEAD
-35        android:icon="@mipmap/ic_launcher"
-35-->C:\Users\User\Desktop\AndroidCloneCording\RealProject\SoftwareProject\MainActivity\app\src\main\AndroidManifest.xml:12:9-43
-=======
 35        android:icon="@mipmap/ic_moissu"
-35-->/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/AndroidManifest.xml:12:9-41
->>>>>>> 유아이222
+35-->C:\Users\User\Desktop\AndroidCloneCording\RealProject\SoftwareProject\MainActivity\app\src\main\AndroidManifest.xml:12:9-41
 36        android:label="@string/app_name"
 36-->C:\Users\User\Desktop\AndroidCloneCording\RealProject\SoftwareProject\MainActivity\app\src\main\AndroidManifest.xml:13:9-41
 37        android:roundIcon="@mipmap/ic_launcher_round"
