@@ -1389,6 +1389,7 @@ color gray
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color ic_moissu_background
+color lightgray
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -2619,6 +2620,8 @@ drawable graysolid_btn
 drawable group
 drawable hamburger
 drawable human
+drawable ic_chat_left_item
+drawable ic_chat_right_item
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2859,10 +2862,10 @@ id center_vertical
 id chain
 id chain2
 id chains
-id chat_item_textview_lastmessage
+id chat_item_textview_chattime
 id chat_rv
-id chat_textview_name
-id chat_textview_title
+id chat_textview_chatcontent
+id chat_textview_username
 id chatitem_linearlayout_main
 id chatitem_linearlayout_sub
 id chatname

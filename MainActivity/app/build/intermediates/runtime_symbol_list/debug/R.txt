@@ -1388,6 +1388,7 @@ int color gray 0x7f06006f
 int color highlighted_text_material_dark 0x7f060070
 int color highlighted_text_material_light 0x7f060071
 int color ic_moissu_background 0x7f060072
+int color lightgray 0x7f060272
 int color m3_appbar_overlay_color 0x7f060073
 int color m3_assist_chip_icon_tint_color 0x7f060074
 int color m3_assist_chip_stroke_color 0x7f060075
@@ -2618,6 +2619,8 @@ int drawable graysolid_btn 0x7f080082
 int drawable group 0x7f080083
 int drawable hamburger 0x7f080084
 int drawable human 0x7f080085
+int drawable ic_chat_left_item 0x7f0800fb
+int drawable ic_chat_right_item 0x7f0800fc
 int drawable ic_clock_black_24dp 0x7f080086
 int drawable ic_keyboard_black_24dp 0x7f080087
 int drawable ic_launcher_background 0x7f080088
@@ -2858,10 +2861,10 @@ int id center_vertical 0x7f090077
 int id chain 0x7f090078
 int id chain2 0x7f090079
 int id chains 0x7f09007a
-int id chat_item_textview_lastmessage 0x7f09007b
+int id chat_item_textview_chattime 0x7f09025c
 int id chat_rv 0x7f09007c
-int id chat_textview_name 0x7f09007d
-int id chat_textview_title 0x7f09007e
+int id chat_textview_chatcontent 0x7f09025d
+int id chat_textview_username 0x7f09025e
 int id chatitem_linearlayout_main 0x7f09007f
 int id chatitem_linearlayout_sub 0x7f090080
 int id chatname 0x7f090081
