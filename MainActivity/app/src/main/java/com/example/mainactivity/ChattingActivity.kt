@@ -1,8 +1,10 @@
 package com.example.mainactivity
 
+import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.mainactivity.databinding.ActivityChattingBinding
@@ -30,10 +32,6 @@ class ChattingActivity : AppCompatActivity() {
         mBinding = ActivityChattingBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        //val database = FirebaseDatabase.getInstance()
-        //val ref = database.getReference()
-
-
         var editText = binding.editTextTextPersonName3
         var button = binding.button3
         val addChat = ArrayList<String>()
@@ -55,11 +53,28 @@ class ChattingActivity : AppCompatActivity() {
             database.child("chattingrooms/$roomID/msg").setValue(tmpChat)
             database.child("chattingrooms/$roomID/msgTimeStamp").setValue(tmpTimeStamp)
             database.child("chattingrooms/$roomID/msgUserUID").setValue(tmpUserUID)
-
             chatSize += 1
-
             talk.clear()
+            editText.text=null
             false //엔터 누른 후에 키보드 내려감
+        }
+
+        button.setOnClickListener{
+            val msgTime = System.currentTimeMillis()
+            val sdf = SimpleDateFormat("yyyy-MM-dd-hh-mm")
+            val timeStamp = sdf.format(msgTime)
+            tmpChat.add(editText.text.toString())
+            Log.v("MainActivity","tmpChat : "+tmpChat.size.toString())
+            tmpTimeStamp.add(timeStamp)
+            tmpUserUID.add(FirebaseAuth.getInstance().currentUser!!.uid)
+            database.child("chattingrooms/$roomID/msg").setValue(tmpChat)
+            database.child("chattingrooms/$roomID/msgTimeStamp").setValue(tmpTimeStamp)
+            database.child("chattingrooms/$roomID/msgUserUID").setValue(tmpUserUID)
+            chatSize += 1
+            talk.clear()
+            editText.text=null
+            val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+            imm.hideSoftInputFromWindow(editText.windowToken,0) //클릭한 후 키보드 내려감
         }
 
         val multiRVAdapter = MultiRVAdapter(talk)
@@ -89,7 +104,7 @@ class ChattingActivity : AppCompatActivity() {
                     }
                 }
                 multiRVAdapter.notifyDataSetChanged()
-
+                binding.chatRv?.scrollToPosition(talk.size-1) //메세지를 보낼 시 화면을 맨 밑으로 내림
 
             }
 
