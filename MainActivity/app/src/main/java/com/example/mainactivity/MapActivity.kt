@@ -5,14 +5,10 @@ import android.graphics.Color
 import android.os.Bundle
 import android.view.View
 import android.widget.*
-import androidx.annotation.NonNull
 import androidx.annotation.UiThread
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.fragment.app.FragmentManager
-import com.example.mainactivity.databinding.ActivityLoginBinding
-import com.example.mainactivity.databinding.ActivityMapBinding
-import com.google.android.gms.common.internal.FallbackServiceBroker
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 import com.google.firebase.auth.FirebaseAuth
@@ -102,6 +98,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
         }
 
 
+
     }
 
     @UiThread
@@ -139,6 +136,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
         marker7.tag = "친절마트"
 
         var btn: Button = findViewById(R.id.button2)
+        var backbtn: ImageButton = findViewById(R.id.backbtn)
 
         val infoWindow = InfoWindow()
 
@@ -160,7 +158,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
 
         marker1.setOnClickListener {
             boolTester = true
-            btn.setBackgroundColor(Color.parseColor("#884bfa"))
+            btn.setBackgroundColor(Color.parseColor("#fd9f0a"))
             infoWindow.open(marker1)
             curUser = addLocationInfo(curUser, marker1.tag as String)
             true
@@ -168,7 +166,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
 
         marker2.setOnClickListener {
             boolTester = true
-            btn.setBackgroundColor(Color.parseColor("#884bfa"))
+            btn.setBackgroundColor(Color.parseColor("#fd9f0a"))
             infoWindow.open(marker2)
             curUser = addLocationInfo(curUser, marker2.tag as String)
             true
@@ -176,7 +174,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
 
         marker3.setOnClickListener {
             boolTester = true
-            btn.setBackgroundColor(Color.parseColor("#884bfa"))
+            btn.setBackgroundColor(Color.parseColor("#fd9f0a"))
             infoWindow.open(marker3)
             curUser = addLocationInfo(curUser, marker3.tag as String)
             true
@@ -184,7 +182,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
 
         marker4.setOnClickListener {
             boolTester = true
-            btn.setBackgroundColor(Color.parseColor("#884bfa"))
+            btn.setBackgroundColor(Color.parseColor("#fd9f0a"))
             infoWindow.open(marker4)
             curUser = addLocationInfo(curUser, marker4.tag as String)
             true
@@ -192,7 +190,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
 
         marker5.setOnClickListener {
             boolTester = true
-            btn.setBackgroundColor(Color.parseColor("#884bfa"))
+            btn.setBackgroundColor(Color.parseColor("#fd9f0a"))
             infoWindow.open(marker5)
             curUser = addLocationInfo(curUser, marker5.tag as String)
             true
@@ -200,7 +198,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
 
         marker6.setOnClickListener {
             boolTester = true
-            btn.setBackgroundColor(Color.parseColor("#884bfa"))
+            btn.setBackgroundColor(Color.parseColor("#fd9f0a"))
             infoWindow.open(marker6)
             curUser = addLocationInfo(curUser, marker6.tag as String)
             true
@@ -208,7 +206,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
 
         marker7.setOnClickListener {
             boolTester = true
-            btn.setBackgroundColor(Color.parseColor("#884bfa"))
+            btn.setBackgroundColor(Color.parseColor("#fd9f0a"))
             infoWindow.open(marker7)
             curUser = addLocationInfo(curUser, marker7.tag as String)
             true
@@ -220,6 +218,12 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
                 goNextActivity(curUser)
             }
         }
+
+        backbtn.setOnClickListener {
+            finish()
+        }
+
+
 
 //        카메라 설정
         val cameraPosition = CameraPosition(

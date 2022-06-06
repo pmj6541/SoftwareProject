@@ -2,8 +2,6 @@ package com.example.mainactivity
 
 import android.content.Intent
 import android.os.Bundle
-import android.renderscript.Sampler
-import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -16,11 +14,11 @@ import com.google.firebase.database.ValueEventListener
 import com.example.mainactivity.ChattingRoom as ChattingRoom
 
 class ChatlistActivity : AppCompatActivity() {
-    private var firebaseAuth : FirebaseAuth? = null
     private var mBinding: ActivityChatlistBinding? = null
     private val binding get() = mBinding!!
     private var chatrooms = ArrayList<ChattingRoom>()
     private val database = FirebaseDatabase.getInstance().getReference()
+    private var userList = ArrayList<String>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,13 +34,12 @@ class ChatlistActivity : AppCompatActivity() {
             override fun onCancelled(error: DatabaseError) {
             }
             override fun onDataChange(dataSnapshot: DataSnapshot){
+                chatrooms.clear()
                 for(data in dataSnapshot.children){
                     val modelResult = data.getValue(ChattingRoom::class.java)
-                    if(curUser.menu == modelResult?.menu && curUser.location == modelResult?.location){
-                        if (modelResult != null) {
-                            chatrooms.add(modelResult)
-                            id_array.add(data.key.toString())
-                        }
+                    if(curUser.menu == modelResult?.menu && curUser.location == modelResult.location){
+                        chatrooms.add(modelResult)
+                        id_array.add(data.key.toString())
                     }
 
                 }
@@ -53,6 +50,13 @@ class ChatlistActivity : AppCompatActivity() {
         binding.backbtn.setOnClickListener{
             finish()
         }
+        binding.spotTv.text = curUser.location+"@"
+        binding.menuTv.text = curUser.menu
+        binding.imageButton2.setOnClickListener{
+            val intent2 = Intent(this,CreatechatActivity::class.java)
+            intent2.putExtra("curUser",curUser)
+            startActivity(intent2)
+        }
 
 
         binding.lstUser.adapter = chatRVAdapter
@@ -62,7 +66,16 @@ class ChatlistActivity : AppCompatActivity() {
             override fun onItemClick(position : Int) {
                 val entChattingRoom = chatrooms[position]
                 val roomID = id_array[position]
-                goNextActivity(entChattingRoom,roomID,curUser)
+                userList = entChattingRoom.usersUID
+                if(entChattingRoom.fullCount == entChattingRoom.usersUID.count()){
+                    if(entChattingRoom.usersUID.contains(FirebaseAuth.getInstance().currentUser!!.uid)){
+                        goNextActivity(entChattingRoom,roomID,curUser)
+                    }else{
+                        Toast.makeText(this@ChatlistActivity,"이 채팅방은 인원이 다 찼습니다.",Toast.LENGTH_SHORT).show()
+                    }
+                }else{
+                    goNextActivity(entChattingRoom,roomID,curUser)
+                }
             }
         })
 
@@ -70,6 +83,11 @@ class ChatlistActivity : AppCompatActivity() {
 
     private fun goNextActivity(entChattingRoom: ChattingRoom,roomID: String, curUser: User){
         val intent : Intent = Intent(this,ChattingActivity::class.java)
+        val curUID = FirebaseAuth.getInstance().currentUser!!.uid
+        if(!userList.contains(curUID)){
+            userList.add(curUID)
+        }
+        database.child("chattingrooms/$roomID/usersUID").setValue(userList)
         intent.putExtra("chattingroom",entChattingRoom)
         intent.putExtra("roomID",roomID)
         intent.putExtra("curUser",curUser)

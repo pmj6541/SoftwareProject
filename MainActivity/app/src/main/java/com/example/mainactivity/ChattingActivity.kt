@@ -1,9 +1,9 @@
 package com.example.mainactivity
 
+import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import android.widget.Toast
+import android.view.inputmethod.InputMethodManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.mainactivity.databinding.ActivityChattingBinding
 import com.google.firebase.auth.FirebaseAuth
@@ -12,10 +12,8 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import java.text.SimpleDateFormat
-import java.util.stream.IntStream.range
 
 class ChattingActivity : AppCompatActivity() {
-    private var firebaseAuth : FirebaseAuth? = null
     private var mBinding: ActivityChattingBinding? = null
     private val binding get() = mBinding!!
     private val database = FirebaseDatabase.getInstance().getReference()
@@ -25,41 +23,50 @@ class ChattingActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val intent = intent
         val chatroom = intent.getSerializableExtra("chattingroom") as ChattingRoom
-        val curUser = intent.getSerializableExtra("curUser") as User
         val roomID = intent.getStringExtra("roomID")
         mBinding = ActivityChattingBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        //val database = FirebaseDatabase.getInstance()
-        //val ref = database.getReference()
-
-
         var editText = binding.editTextTextPersonName3
         var button = binding.button3
-        val addChat = ArrayList<String>()
         val tmpChat = ArrayList<String>()
         val tmpTimeStamp = ArrayList<String>()
         val tmpUserUID = ArrayList<String>()
         var chatSize = 0
-        var start = true
+
+        binding.chatname.text = chatroom.title
+        editText.setOnEditorActionListener { _, _, _ ->
+                val msgTime = System.currentTimeMillis()
+                val sdf = SimpleDateFormat("yyyy-MM-dd-hh-mm")
+                val timeStamp = sdf.format(msgTime)
+                tmpChat.add(editText.text.toString())
+                tmpTimeStamp.add(timeStamp)
+                tmpUserUID.add(FirebaseAuth.getInstance().currentUser!!.uid)
+                database.child("chattingrooms/$roomID/msg").setValue(tmpChat)
+                database.child("chattingrooms/$roomID/msgTimeStamp").setValue(tmpTimeStamp)
+                database.child("chattingrooms/$roomID/msgUserUID").setValue(tmpUserUID)
+                chatSize += 1
+                talk.clear()
+                editText.text = null
+                false //엔터 누른 후에 키보드 내려감
+        }
 
 
-        editText.setOnEditorActionListener { v, actionId, event ->
+        button.setOnClickListener{
             val msgTime = System.currentTimeMillis()
             val sdf = SimpleDateFormat("yyyy-MM-dd-hh-mm")
             val timeStamp = sdf.format(msgTime)
             tmpChat.add(editText.text.toString())
-            Log.v("MainActivity","tmpChat : "+tmpChat.size.toString())
             tmpTimeStamp.add(timeStamp)
-            tmpUserUID.add(curUser.Id)
+            tmpUserUID.add(FirebaseAuth.getInstance().currentUser!!.uid)
             database.child("chattingrooms/$roomID/msg").setValue(tmpChat)
             database.child("chattingrooms/$roomID/msgTimeStamp").setValue(tmpTimeStamp)
             database.child("chattingrooms/$roomID/msgUserUID").setValue(tmpUserUID)
-
             chatSize += 1
-
             talk.clear()
-            false //엔터 누른 후에 키보드 내려감
+            editText.text=null
+            val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+            imm.hideSoftInputFromWindow(editText.windowToken,0) //클릭한 후 키보드 내려감
         }
 
         val multiRVAdapter = MultiRVAdapter(talk)
@@ -68,33 +75,31 @@ class ChattingActivity : AppCompatActivity() {
             }
             override fun onDataChange(dataSnapshot: DataSnapshot){
                 talk.clear()
+                tmpChat.clear()
+                tmpTimeStamp.clear()
+                tmpUserUID.clear()
                 for(data in dataSnapshot.children){
                     if(data.key.toString() == roomID){
                         var modelResult = data.getValue(ChattingRoom::class.java)
                         chatSize = modelResult!!.msgUserUID.size
-                        Log.v("MainActivity","modelResult.msg size : "+modelResult.msg.size)
-
-                        for(i in 0..modelResult!!.msgUserUID.size-1){
-                            if(start){
-                                tmpChat.add(modelResult.msg[i])
-                                tmpTimeStamp.add(modelResult.msgTimeStamp[i])
-                                tmpUserUID.add(modelResult.msgUserUID[i])
-                            }
+                        for(i in 0 until modelResult.msgUserUID.size){
+                            tmpChat.add(modelResult.msg[i])
+                            tmpTimeStamp.add(modelResult.msgTimeStamp[i])
+                            tmpUserUID.add(modelResult.msgUserUID[i])
                             talk.add(Chat(modelResult.msg[i],modelResult.msgTimeStamp[i],modelResult.msgUserUID[i]))
-                            Log.v("MainActivity","${i} `번째 tmpChat: "+ tmpChat.toString())
 
                         }
-                        start = false
-                        modelResult = null
                     }
                 }
-                multiRVAdapter.notifyDataSetChanged()
-
+                binding.chatRv.scrollToPosition(talk.size-1) //메세지를 보낼 시 화면을 맨 밑으로 내림
 
             }
 
         })
-        Log.v("MainActivity","함수 밖이에요")
+
+        binding.backbtn.setOnClickListener{
+            finish()
+        }
 
 
         binding.chatRv.adapter = multiRVAdapter

@@ -1,6 +1,5 @@
 package com.example.mainactivity
 import java.io.Serializable
-import java.sql.Timestamp
 
 data class ChattingRoom(
     var menu : String = "",

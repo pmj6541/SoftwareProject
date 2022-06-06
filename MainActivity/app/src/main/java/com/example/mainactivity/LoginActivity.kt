@@ -8,7 +8,6 @@ import com.example.mainactivity.databinding.ActivityLoginBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.ktx.auth
-import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.ktx.Firebase
 
 class LoginActivity : AppCompatActivity() {
@@ -24,8 +23,8 @@ class LoginActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        var id = binding.editTextTextPersonName.text.toString()
-        var passwd = binding.editTextTextPassword.text.toString()
+        var id = ""
+        var passwd = ""
         Toast.makeText(baseContext,"onCreate입니다.",Toast.LENGTH_SHORT)
         //login
         binding.butLogin.setOnClickListener {
@@ -44,11 +43,6 @@ class LoginActivity : AppCompatActivity() {
         moveMainPage(firebaseAuth?.currentUser)
     }
 
-    private fun addUserOnFirebase(userInfo : DBUser) {
-        val database = FirebaseDatabase.getInstance()
-        val ref = database.getReference()
-        ref.child("users/${firebaseAuth?.uid.toString()}").setValue(userInfo)
-    }
 
     private fun signIn(id: String, password: String) {
 

@@ -21,27 +21,38 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/chat_textview_name"
+                android:id="@+id/chat_textview_username"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#000FFF"
+                android:textSize="17sp"
+                android:layout_marginLeft="10dp"
                 android:text="이름"
+                android:layout_marginRight="10dp"
                 android:textColor="#000000"
-                android:textStyle="bold" />
+                 />
 
             <TextView
-                android:id="@+id/chat_textview_title"
+                android:id="@+id/chat_textview_chatcontent"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="3dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="20sp"
                 android:text="메세지"
+                android:background="@drawable/ic_chat_left_item"
                 android:textColor="#000000" />
             <TextView
-                android:id="@+id/chat_item_textview_lastmessage"
+                android:id="@+id/chat_item_textview_chattime"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="시간"
-                android:background="#000FFF"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:textSize="12sp" />
         </LinearLayout>
     </LinearLayout>
