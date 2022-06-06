@@ -56,6 +56,7 @@ class ChatlistActivity : AppCompatActivity() {
             val intent2 = Intent(this,CreatechatActivity::class.java)
             intent2.putExtra("curUser",curUser)
             startActivity(intent2)
+            finish()
         }
 
 

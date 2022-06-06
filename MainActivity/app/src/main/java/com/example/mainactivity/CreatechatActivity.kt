@@ -92,6 +92,7 @@ class CreatechatActivity : AppCompatActivity() {
             intent.putExtra("myChattingRoom",myChattingRoom)
             getCreatedChattingRoom(myChattingRoom)
             startActivity(intent)
+            finish()
         }
 
         binding.backbtn.setOnClickListener{
