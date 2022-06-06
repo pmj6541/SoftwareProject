@@ -2740,6 +2740,8 @@ int drawable test_level_drawable 0x7f0800fb
 int drawable textlines 0x7f0800fc
 int drawable tooltip_frame_dark 0x7f0800fd
 int drawable tooltip_frame_light 0x7f0800fe
+int drawable trash 0x7f0800ff
+int drawable trash2 0x7f080100
 int id ALT 0x7f090000
 int id BOTTOM_END 0x7f090001
 int id BOTTOM_START 0x7f090002
@@ -2908,6 +2910,7 @@ int id decelerate 0x7f0900a4
 int id decelerateAndComplete 0x7f0900a5
 int id decor_content_parent 0x7f0900a6
 int id default_activity_button 0x7f0900a7
+int id deletechat 0x7f09025c
 int id deltaRelative 0x7f0900a8
 int id dependency_ordering 0x7f0900a9
 int id design_bottom_sheet 0x7f0900aa

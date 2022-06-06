@@ -48,6 +48,8 @@ drawable snack
 drawable solid_btn
 drawable solid_btn2
 drawable textlines
+drawable trash
+drawable trash2
 id backbtn
 id but_login
 id button
@@ -62,6 +64,7 @@ id chatitem_linearlayout_sub
 id chatname
 id createchatbtn
 id curuserTv
+id deletechat
 id editTextEmail
 id editTextName
 id editTextPassword

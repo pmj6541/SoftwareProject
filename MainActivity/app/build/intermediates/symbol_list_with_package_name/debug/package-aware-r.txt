@@ -2741,6 +2741,8 @@ drawable test_level_drawable
 drawable textlines
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable trash
+drawable trash2
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2909,6 +2911,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id deletechat
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
