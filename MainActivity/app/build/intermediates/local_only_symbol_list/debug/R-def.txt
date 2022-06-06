@@ -25,6 +25,7 @@ drawable logo
 drawable moissusplash
 drawable pigleg
 drawable pizza
+drawable questionmark
 drawable searchview_background
 drawable searchview_background2
 drawable snack
