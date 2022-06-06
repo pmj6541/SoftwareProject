@@ -29,6 +29,7 @@ drawable searchview_background
 drawable searchview_background2
 drawable snack
 drawable solid_btn
+drawable solid_btn2
 drawable trash
 drawable trash2
 id backbtn
@@ -73,6 +74,7 @@ id linearLayout4
 id linearLayout5
 id location
 id logo
+id logout
 id lstUser
 id map
 id menuTv
@@ -82,7 +84,7 @@ id signupBtn
 id spinner
 id spinner2
 id spotTv
-id startBtn
+id startBtn2
 id textView00
 id textView01
 id textView02
@@ -95,7 +97,6 @@ id textView08
 id textView2
 id textView3
 id textView4
-id textView5
 id textView6
 id textView7
 id textView8

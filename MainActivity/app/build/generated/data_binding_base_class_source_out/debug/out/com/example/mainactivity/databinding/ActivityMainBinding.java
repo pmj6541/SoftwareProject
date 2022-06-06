@@ -20,11 +20,16 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button startBtn;
+  public final Button logout;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button startBtn) {
+  @NonNull
+  public final Button startBtn2;
+
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button logout,
+      @NonNull Button startBtn2) {
     this.rootView = rootView;
-    this.startBtn = startBtn;
+    this.logout = logout;
+    this.startBtn2 = startBtn2;
   }
 
   @Override
@@ -54,13 +59,19 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.startBtn;
-      Button startBtn = ViewBindings.findChildViewById(rootView, id);
-      if (startBtn == null) {
+      id = R.id.logout;
+      Button logout = ViewBindings.findChildViewById(rootView, id);
+      if (logout == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, startBtn);
+      id = R.id.startBtn2;
+      Button startBtn2 = ViewBindings.findChildViewById(rootView, id);
+      if (startBtn2 == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((ConstraintLayout) rootView, logout, startBtn2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

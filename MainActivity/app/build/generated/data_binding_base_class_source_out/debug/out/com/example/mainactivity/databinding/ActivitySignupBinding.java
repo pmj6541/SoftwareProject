@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -31,10 +32,10 @@ public final class ActivitySignupBinding implements ViewBinding {
   public final EditText editTextPassword;
 
   @NonNull
-  public final Button signupBtn;
+  public final ImageView logo;
 
   @NonNull
-  public final TextView textView5;
+  public final Button signupBtn;
 
   @NonNull
   public final TextView textView6;
@@ -43,14 +44,14 @@ public final class ActivitySignupBinding implements ViewBinding {
   public final TextView textView7;
 
   private ActivitySignupBinding(@NonNull ConstraintLayout rootView, @NonNull EditText editTextEmail,
-      @NonNull EditText editTextName, @NonNull EditText editTextPassword, @NonNull Button signupBtn,
-      @NonNull TextView textView5, @NonNull TextView textView6, @NonNull TextView textView7) {
+      @NonNull EditText editTextName, @NonNull EditText editTextPassword, @NonNull ImageView logo,
+      @NonNull Button signupBtn, @NonNull TextView textView6, @NonNull TextView textView7) {
     this.rootView = rootView;
     this.editTextEmail = editTextEmail;
     this.editTextName = editTextName;
     this.editTextPassword = editTextPassword;
+    this.logo = logo;
     this.signupBtn = signupBtn;
-    this.textView5 = textView5;
     this.textView6 = textView6;
     this.textView7 = textView7;
   }
@@ -100,15 +101,15 @@ public final class ActivitySignupBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.signupBtn;
-      Button signupBtn = ViewBindings.findChildViewById(rootView, id);
-      if (signupBtn == null) {
+      id = R.id.logo;
+      ImageView logo = ViewBindings.findChildViewById(rootView, id);
+      if (logo == null) {
         break missingId;
       }
 
-      id = R.id.textView5;
-      TextView textView5 = ViewBindings.findChildViewById(rootView, id);
-      if (textView5 == null) {
+      id = R.id.signupBtn;
+      Button signupBtn = ViewBindings.findChildViewById(rootView, id);
+      if (signupBtn == null) {
         break missingId;
       }
 
@@ -125,7 +126,7 @@ public final class ActivitySignupBinding implements ViewBinding {
       }
 
       return new ActivitySignupBinding((ConstraintLayout) rootView, editTextEmail, editTextName,
-          editTextPassword, signupBtn, textView5, textView6, textView7);
+          editTextPassword, logo, signupBtn, textView6, textView7);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -2718,6 +2718,7 @@ drawable searchview_background
 drawable searchview_background2
 drawable snack
 drawable solid_btn
+drawable solid_btn2
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -3017,6 +3018,7 @@ id listMode
 id list_item
 id location
 id logo
+id logout
 id lstUser
 id map
 id masked
@@ -3212,7 +3214,7 @@ id src_in
 id src_over
 id standard
 id start
-id startBtn
+id startBtn2
 id startHorizontal
 id startToEnd
 id startVertical
@@ -3262,7 +3264,6 @@ id textView08
 id textView2
 id textView3
 id textView4
-id textView5
 id textView6
 id textView7
 id textView8

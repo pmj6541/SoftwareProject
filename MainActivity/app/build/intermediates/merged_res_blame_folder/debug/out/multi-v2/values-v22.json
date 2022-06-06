@@ -1,17 +1,10 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
             "outputFile": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
             "map": [
                 {
                     "source": "/Users/minjunpark/.gradle/caches/transforms-3/4eeb40118484bb845363005cdd95190e/transformed/appcompat-1.4.1/res/values-v22/values-v22.xml",
-=======
-            "outputFile": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
-            "map": [
-                {
-                    "source": "/Users/lim-youngjun/.gradle/caches/transforms-3/4eeb40118484bb845363005cdd95190e/transformed/appcompat-1.4.1/res/values-v22/values-v22.xml",
->>>>>>> tuningApk
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

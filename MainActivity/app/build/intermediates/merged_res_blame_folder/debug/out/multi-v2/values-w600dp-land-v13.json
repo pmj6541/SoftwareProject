@@ -1,17 +1,10 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
             "outputFile": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w600dp-land-v13/values-w600dp-land-v13.xml",
             "map": [
                 {
                     "source": "/Users/minjunpark/.gradle/caches/transforms-3/6dbbf5ebc631aab98330b6c698deb98d/transformed/material-1.5.0/res/values-w600dp-land-v13/values-w600dp-land-v13.xml",
-=======
-            "outputFile": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w600dp-land-v13/values-w600dp-land-v13.xml",
-            "map": [
-                {
-                    "source": "/Users/lim-youngjun/.gradle/caches/transforms-3/6dbbf5ebc631aab98330b6c698deb98d/transformed/material-1.5.0/res/values-w600dp-land-v13/values-w600dp-land-v13.xml",
->>>>>>> tuningApk
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,17 +1,10 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
             "outputFile": "/Users/minjunpark/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
                     "source": "/Users/minjunpark/.gradle/caches/transforms-3/23fc37437bace226093c9a564ed97200/transformed/core-1.7.0/res/values-en-rCA/values-en-rCA.xml",
-=======
-            "outputFile": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml",
-            "map": [
-                {
-                    "source": "/Users/lim-youngjun/.gradle/caches/transforms-3/23fc37437bace226093c9a564ed97200/transformed/core-1.7.0/res/values-en-rCA/values-en-rCA.xml",
->>>>>>> tuningApk
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,11 +21,7 @@
                     }
                 },
                 {
-<<<<<<< HEAD
                     "source": "/Users/minjunpark/.gradle/caches/transforms-3/4eeb40118484bb845363005cdd95190e/transformed/appcompat-1.4.1/res/values-en-rCA/values-en-rCA.xml",
-=======
-                    "source": "/Users/lim-youngjun/.gradle/caches/transforms-3/4eeb40118484bb845363005cdd95190e/transformed/appcompat-1.4.1/res/values-en-rCA/values-en-rCA.xml",
->>>>>>> tuningApk
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
