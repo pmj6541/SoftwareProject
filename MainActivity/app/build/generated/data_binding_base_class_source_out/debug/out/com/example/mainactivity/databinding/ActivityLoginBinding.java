@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -38,7 +39,7 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final LinearLayout linearLayout2;
 
   @NonNull
-  public final TextView textView;
+  public final ImageView logo;
 
   @NonNull
   public final TextView textView2;
@@ -52,7 +53,7 @@ public final class ActivityLoginBinding implements ViewBinding {
   private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull Button butLogin,
       @NonNull EditText editTextTextPassword, @NonNull EditText editTextTextPersonName,
       @NonNull LinearLayout linearLayout, @NonNull LinearLayout linearLayout2,
-      @NonNull TextView textView, @NonNull TextView textView2, @NonNull TextView textView3,
+      @NonNull ImageView logo, @NonNull TextView textView2, @NonNull TextView textView3,
       @NonNull TextView textView4) {
     this.rootView = rootView;
     this.butLogin = butLogin;
@@ -60,7 +61,7 @@ public final class ActivityLoginBinding implements ViewBinding {
     this.editTextTextPersonName = editTextTextPersonName;
     this.linearLayout = linearLayout;
     this.linearLayout2 = linearLayout2;
-    this.textView = textView;
+    this.logo = logo;
     this.textView2 = textView2;
     this.textView3 = textView3;
     this.textView4 = textView4;
@@ -123,9 +124,9 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView;
-      TextView textView = ViewBindings.findChildViewById(rootView, id);
-      if (textView == null) {
+      id = R.id.logo;
+      ImageView logo = ViewBindings.findChildViewById(rootView, id);
+      if (logo == null) {
         break missingId;
       }
 
@@ -148,7 +149,7 @@ public final class ActivityLoginBinding implements ViewBinding {
       }
 
       return new ActivityLoginBinding((ConstraintLayout) rootView, butLogin, editTextTextPassword,
-          editTextTextPersonName, linearLayout, linearLayout2, textView, textView2, textView3,
+          editTextTextPersonName, linearLayout, linearLayout2, logo, textView2, textView3,
           textView4);
     }
     String missingId = rootView.getResources().getResourceName(id);

@@ -21,6 +21,7 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable japanese
 drawable korean
+drawable logo
 drawable moissusplash
 drawable pigleg
 drawable pizza
@@ -71,6 +72,7 @@ id linearLayout3
 id linearLayout4
 id linearLayout5
 id location
+id logo
 id lstUser
 id map
 id menuTv
@@ -81,7 +83,6 @@ id spinner
 id spinner2
 id spotTv
 id startBtn
-id textView
 id textView00
 id textView01
 id textView02
