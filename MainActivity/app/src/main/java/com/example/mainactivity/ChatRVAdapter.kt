@@ -37,7 +37,7 @@ class ChatRVAdapter(private var chatrooms: ArrayList<ChattingRoom>): RecyclerVie
             binding.titleTv.text = chatroom.title
             binding.fullcountTv.text = chatroom.fullCount.toString()
             binding.curuserTv.text = chatroom.usersUID.count().toString()
-            binding.lastchatTv.text = chatroom.msg[0]
+            binding.lastchatTv.text = chatroom.msg[chatroom.msg.size-1]
         }
 
     }

@@ -3,9 +3,7 @@ package com.example.mainactivity
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.inputmethod.InputMethodManager
-import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.mainactivity.databinding.ActivityChattingBinding
 import com.google.firebase.auth.FirebaseAuth
@@ -14,10 +12,8 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import java.text.SimpleDateFormat
-import java.util.stream.IntStream.range
 
 class ChattingActivity : AppCompatActivity() {
-    private var firebaseAuth : FirebaseAuth? = null
     private var mBinding: ActivityChattingBinding? = null
     private val binding get() = mBinding!!
     private val database = FirebaseDatabase.getInstance().getReference()
@@ -27,28 +23,23 @@ class ChattingActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val intent = intent
         val chatroom = intent.getSerializableExtra("chattingroom") as ChattingRoom
-        val curUser = intent.getSerializableExtra("curUser") as User
         val roomID = intent.getStringExtra("roomID")
         mBinding = ActivityChattingBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         var editText = binding.editTextTextPersonName3
         var button = binding.button3
-        val addChat = ArrayList<String>()
         val tmpChat = ArrayList<String>()
         val tmpTimeStamp = ArrayList<String>()
         val tmpUserUID = ArrayList<String>()
         var chatSize = 0
-        var start = true
-
 
         binding.chatname.text = chatroom.title
-        editText.setOnEditorActionListener { v, actionId, event ->
+        editText.setOnEditorActionListener { _, _, _ ->
                 val msgTime = System.currentTimeMillis()
                 val sdf = SimpleDateFormat("yyyy-MM-dd-hh-mm")
                 val timeStamp = sdf.format(msgTime)
                 tmpChat.add(editText.text.toString())
-                Log.v("MainActivity", "tmpChat : " + tmpChat.size.toString())
                 tmpTimeStamp.add(timeStamp)
                 tmpUserUID.add(FirebaseAuth.getInstance().currentUser!!.uid)
                 database.child("chattingrooms/$roomID/msg").setValue(tmpChat)
@@ -60,12 +51,12 @@ class ChattingActivity : AppCompatActivity() {
                 false //엔터 누른 후에 키보드 내려감
         }
 
+
         button.setOnClickListener{
             val msgTime = System.currentTimeMillis()
             val sdf = SimpleDateFormat("yyyy-MM-dd-hh-mm")
             val timeStamp = sdf.format(msgTime)
             tmpChat.add(editText.text.toString())
-            Log.v("MainActivity","tmpChat : "+tmpChat.size.toString())
             tmpTimeStamp.add(timeStamp)
             tmpUserUID.add(FirebaseAuth.getInstance().currentUser!!.uid)
             database.child("chattingrooms/$roomID/msg").setValue(tmpChat)
@@ -91,23 +82,24 @@ class ChattingActivity : AppCompatActivity() {
                     if(data.key.toString() == roomID){
                         var modelResult = data.getValue(ChattingRoom::class.java)
                         chatSize = modelResult!!.msgUserUID.size
-                        for(i in 0..modelResult!!.msgUserUID.size-1){
+                        for(i in 0 until modelResult.msgUserUID.size){
                             tmpChat.add(modelResult.msg[i])
                             tmpTimeStamp.add(modelResult.msgTimeStamp[i])
                             tmpUserUID.add(modelResult.msgUserUID[i])
                             talk.add(Chat(modelResult.msg[i],modelResult.msgTimeStamp[i],modelResult.msgUserUID[i]))
 
                         }
-                        start = false
-                        modelResult = null
                     }
                 }
-                binding.chatRv?.scrollToPosition(talk.size-1) //메세지를 보낼 시 화면을 맨 밑으로 내림
+                binding.chatRv.scrollToPosition(talk.size-1) //메세지를 보낼 시 화면을 맨 밑으로 내림
 
             }
 
         })
-        Log.v("MainActivity","함수 밖이에요")
+
+        binding.backbtn.setOnClickListener{
+            finish()
+        }
 
 
         binding.chatRv.adapter = multiRVAdapter

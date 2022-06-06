@@ -48,7 +48,7 @@
         android:layout_height="40dp"
         android:text="선택하기"
         android:textStyle="bold"
-        android:background="@drawable/graysolid_btn"
+        android:background="#FFA8A8A8"
         android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/searchView"
         app:layout_constraintEnd_toEndOf="parent"

@@ -1,7 +1,6 @@
 package com.example.mainactivity
 
 import android.graphics.Color
-import android.util.Log
 import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
@@ -25,17 +24,12 @@ class MultiRVAdapter(private var chat: ArrayList<Chat>): RecyclerView.Adapter<Mu
         fun onItemClick()
     }
 
-    private lateinit var mItemClickListener: MyItemClickListener
-    fun setMyItemClickListener(itemClickListener: MyItemClickListener){
-        mItemClickListener = itemClickListener
-    }
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, viewType: Int): MultiRVAdapter.ChatViewHolder {
         firebaseAuth = Firebase.auth
         val view : View = LayoutInflater.from(viewGroup.context).inflate(R.layout.item_chat, viewGroup, false)
         return ChatViewHolder(view)
     }
-
 
     override fun onBindViewHolder(holder: MultiRVAdapter.ChatViewHolder, position: Int) {
         holder.textView_message.text = chat[position].msg
@@ -54,8 +48,6 @@ class MultiRVAdapter(private var chat: ArrayList<Chat>): RecyclerView.Adapter<Mu
                 }else{
                     userName = modelResult.toString()
                 }
-
-                Log.v("MainActivity",userName)
                 holder.textView_name.text = userName
             }
         })
@@ -68,7 +60,6 @@ class MultiRVAdapter(private var chat: ArrayList<Chat>): RecyclerView.Adapter<Mu
             holder.textView_message.setTextColor(Color.parseColor("#ffffff"))
         } else {
             holder.textView_message.setBackgroundResource(R.drawable.ic_chat_left_item)
-//            holder.textView_message.setBackgroundResource(R.drawable.leftbubble)
             holder.layout_main.gravity = Gravity.LEFT
             holder.layout_sub.gravity = Gravity.LEFT
             holder.textView_message.setTextColor(Color.parseColor("#000000"))

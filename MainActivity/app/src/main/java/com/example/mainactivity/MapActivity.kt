@@ -5,14 +5,10 @@ import android.graphics.Color
 import android.os.Bundle
 import android.view.View
 import android.widget.*
-import androidx.annotation.NonNull
 import androidx.annotation.UiThread
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.fragment.app.FragmentManager
-import com.example.mainactivity.databinding.ActivityLoginBinding
-import com.example.mainactivity.databinding.ActivityMapBinding
-import com.google.android.gms.common.internal.FallbackServiceBroker
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 import com.google.firebase.auth.FirebaseAuth
@@ -102,6 +98,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
         }
 
 
+
     }
 
     @UiThread
@@ -139,6 +136,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
         marker7.tag = "친절마트"
 
         var btn: Button = findViewById(R.id.button2)
+        var backbtn: ImageButton = findViewById(R.id.backbtn)
 
         val infoWindow = InfoWindow()
 
@@ -220,6 +218,12 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
                 goNextActivity(curUser)
             }
         }
+
+        backbtn.setOnClickListener {
+            finish()
+        }
+
+
 
 //        카메라 설정
         val cameraPosition = CameraPosition(

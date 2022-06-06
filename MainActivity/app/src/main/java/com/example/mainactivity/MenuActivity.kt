@@ -5,11 +5,8 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.mainactivity.databinding.ActivityMenuBinding
-import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.FirebaseUser
 
 class MenuActivity : AppCompatActivity() {
-    private var firebaseAuth : FirebaseAuth? = null
     private var mBinding: ActivityMenuBinding? = null
     private val binding get() = mBinding!!
 

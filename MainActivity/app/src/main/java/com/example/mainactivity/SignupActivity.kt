@@ -1,10 +1,8 @@
 package com.example.mainactivity
 
-import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.mainactivity.databinding.ActivityMainBinding
 import com.example.mainactivity.databinding.ActivitySignupBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
@@ -21,9 +19,9 @@ class SignupActivity : AppCompatActivity() {
         mBinding = ActivitySignupBinding.inflate(layoutInflater)
         firebaseAuth = Firebase.auth
 
-        var email = binding.editTextEmail.text.toString()
-        var name = binding.editTextName.text.toString()
-        var passwd = binding.editTextPassword.text.toString()
+        var email = ""
+        var name = ""
+        var passwd = ""
 
         setContentView(binding.root)
         binding.signupBtn.setOnClickListener {
