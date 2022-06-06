@@ -91,9 +91,9 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
 
         })
 
-        searchListView.setOnItemClickListener { parent: AdapterView<*>, view: View, position: Int, id: Long ->
+        searchListView.setOnItemClickListener { _: AdapterView<*>, _: View, position: Int, _: Long ->
             var curUser: User = makeUserInfo(firebaseAuth?.currentUser, "")
-            curUser = addLocationInfo(curUser, searchPlace.get(position)  as String)
+            curUser = addLocationInfo(curUser, searchPlace.get(position))
             goNextActivity(curUser)
         }
 
@@ -147,7 +147,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
             }
         }
 
-        naverMap.setOnMapClickListener{ point, coord ->
+        naverMap.setOnMapClickListener{ _, _ ->
             boolTester=false
             infoWindow.close()
             btn.setBackgroundColor(Color.parseColor("#FFA8A8A8"))
@@ -234,7 +234,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
         )
         naverMap.cameraPosition = cameraPosition
 
-        naverMap.addOnCameraChangeListener { reason, animated ->
+        naverMap.addOnCameraChangeListener { _, _ ->
             // 마커 포지션
             marker.position = LatLng(naverMap.cameraPosition.target.latitude, naverMap.cameraPosition.target.longitude) }
 

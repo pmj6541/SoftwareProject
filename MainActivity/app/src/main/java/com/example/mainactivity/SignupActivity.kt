@@ -19,9 +19,9 @@ class SignupActivity : AppCompatActivity() {
         mBinding = ActivitySignupBinding.inflate(layoutInflater)
         firebaseAuth = Firebase.auth
 
-        var email = ""
-        var name = ""
-        var passwd = ""
+        var email : String
+        var name : String
+        var passwd : String
 
         setContentView(binding.root)
         binding.signupBtn.setOnClickListener {

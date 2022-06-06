@@ -34,6 +34,20 @@
         app:layout_constraintTop_toTopOf="@+id/toolbar6"
         app:srcCompat="@drawable/backwhite" />
 
+    <ImageButton
+        android:id="@+id/deletechat"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="10dp"
+        android:adjustViewBounds="true"
+        android:background="@color/transparent"
+        android:scaleType="fitCenter"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar6"
+        app:srcCompat="@drawable/trash"/>
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/chat_rv"
@@ -71,6 +85,7 @@
             android:layout_width="312dp"
             android:layout_height="40dp"
             android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
             android:background="@drawable/edittext_rounded_corner_rectangle"
             android:ems="10"
             android:inputType="textPersonName"
@@ -83,6 +98,7 @@
             android:textColor="@color/maincolor"
             android:background="@drawable/searchview_background2"
             android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
             android:textStyle="bold"
 
             android:text="전송" />
