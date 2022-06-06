@@ -33,7 +33,7 @@
     <fragment
         android:id="@+id/map"
         android:name="com.naver.maps.map.MapFragment"
-        android:layout_width="400dp"
+        android:layout_width="match_parent"
         android:layout_height="500dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"
