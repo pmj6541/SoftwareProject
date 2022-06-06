@@ -35,7 +35,7 @@ class MultiRVAdapter(private var chat: ArrayList<Chat>): RecyclerView.Adapter<Mu
         holder.textView_message.text = chat[position].msg
         holder.textView_time.text = chat[position].msgTimeStamp
         val userUID = chat[position].msgUserUID
-        var userName = ""
+        var userName :String
         database.child("users/$userUID/name").addValueEventListener(object : ValueEventListener{
             override fun onCancelled(error: DatabaseError) {
                 TODO("Not yet implemented")

@@ -64,7 +64,6 @@ animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
 array navermap_info_menu
-array spinnerArray
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -1308,7 +1307,6 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
-color brightGreen
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1325,7 +1323,6 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
-color chatbackground
 color checkbox_themeable_attribute_color
 color common_google_signin_btn_text_dark
 color common_google_signin_btn_text_dark_default
@@ -1338,7 +1335,6 @@ color common_google_signin_btn_text_light_disabled
 color common_google_signin_btn_text_light_focused
 color common_google_signin_btn_text_light_pressed
 color common_google_signin_btn_tint
-color darkgray
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -1876,9 +1872,6 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
-color purple_200
-color purple_500
-color purple_700
 color radiobutton_themeable_attribute_color
 color ripple_material_dark
 color ripple_material_light
@@ -1892,8 +1885,6 @@ color switch_thumb_material_dark
 color switch_thumb_material_light
 color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
-color teal_200
-color teal_700
 color test_color
 color test_mtrl_calendar_day
 color test_mtrl_calendar_day_selected
@@ -2574,7 +2565,6 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
-drawable back
 drawable backwhite
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -2606,7 +2596,6 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
-drawable createchat
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -2614,13 +2603,9 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable dessert
 drawable edittext_rounded_corner_rectangle
-drawable edittext_rounded_corner_rectangle2
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
-drawable graysolid_btn
-drawable group
 drawable hamburger
-drawable human
 drawable ic_chat_left_item
 drawable ic_chat_right_item
 drawable ic_clock_black_24dp
@@ -2636,7 +2621,6 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable japanese
 drawable korean
-drawable leftbubble
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2655,7 +2639,6 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
-drawable moissu
 drawable moissusplash
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
@@ -2730,15 +2713,12 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable pigleg
 drawable pizza
-drawable rightbubble
 drawable searchview_background
 drawable searchview_background2
 drawable snack
 drawable solid_btn
-drawable solid_btn2
 drawable test_custom_background
 drawable test_level_drawable
-drawable textlines
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -3001,7 +2981,6 @@ id imageView05
 id imageView06
 id imageView07
 id imageView08
-id imgUser_icon
 id immediateStop
 id included
 id info
@@ -3020,9 +2999,6 @@ id lastchatTv
 id layout
 id left
 id leftToRight
-id leftchat_textview_msg
-id leftchat_textview_time
-id leftchat_textview_user
 id legacy
 id light
 id line1
@@ -3171,8 +3147,6 @@ id right
 id rightToLeft
 id right_icon
 id right_side
-id rightchat_textview_msg
-id rightchat_textview_time
 id rounded
 id row_index_key
 id satellite
@@ -3320,8 +3294,6 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id txtUser_id
-id txtUser_name
 id unchecked
 id uniform
 id unlabeled
@@ -3434,7 +3406,6 @@ layout abc_tooltip
 layout activity_chatlist
 layout activity_chatting
 layout activity_createchat
-layout activity_home
 layout activity_login
 layout activity_main
 layout activity_map
@@ -3460,9 +3431,6 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout item_chat
 layout item_clview
-layout item_leftchat
-layout item_rightchat
-layout item_view
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3556,11 +3524,9 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu example_menu
 menu example_menu2
-mipmap ic_launcher
 mipmap ic_launcher_round
 mipmap ic_moissu
 mipmap ic_moissu_foreground
-mipmap ic_moissu_round
 plurals mtrl_badge_content_description
 raw keep
 string abc_action_bar_home_description
@@ -4243,7 +4209,6 @@ style Theme_Design_Light
 style Theme_Design_Light_BottomSheetDialog
 style Theme_Design_Light_NoActionBar
 style Theme_Design_NoActionBar
-style Theme_MainActivity
 style Theme_Material3_Dark
 style Theme_Material3_Dark_BottomSheetDialog
 style Theme_Material3_Dark_Dialog

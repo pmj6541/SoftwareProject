@@ -4,7 +4,6 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.mainactivity.databinding.ItemClviewBinding
-import com.example.mainactivity.databinding.ItemViewBinding
 
 class ChatRVAdapter(private var chatrooms: ArrayList<ChattingRoom>): RecyclerView.Adapter<ChatRVAdapter.ViewHolder>() {
 

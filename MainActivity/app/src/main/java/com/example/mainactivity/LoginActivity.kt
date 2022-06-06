@@ -23,8 +23,8 @@ class LoginActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        var id = ""
-        var passwd = ""
+        var id : String
+        var passwd : String
         Toast.makeText(baseContext,"onCreate입니다.",Toast.LENGTH_SHORT)
         //login
         binding.butLogin.setOnClickListener {

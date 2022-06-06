@@ -57,9 +57,9 @@ class MenuActivity : AppCompatActivity() {
             goNextActivity(curUser)
         }
         binding.createchatbtn.setOnClickListener{
-            val intent : Intent = Intent(this,CreatechatActivity::class.java)
-            intent.putExtra("curUser",curUser)
-            startActivity(intent)
+            val intent3 : Intent = Intent(this,CreatechatActivity::class.java)
+            intent3.putExtra("curUser",curUser)
+            startActivity(intent3)
         }
         binding.backbtn.setOnClickListener{
             finish()
