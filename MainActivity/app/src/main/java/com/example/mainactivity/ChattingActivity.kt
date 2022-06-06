@@ -1,9 +1,12 @@
 package com.example.mainactivity
 
 import android.content.Context
+import android.content.DialogInterface
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.view.inputmethod.InputMethodManager
+import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.mainactivity.databinding.ActivityChattingBinding
 import com.google.firebase.auth.FirebaseAuth
@@ -81,7 +84,10 @@ class ChattingActivity : AppCompatActivity() {
                 for(data in dataSnapshot.children){
                     if(data.key.toString() == roomID){
                         var modelResult = data.getValue(ChattingRoom::class.java)
-                        chatSize = modelResult!!.msgUserUID.size
+                        if(FirebaseAuth.getInstance().currentUser!!.uid != modelResult!!.usersUID[0]){
+                            binding.deletechat.visibility = View.GONE
+                        }
+                        chatSize = modelResult.msgUserUID.size
                         for(i in 0 until modelResult.msgUserUID.size){
                             tmpChat.add(modelResult.msg[i])
                             tmpTimeStamp.add(modelResult.msgTimeStamp[i])
@@ -99,6 +105,19 @@ class ChattingActivity : AppCompatActivity() {
 
         binding.backbtn.setOnClickListener{
             finish()
+        }
+
+        binding.deletechat.setOnClickListener {
+            val builder : AlertDialog.Builder = AlertDialog.Builder(this)
+            builder.setTitle("채팅방 삭제")
+            builder.setMessage("정말로 삭제하시겠습니까?")
+            builder.setPositiveButton("예",DialogInterface.OnClickListener{_,_ ->
+                val curChattingDB = FirebaseDatabase.getInstance().getReference("chattingrooms/$roomID")
+                curChattingDB.removeValue()
+                finish()
+            })
+            builder.setNegativeButton("아니오",null)
+            builder.create().show()
         }
 
 

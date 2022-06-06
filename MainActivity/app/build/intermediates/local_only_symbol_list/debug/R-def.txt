@@ -28,13 +28,8 @@ drawable searchview_background
 drawable searchview_background2
 drawable snack
 drawable solid_btn
-<<<<<<< HEAD
-=======
-drawable solid_btn2
-drawable textlines
 drawable trash
 drawable trash2
->>>>>>> 유아아이
 id backbtn
 id but_login
 id button
