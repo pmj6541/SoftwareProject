@@ -1,198 +1,206 @@
 [
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_chatwhite.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\chatwhite.png"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_moissu.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-mdpi/ic_moissu.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_searchview_background2.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\searchview_background2.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_moissu.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-xhdpi/ic_moissu.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_chatting.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_chatting.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/layout_item_clview.xml.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/item_clview.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_trash2.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\trash2.png"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_edittext_rounded_corner_rectangle.xml.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/edittext_rounded_corner_rectangle.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_searchview_background.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\searchview_background.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_trash.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/trash.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_snack.jpeg.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\snack.jpeg"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_ic_chat_left_item.xml.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/ic_chat_left_item.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_backwhite.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\backwhite.png"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable-v24_logo.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable-v24/logo.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_dessert.webp.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\dessert.webp"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_backwhite.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/backwhite.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_pizza.jpeg.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\pizza.jpeg"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_moissusplash.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/moissusplash.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_menu.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_menu.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_edittext_rounded_corner_rectangle.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\edittext_rounded_corner_rectangle.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_moissu_foreground.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-xxhdpi/ic_moissu_foreground.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/layout_activity_menu.xml.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/activity_menu.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_chatlist.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_chatlist.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_hamburger.jpeg.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/hamburger.jpeg"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_createchat.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_createchat.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_korean.jpeg.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/korean.jpeg"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_moissu.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_moissu.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_moissu_foreground.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-hdpi/ic_moissu_foreground.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_moissu.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-hdpi\\ic_moissu.png"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_korean.jpeg.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\korean.jpeg"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_trash2.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/trash2.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_japanese.jpeg.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\japanese.jpeg"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_moissu_foreground.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_moissu_foreground.png"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_moissu_foreground.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-xhdpi/ic_moissu_foreground.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_map.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_map.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_chat_left_item.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\ic_chat_left_item.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_chatwhite.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/chatwhite.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_pigleg.jpeg.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\pigleg.jpeg"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_moissu.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-xxxhdpi/ic_moissu.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_item_clview.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\item_clview.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_ic_chat_right_item.xml.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/ic_chat_right_item.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_moissu_foreground.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-xxxhdpi/ic_moissu_foreground.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_moissu.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-mdpi\\ic_moissu.png"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/layout_activity_map.xml.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/activity_map.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_moissu_foreground.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_moissu_foreground.png"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_solid_btn.xml.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/solid_btn.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_chicken.jpeg.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\chicken.jpeg"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_chinese.jpeg.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/chinese.jpeg"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_chat_right_item.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\ic_chat_right_item.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/layout_activity_login.xml.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_moissu.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-xhdpi\\ic_moissu.png"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/layout_activity_createchat.xml.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/activity_createchat.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_item_chat.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\item_chat.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_logo.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/logo.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_hamburger.jpeg.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\hamburger.jpeg"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_japanese.jpeg.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/japanese.jpeg"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_moissu_foreground.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-hdpi\\ic_moissu_foreground.png"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/layout_activity_chatting.xml.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/activity_chatting.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_pigleg.jpeg.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/pigleg.jpeg"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_moissu_foreground.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-xhdpi\\ic_moissu_foreground.png"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_moissu.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-xxhdpi/ic_moissu.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_moissu_foreground.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-mdpi/ic_moissu_foreground.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_moissu_foreground.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-mdpi\\ic_moissu_foreground.png"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_chinese.jpeg.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\chinese.jpeg"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_dessert.webp.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/dessert.webp"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_signup.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_signup.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/layout_activity_chatlist.xml.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/activity_chatlist.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_pizza.jpeg.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/pizza.jpeg"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_moissu.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_moissu.png"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_moissu.xml.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-anydpi-v26/ic_moissu.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_moissusplash.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\moissusplash.png"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_moissu.png.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/mipmap-hdpi/ic_moissu.png"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_moissu.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_moissu.png"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_searchview_background2.xml.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/searchview_background2.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_solid_btn.xml.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\solid_btn.xml"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/layout_activity_signup.xml.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/activity_signup.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\drawable_trash.png.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\drawable\\trash.png"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_searchview_background.xml.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/searchview_background.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\User\\Desktop\\AndroidCloneCording\\RealProject\\SoftwareProject\\MainActivity\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_chicken.jpeg.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/chicken.jpeg"
+    },
+    {
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/layout_item_chat.xml.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/layout/item_chat.xml"
+    },
+    {
+        "merged": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/build/intermediates/merged_res/debug/drawable_snack.jpeg.flat",
+        "source": "/Users/lim-youngjun/Desktop/SoftwareProject/MainActivity/app/src/main/res/drawable/snack.jpeg"
     }
 ]
