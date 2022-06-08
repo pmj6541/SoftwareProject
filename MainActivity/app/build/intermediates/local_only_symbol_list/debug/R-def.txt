@@ -9,6 +9,7 @@ color maintxtcolor
 color transparent
 color white
 drawable backwhite
+drawable baseline_send_white_24dp
 drawable chatwhite
 drawable chicken
 drawable chinese
@@ -19,7 +20,9 @@ drawable ic_chat_left_item
 drawable ic_chat_right_item
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_send
 drawable japanese
+drawable kakatalk
 drawable korean
 drawable logo
 drawable moissusplash
@@ -29,6 +32,7 @@ drawable question_mark
 drawable questionmark
 drawable searchview_background
 drawable searchview_background2
+drawable send_adaptive_fore
 drawable snack
 drawable solid_btn
 drawable solid_btn2

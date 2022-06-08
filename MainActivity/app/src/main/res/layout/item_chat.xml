@@ -24,7 +24,7 @@
                 android:id="@+id/chat_textview_username"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="17sp"
+                android:textSize="15sp"
                 android:layout_marginLeft="10dp"
                 android:text="이름"
                 android:layout_marginRight="10dp"
@@ -42,7 +42,7 @@
                 android:paddingBottom="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:textSize="20sp"
+                android:textSize="17sp"
                 android:text="메세지"
                 android:background="@drawable/ic_chat_left_item"
                 android:textColor="#000000" />
@@ -53,7 +53,7 @@
                 android:text="시간"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:textSize="12sp" />
+                android:textSize="11sp" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

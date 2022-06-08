@@ -9,7 +9,7 @@
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar6"
-        android:layout_width="409dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="?attr/colorPrimary"
         android:backgroundTint="@color/maincolor"
@@ -72,36 +72,42 @@
         app:layout_constraintTop_toTopOf="@+id/toolbar6" />
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="5dp"
+        android:paddingLeft="6dp"
+        android:paddingBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
         android:orientation="horizontal"
-        android:background="@color/lightgray"
+        android:background="@drawable/searchview_background"
         app:layout_constraintBottom_toBottomOf="parent"
         >
 
         <EditText
             android:id="@+id/editTextTextPersonName3"
-            android:layout_width="312dp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="5dp"
-            android:background="@drawable/edittext_rounded_corner_rectangle"
-            android:ems="10"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="10"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center_vertical"
             android:inputType="textPersonName"
+            android:hint="메시지 보내기..."
+            android:background="@color/transparent"
             android:text="" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:textColor="@color/maincolor"
-            android:background="@drawable/searchview_background2"
-            android:layout_marginBottom="5dp"
-            android:layout_marginRight="5dp"
-            android:textStyle="bold"
-
-            android:text="전송" />
+            android:src="@drawable/kakatalk"
+            android:layout_width="0dp"
+            android:scaleType="fitCenter"
+            android:layout_weight="1.5"
+            android:layout_marginEnd="5dp"
+            android:layout_gravity="center_vertical"
+            android:background="@color/transparent"
+            android:layout_height="32dp"
+            />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
